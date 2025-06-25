@@ -1,4 +1,5 @@
-import csv from 'csvtojson';
+import fs from 'fs';
+import csvParser from 'csv-parser';
 import path from 'path';
 
 // Maps 5-digit branch code to standardized group name
@@ -6,27 +7,39 @@ type BranchCode = string;
 let branchCodeToStandard: Record<BranchCode, string> = {};
 let standardToBranchCodes: Record<string, BranchCode[]> = {};
 
-export async function loadBranchMapping() {
-  const filePath = path.join(__dirname, '../../../pypy/standardized_branch_ids.csv');
-  const jsonArray = await csv().fromFile(filePath);
-
-  branchCodeToStandard = {};
-  standardToBranchCodes = {};
-
-  for (const row of jsonArray) {
-    const group = row.group_name;
-    // Expecting row.branch_codes to be semicolon-separated 5-digit codes
-    const codes: string[] = row.branch_codes
-      ? row.branch_codes.split(';').map((id: string) => id.trim())
-      : [];
-    for (const code of codes) {
-      branchCodeToStandard[code] = group;
-    }
-    if (!standardToBranchCodes[group]) {
-      standardToBranchCodes[group] = [];
-    }
-    standardToBranchCodes[group].push(...codes);
-  }
+export function loadBranchMapping() {
+  return new Promise<void>((resolve, reject) => {
+    const filePath = path.resolve(__dirname, '../../standardized_branch_ids.csv');
+    const result: any[] = [];
+    branchCodeToStandard = {};
+    standardToBranchCodes = {};
+    fs.createReadStream(filePath)
+      .pipe(csvParser())
+      .on('data', (row: any) => {
+        result.push(row);
+      })
+      .on('end', () => {
+        for (const row of result) {
+          const group = row.group_name;
+          // Expecting row.branch_codes to be semicolon-separated 5-digit codes
+          const codes: string[] = row.branch_codes
+            ? row.branch_codes.split(';').map((id: string) => id.trim())
+            : [];
+          for (const code of codes) {
+            branchCodeToStandard[code] = group;
+          }
+          if (!standardToBranchCodes[group]) {
+            standardToBranchCodes[group] = [];
+          }
+          standardToBranchCodes[group].push(...codes);
+        }
+        resolve();
+      })
+      .on('error', (err: Error) => {
+        console.error('Failed to load standardized_branch_ids.csv:', err);
+        reject(err);
+      });
+  });
 }
 
 // Given a full branch_id (e.g., 0100219110), return the standardized group name
