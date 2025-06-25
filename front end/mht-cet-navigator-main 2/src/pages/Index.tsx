@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Header from '@/components/Header';
 import HeroSection from '@/components/HeroSection';
@@ -29,7 +28,6 @@ const Index = () => {
             <p className="text-lg opacity-70 max-w-2xl mx-auto mb-12">
               Let our AI-powered platform guide you through every stage of your engineering college journey.
             </p>
-            
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
               <Button 
                 asChild
@@ -44,7 +42,6 @@ const Index = () => {
                   </div>
                 </Link>
               </Button>
-              
               <Button 
                 asChild
                 variant="outline" 
@@ -58,7 +55,6 @@ const Index = () => {
                   </div>
                 </Link>
               </Button>
-              
               <Button 
                 asChild
                 variant="outline" 
@@ -73,7 +69,6 @@ const Index = () => {
                 </Link>
               </Button>
             </div>
-            
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto mt-8">
               <Button 
                 asChild
@@ -88,7 +83,6 @@ const Index = () => {
                   </div>
                 </Link>
               </Button>
-              
               <Button 
                 variant="outline" 
                 className="h-auto p-6 flex flex-col items-center gap-4 card-hover relative"
@@ -99,7 +93,7 @@ const Index = () => {
                 <MessageSquare className="h-10 w-10 text-primary" />
                 <div>
                   <h3 className="text-xl font-bold mb-2">Chat with Seniors</h3>
-                  <p className="text-sm opacity-70 text-black">Connect with current students and alumni from your target colleges</p>
+                  <p className="text-sm opacity-70 text-foreground">Connect with current students and alumni from your target colleges</p>
                 </div>
               </Button>
             </div>

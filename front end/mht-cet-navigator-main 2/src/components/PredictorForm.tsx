@@ -14,6 +14,8 @@ interface CollegePrediction {
   probability: number;
   cutoff: number;
   category: string;
+  seatType?: string;
+  rank?: number;
 }
 
 interface BranchGroupsResponse {
@@ -26,23 +28,56 @@ interface PredictionResponse {
   message?: string;
 }
 
+const REGION_OPTIONS = [
+  { label: "Amravati", value: "Amravati" },
+  { label: "Chhatrapati Sambhaji Nagar", value: "Aurangabad" },
+  { label: "Mumbai", value: "Mumbai" },
+  { label: "Nagpur", value: "Nagpur" },
+  { label: "Nashik", value: "Nashik" },
+  { label: "Pune", value: "Pune" }
+];
+const DISTRICT_OPTIONS = [
+  "Ahmednagar", "Akola", "Amravati", "Beed", "Bhandara", "Buldhana", "Chandrapur", "Chhatrapati Sambhajinagar", "Dharashiv", "Dhule", "Gadchiroli", "Gondia", "Hingoli", "Jalgaon", "Jalna", "Kolhapur", "Latur", "Mumbai City", "Mumbai Suburban", "Nagpur", "Nanded", "Nandurbar", "Nashik", "Palghar", "Parbhani", "Pune", "Raigad", "Ratnagiri", "Sangli", "Satara", "Sindhudurg", "Solapur", "Thane", "Wardha", "Washim", "Yavatmal"
+];
+
+// Update custom toggle switch styles for a smaller, elegant look
+const toggleStyles = {
+  container: 'flex items-center justify-center mb-4',
+  label: 'font-medium mr-3',
+  switch: 'relative inline-flex h-8 w-28 rounded-full bg-gray-100 border border-gray-300 transition-colors duration-300 focus:outline-none shadow-sm',
+  slider: 'absolute left-0 top-0 h-8 w-14 rounded-full bg-primary/90 shadow transform transition-transform duration-300',
+  option: 'absolute top-0 h-8 w-14 flex items-center justify-center font-semibold text-base transition-colors duration-300 select-none',
+  cet: 'left-0',
+  jee: 'right-0',
+};
+
 const PredictorForm = () => {
   const { toast } = useToast();
   const [loading, setLoading] = useState(false);
   const [predictionResults, setPredictionResults] = useState<CollegePrediction[]>([]);
   const [branchGroups, setBranchGroups] = useState<string[]>([]);
+  const [selectedBranches, setSelectedBranches] = useState<string[]>([]);
   const [formData, setFormData] = useState({
     percentile: '',
     standardized_branch_id: '',
     category: '',
-    gender: ''
+    gender: '',
+    region: '',
+    district: ''
   });
+  const [examType, setExamType] = useState<'CET' | 'JEE'>('CET');
 
   useEffect(() => {
     // Fetch standardized branch groups from backend
     axios.get<BranchGroupsResponse>('http://localhost:5001/api/branches/standardized')
-      .then(res => setBranchGroups(res.data.standardized_branch_ids || []))
-      .catch(() => setBranchGroups([]));
+      .then(res => {
+        setBranchGroups(res.data.standardized_branch_ids || []);
+        console.log('Fetched branchGroups:', res.data.standardized_branch_ids);
+      })
+      .catch((err) => {
+        setBranchGroups([]);
+        console.error('Error fetching branchGroups:', err);
+      });
   }, []);
 
   const handleChange = (field: string, value: string) => {
@@ -52,9 +87,49 @@ const PredictorForm = () => {
     }));
   };
 
+  const handleAddBranch = (branch: string) => {
+    if (!selectedBranches.includes(branch)) {
+      setSelectedBranches(prev => [...prev, branch]);
+    }
+  };
+
+  const handleRemoveBranch = (idx: number) => {
+    setSelectedBranches(prev => prev.filter((_, i) => i !== idx));
+  };
+
+  const moveBranch = (from: number, to: number) => {
+    if (to < 0 || to >= selectedBranches.length) return;
+    const updated = [...selectedBranches];
+    const [moved] = updated.splice(from, 1);
+    updated.splice(to, 0, moved);
+    setSelectedBranches(updated);
+  };
+
+  const validateForm = () => {
+    if (!formData.percentile) return 'Percentile is required';
+    if (!formData.region) return 'Region is required';
+    if (selectedBranches.length === 0) return 'At least one branch group must be selected';
+    if (examType === 'CET') {
+      if (!formData.category) return 'Category is required';
+      if (!formData.gender) return 'Gender is required';
+      if (!formData.district) return 'District is required';
+    }
+    return '';
+  };
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
+    const validationError = validateForm();
+    if (validationError) {
+      toast({
+        title: 'Error',
+        description: validationError,
+        variant: 'destructive',
+      });
+      setLoading(false);
+      return;
+    }
 
     try {
       // Get the token from localStorage
@@ -69,22 +144,43 @@ const PredictorForm = () => {
         return;
       }
 
-      // Make prediction request
-      const response = await axios.post<PredictionResponse>(
-        'http://localhost:5001/api/prediction/predict',
-        {
-          standardized_branch_id: formData.standardized_branch_id,
-          percentile: parseFloat(formData.percentile),
-          category: formData.category,
-          gender: formData.gender
-        },
-        {
-          headers: {
-            'Authorization': `Bearer ${token}`,
-            'Content-Type': 'application/json'
+      let response;
+      if (examType === 'CET') {
+        // Make CET prediction request
+        response = await axios.post<PredictionResponse>(
+          'http://localhost:5001/api/prediction/predict',
+          {
+            standardized_branch_ids: selectedBranches,
+            percentile: parseFloat(formData.percentile),
+            category: formData.category,
+            gender: formData.gender,
+            region: formData.region,
+            district: formData.district
+          },
+          {
+            headers: {
+              'Authorization': `Bearer ${token}`,
+              'Content-Type': 'application/json'
+            }
           }
-        }
-      );
+        );
+      } else {
+        // Make JEE prediction request
+        response = await axios.post<PredictionResponse>(
+          'http://localhost:5001/api/prediction/predict-jee',
+          {
+            standardized_branch_ids: selectedBranches,
+            percentile: parseFloat(formData.percentile),
+            region: formData.region
+          },
+          {
+            headers: {
+              'Authorization': `Bearer ${token}`,
+              'Content-Type': 'application/json'
+            }
+          }
+        );
+      }
 
       if (response.data.success && response.data.data) {
         setPredictionResults(response.data.data);
@@ -113,6 +209,29 @@ const PredictorForm = () => {
         <CardTitle>College Predictor</CardTitle>
       </CardHeader>
       <CardContent>
+        {/* Cool CET/JEE Toggle */}
+        <div className={toggleStyles.container}>
+          <span className={toggleStyles.label}>Exam:</span>
+          <button
+            type="button"
+            className={toggleStyles.switch}
+            aria-label="Toggle CET/JEE"
+            onClick={() => setExamType(examType === 'CET' ? 'JEE' : 'CET')}
+          >
+            <span
+              className={toggleStyles.slider}
+              style={{ transform: examType === 'CET' ? 'translateX(0)' : 'translateX(100%)' }}
+            />
+            <span
+              className={toggleStyles.option + ' ' + toggleStyles.cet}
+              style={{ color: examType === 'CET' ? '#fff' : '#333' }}
+            >CET</span>
+            <span
+              className={toggleStyles.option + ' ' + toggleStyles.jee}
+              style={{ color: examType === 'JEE' ? '#fff' : '#333' }}
+            >JEE</span>
+          </button>
+        </div>
         <form onSubmit={handleSubmit} className="space-y-4">
           <div className="space-y-2">
             <label htmlFor="percentile">Percentile</label>
@@ -129,71 +248,130 @@ const PredictorForm = () => {
           </div>
 
           <div className="space-y-2">
-            <label htmlFor="standardized_branch_id">Branch Group</label>
+            <label htmlFor="standardized_branch_id">Branch Groups (Priority Order)</label>
             <Select
-              value={formData.standardized_branch_id}
-              onValueChange={(value) => handleChange('standardized_branch_id', value)}
+              onValueChange={handleAddBranch}
+              disabled={branchGroups.filter(group => !selectedBranches.includes(group)).length === 0}
+            >
+              <SelectTrigger>
+                <SelectValue placeholder="Add branch group" />
+              </SelectTrigger>
+              <SelectContent>
+                {branchGroups.filter(group => !selectedBranches.includes(group)).length === 0 ? (
+                  <div className="px-3 py-2 text-muted-foreground">No more branch groups to add</div>
+                ) : (
+                  branchGroups.filter(group => !selectedBranches.includes(group)).map(group => (
+                    <SelectItem key={group} value={group}>{group}</SelectItem>
+                  ))
+                )}
+              </SelectContent>
+            </Select>
+            {selectedBranches.length > 0 && (
+              <ul className="mt-2 space-y-1">
+                {selectedBranches.map((branch, idx) => (
+                  <li key={branch} className="flex items-center gap-2 bg-muted text-foreground rounded px-2 py-1">
+                    <span className="font-medium">{idx + 1}.</span>
+                    <span>{branch}</span>
+                    <Button type="button" size="sm" variant="ghost" onClick={() => moveBranch(idx, idx - 1)} disabled={idx === 0}>&uarr;</Button>
+                    <Button type="button" size="sm" variant="ghost" onClick={() => moveBranch(idx, idx + 1)} disabled={idx === selectedBranches.length - 1}>&darr;</Button>
+                    <Button type="button" size="sm" variant="destructive" onClick={() => handleRemoveBranch(idx)}>Remove</Button>
+                  </li>
+                ))}
+              </ul>
+            )}
+          </div>
+
+          <div className="space-y-2">
+            <label htmlFor="region">Region</label>
+            <Select
+              value={formData.region}
+              onValueChange={(value) => handleChange('region', value)}
               required
             >
               <SelectTrigger>
-                <SelectValue placeholder="Select branch group" />
+                <SelectValue placeholder="Select region" />
               </SelectTrigger>
               <SelectContent>
-                {branchGroups.map(group => (
-                  <SelectItem key={group} value={group}>{group}</SelectItem>
+                {REGION_OPTIONS.map(region => (
+                  <SelectItem key={region.value} value={region.value}>{region.label}</SelectItem>
                 ))}
               </SelectContent>
             </Select>
           </div>
 
-          <div className="space-y-2">
-            <label htmlFor="category">Category</label>
-            <Select
-              value={formData.category}
-              onValueChange={(value) => handleChange('category', value)}
-              required
-              name="category"
-            >
-              <SelectTrigger>
-                <SelectValue placeholder="Select category" />
-              </SelectTrigger>
-              <SelectContent>
-                <SelectItem value="General">General</SelectItem>
-                <SelectItem value="OBC">OBC</SelectItem>
-                <SelectItem value="SC">SC</SelectItem>
-                <SelectItem value="ST">ST</SelectItem>
-                <SelectItem value="VJ">VJ</SelectItem>
-                <SelectItem value="NT">NT</SelectItem>
-                <SelectItem value="SEBC">SEBC</SelectItem>
-                <SelectItem value="EWS">EWS</SelectItem>
-                <SelectItem value="TFWS">TFWS</SelectItem>
-                <SelectItem value="ORPHAN">ORPHAN</SelectItem>
-                {/* Add more as needed */}
-              </SelectContent>
-            </Select>
-          </div>
+          {/* CET-only fields */}
+          {examType === 'CET' && (
+            <>
+              <div className="space-y-2">
+                <label htmlFor="category">Category</label>
+                <Select
+                  value={formData.category}
+                  onValueChange={(value) => handleChange('category', value)}
+                  required
+                  name="category"
+                >
+                  <SelectTrigger>
+                    <SelectValue placeholder="Select category" />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value="General">General</SelectItem>
+                    <SelectItem value="OBC">OBC</SelectItem>
+                    <SelectItem value="SC">SC</SelectItem>
+                    <SelectItem value="ST">ST</SelectItem>
+                    <SelectItem value="VJ">VJ</SelectItem>
+                    <SelectItem value="NT">NT</SelectItem>
+                    <SelectItem value="SEBC">SEBC</SelectItem>
+                    <SelectItem value="EWS">EWS</SelectItem>
+                    <SelectItem value="TFWS">TFWS</SelectItem>
+                    <SelectItem value="ORPHAN">ORPHAN</SelectItem>
+                    {/* Add more as needed */}
+                  </SelectContent>
+                </Select>
+              </div>
 
-          <div className="space-y-2">
-            <label htmlFor="gender">Gender</label>
-            <Select
-              value={formData.gender}
-              onValueChange={(value) => handleChange('gender', value)}
-              required
-              name="gender"
-            >
-              <SelectTrigger>
-                <SelectValue placeholder="Select gender" />
-              </SelectTrigger>
-              <SelectContent>
-                <SelectItem value="Male">Male</SelectItem>
-                <SelectItem value="Female">Female</SelectItem>
-              </SelectContent>
-            </Select>
-          </div>
+              <div className="space-y-2">
+                <label htmlFor="gender">Gender</label>
+                <Select
+                  value={formData.gender}
+                  onValueChange={(value) => handleChange('gender', value)}
+                  required
+                  name="gender"
+                >
+                  <SelectTrigger>
+                    <SelectValue placeholder="Select gender" />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value="Male">Male</SelectItem>
+                    <SelectItem value="Female">Female</SelectItem>
+                  </SelectContent>
+                </Select>
+              </div>
 
-          <Button type="submit" disabled={loading}>
-            {loading ? 'Predicting...' : 'Predict Colleges'}
-          </Button>
+              <div className="space-y-2">
+                <label htmlFor="district">District</label>
+                <Select
+                  value={formData.district}
+                  onValueChange={(value) => handleChange('district', value)}
+                  required
+                >
+                  <SelectTrigger>
+                    <SelectValue placeholder="Select district" />
+                  </SelectTrigger>
+                  <SelectContent>
+                    {DISTRICT_OPTIONS.map(district => (
+                      <SelectItem key={district} value={district}>{district}</SelectItem>
+                    ))}
+                  </SelectContent>
+                </Select>
+              </div>
+            </>
+          )}
+
+          <div className="flex justify-center">
+            <Button type="submit" disabled={loading}>
+              {loading ? (examType === 'CET' ? 'Predicting (CET)...' : 'Predicting (JEE)...') : 'Predict Colleges'}
+            </Button>
+          </div>
         </form>
 
         {predictionResults.length > 0 && (
@@ -201,13 +379,12 @@ const PredictorForm = () => {
             <h3 className="text-lg font-semibold mb-2">Prediction Results</h3>
             <div className="space-y-2">
               {predictionResults.map((result, idx) => (
-                <div key={idx} className="p-3 bg-gray-100 rounded">
-                  <p><b>College:</b> {result.collegeName}</p>
+                <div key={idx} className="p-3 bg-card text-card-foreground rounded">
                   <p><b>Branch:</b> {result.branch}</p>
-                  <p><b>Type:</b> {result.collegeType}</p>
-                  <p><b>Category:</b> {result.category}</p>
+                  <p><b>College:</b> {result.collegeName}</p>
+                  {examType === 'CET' && <p><b>Category:</b> {result.category}</p>}
                   <p><b>Cutoff Percentile:</b> {result.cutoff}</p>
-                  {/* Add more fields as needed */}
+                  {result.rank !== undefined && <p><b>Rank:</b> {result.rank}</p>}
                 </div>
               ))}
             </div>

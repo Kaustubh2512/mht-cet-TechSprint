@@ -182,7 +182,7 @@ const Resources = () => {
                   <CardTitle>Score to Percentile Converter</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-black dark:text-white">Our AI model analyzes historical MHT-CET data to accurately convert your raw score to expected percentile, helping you gauge your position among other candidates.</p>
+                  <p className="text-foreground dark:text-white">Our AI model analyzes historical MHT-CET data to accurately convert your raw score to expected percentile, helping you gauge your position among other candidates.</p>
                 </CardContent>
               </Card>
               
@@ -191,7 +191,7 @@ const Resources = () => {
                   <CardTitle>Personalized College List</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-black dark:text-white">Get a tailored list of colleges based on your preferences for location, branch, facilities, and many other factors combined with your expected rank.</p>
+                  <p className="text-foreground dark:text-white">Get a tailored list of colleges based on your preferences for location, branch, facilities, and many other factors combined with your expected rank.</p>
                 </CardContent>
               </Card>
               
@@ -200,7 +200,7 @@ const Resources = () => {
                   <CardTitle>Admission Round Planning</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-black dark:text-white">Our AI assistant helps you plan your CAP rounds strategically by analyzing past cutoff trends and suggesting the best preference order for your choices.</p>
+                  <p className="text-foreground dark:text-white">Our AI assistant helps you plan your CAP rounds strategically by analyzing past cutoff trends and suggesting the best preference order for your choices.</p>
                 </CardContent>
               </Card>
             </div>

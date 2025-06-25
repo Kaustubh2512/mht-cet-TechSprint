@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
@@ -29,14 +28,7 @@ const HeroSection = () => {
           </div>
           
           <div className="flex items-center justify-center md:justify-start gap-6 mt-4">
-            <div className="flex -space-x-3">
-              {[1, 2, 3, 4].map((i) => (
-                <div key={i} className={`w-10 h-10 rounded-full border-2 border-neutral bg-accent-${i % 2 ? 'foreground' : 'DEFAULT'} flex items-center justify-center`}>
-                  <span className="text-xs font-bold">{i}</span>
-                </div>
-              ))}
-            </div>
-            <p className="text-sm opacity-80">Trusted by 2000+ students</p>
+            <p className="text-sm opacity-80">Trusted by 200+ students</p>
           </div>
         </div>
         

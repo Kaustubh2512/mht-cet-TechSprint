@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
@@ -29,7 +28,7 @@ const CtaSection = () => {
               <Link to="/resources">Explore Resources</Link>
             </Button>
           </div>
-          <p className="text-sm mt-6 text-black font-medium">
+          <p className="text-sm mt-6 text-foreground font-medium">
             Join thousands of students who made informed decisions about their engineering careers with MHT-CET Navigator.
           </p>
         </div>
