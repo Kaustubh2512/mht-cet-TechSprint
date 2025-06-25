@@ -1,102 +1,91 @@
-# MHT CET Navigator
+# MHT CET Navigator Backend
 
-A comprehensive application to help students navigate through MHT CET admissions process.
+This is the backend service for the MHT CET Navigator project. It provides RESTful APIs for college prediction, user authentication, and data management, using Node.js, Express, TypeScript, and MongoDB.
+
+For a full project overview and frontend setup, see the [top-level README](../README.md).
 
 ## Features
-
-### Frontend
-- Modern React/TypeScript application
-- Beautiful UI with shadcn/ui components
-- Responsive design
-- College predictor form
-- Resources section
-- Top colleges listing
-
-### Backend
-- Node.js/Express with TypeScript
-- MongoDB database integration
-- JWT-based authentication
+- College prediction for MHT CET and JEE (multi-branch, priority-based)
+- Region, district, and branch group filtering
+- User authentication (JWT-based)
+- MongoDB integration
+- Robust data file support (CSV/JSON)
 - RESTful API endpoints
-- User management
 
 ## Prerequisites
-
 - Node.js (v14 or higher)
-- MongoDB (local or Atlas)
 - npm or yarn
+- MongoDB (local or Atlas)
+- Required data files (see below)
 
 ## Setup
 
-### Backend
 1. Navigate to the backend directory:
-```bash
-cd back end
-```
+   ```bash
+   cd "back end"
+   ```
 
 2. Install dependencies:
-```bash
-npm install
-```
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
 3. Create a `.env` file with the following variables:
-```env
-PORT=5001
-MONGODB_URI=mongodb://localhost:27017/mht-cet-navigator
-JWT_SECRET=your-secret-key
-NODE_ENV=development
-```
+   ```env
+   PORT=5001
+   MONGODB_URI=mongodb://localhost:27017/mht-cet-navigator
+   JWT_SECRET=your-secret-key
+   NODE_ENV=development
+   ```
 
-4. Start the development server:
-```bash
-npm run dev
-```
+4. Ensure the following data files are present in the `back end/` directory:
+   - `branches.csv`
+   - `standardized_branch_ids.csv`
+   - `district_to_uni.json`
+   - `jee_main_merit_list.json`
+   - `mongo_cutoffs.json` (or your main cutoffs data file)
 
-### Frontend
-1. Navigate to the frontend directory:
-```bash
-cd front end/mht-cet-navigator-main 2
-```
-
-2. Install dependencies:
-```bash
-npm install
-```
-
-3. Start the development server:
-```bash
-npm run dev
-```
+5. Start the development server:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+   The backend will run on [http://localhost:5001](http://localhost:5001) by default.
 
 ## API Endpoints
 
 ### Authentication
-- `POST /api/users/register` - Register a new user
-- `POST /api/users/login` - Login user
-- `GET /api/users/profile` - Get user profile (protected route)
+- `POST /api/users/register` — Register a new user
+- `POST /api/users/login` — Login user
+- `GET /api/users/profile` — Get user profile (protected)
+
+### Prediction
+- `POST /api/prediction/predict` — Predict colleges (CET)
+- `POST /api/prediction/predict-jee` — Predict colleges (JEE)
+
+### Branches
+- `GET /api/branches/standardized` — Get all standardized branch groups
 
 ## Project Structure
-
-### Backend
 ```
 src/
 ├── controllers/    # Route controllers
 ├── models/         # Database models
 ├── middleware/     # Custom middleware
 ├── routes/         # API routes
+├── services/       # Business logic, data loading
+├── utils/          # Utility functions
 └── index.ts        # Application entry point
 ```
 
-### Frontend
-```
-src/
-├── components/     # React components
-├── lib/           # Utility functions
-├── styles/        # CSS styles
-└── App.tsx        # Main application component
-```
+## Data Files
+- Place all required CSV/JSON data files in the `back end/` directory.
+- Update file paths in the code if you move data files.
 
 ## Contributing
-
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/amazing-feature`)
 3. Commit your changes (`git commit -m 'Add some amazing feature'`)
