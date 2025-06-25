@@ -40,8 +40,8 @@ A full-stack web application to help students navigate the MHT CET and JEE admis
 
 ### 1. Clone the repository
 ```bash
-git clone <YOUR_GIT_URL>
-cd <YOUR_PROJECT_ROOT>
+git clone https://github.com/0xYuvi/mht-cet-navigator.git
+cd mht-cet-navigator
 ```
 
 ### 2. Setup Backend
