@@ -1,0 +1,1983 @@
+branch_id,college_code,branch_name
+0100219110,01002,Civil Engineering
+0100224210,01002,Computer Science and Engineering
+0100224610,01002,Information Technology
+0100229310,01002,Electrical Engineering
+0100237210,01002,Electronics and Telecommunication Engg
+0100246610,01002,Instrumentation Engineering
+0100261210,01002,Mechanical Engineering
+0100550310,01005,Food Technology
+0100551710,01005,Oil and Paints Technology
+0100552410,01005,Paper and Pulp Technology
+0100552710,01005,Petro Chemical Engineering
+0101219110,01012,Civil Engineering
+0101224510,01012,Computer Engineering
+0101229310,01012,Electrical Engineering
+0101237210,01012,Electronics and Telecommunication Engg
+0101261210,01012,Mechanical Engineering
+0110124210,01101,Computer Science and Engineering
+0110124610,01101,Information Technology
+0110135610,01101,Electrical Engg[Electronics and Power]
+0110137210,01101,Electronics and Telecommunication Engg
+0110161210,01101,Mechanical Engineering
+0110519110,01105,Civil Engineering
+0110524210,01105,Computer Science and Engineering
+0110524610,01105,Information Technology
+0110526310,01105,Artificial Intelligence (AI) and Data Science
+0110526710,01105,Computer Science and Engineering (IoT)
+0110537210,01105,Electronics and Telecommunication Engg
+0110561210,01105,Mechanical Engineering
+0110719110,01107,Civil Engineering
+0110724210,01107,Computer Science and Engineering
+0110729310,01107,Electrical Engineering
+0110737210,01107,Electronics and Telecommunication Engg
+0110761210,01107,Mechanical Engineering
+0110791110,01107,Computer Science and Engineering(Artificial Intelligence and Machine Learning)
+0110799510,01107,Artificial Intelligence and Data Science
+0111419110,01114,Civil Engineering
+0111424210,01114,Computer Science and Engineering
+0111424610,01114,Information Technology
+0111426310,01114,Artificial Intelligence (AI) and Data Science
+0111437210,01114,Electronics and Telecommunication Engg
+0111461210,01114,Mechanical Engineering
+0111619110,01116,Civil Engineering
+0111624210,01116,Computer Science and Engineering
+0111624610,01116,Information Technology
+0111650710,01116,Chemical Engineering
+0111661210,01116,Mechanical Engineering
+0111719110,01117,Civil Engineering
+0111724210,01117,Computer Science and Engineering
+0111735610,01117,Electrical Engg[Electronics and Power]
+0111761210,01117,Mechanical Engineering
+0111799510,01117,Artificial Intelligence and Data Science
+0111924210,01119,Computer Science and Engineering
+0111924610,01119,Information Technology
+0111937210,01119,Electronics and Telecommunication Engg
+0111950710,01119,Chemical Engineering
+0111961210,01119,Mechanical Engineering
+0112019110,01120,Civil Engineering
+0112024210,01120,Computer Science and Engineering
+0112029310,01120,Electrical Engineering
+0112037210,01120,Electronics and Telecommunication Engg
+0112050710,01120,Chemical Engineering
+0112061210,01120,Mechanical Engineering
+0112089310,01120,Textile Engineering / Technology
+0112124210,01121,Computer Science and Engineering
+0112124610,01121,Information Technology
+0112137210,01121,Electronics and Telecommunication Engg
+0112161210,01121,Mechanical Engineering
+0112319110,01123,Civil Engineering
+0112324210,01123,Computer Science and Engineering
+0112337210,01123,Electronics and Telecommunication Engg
+0112361210,01123,Mechanical Engineering
+0112519110,01125,Civil Engineering
+0112524210,01125,Computer Science and Engineering
+0112526310,01125,Artificial Intelligence (AI) and Data Science
+0112529310,01125,Electrical Engineering
+0112561210,01125,Mechanical Engineering
+0112619110,01126,Civil Engineering
+0112624210,01126,Computer Science and Engineering
+0112629310,01126,Electrical Engineering
+0112637210,01126,Electronics and Telecommunication Engg
+0112661210,01126,Mechanical Engineering
+0112719110,01127,Civil Engineering
+0112724510,01127,Computer Engineering
+0112729310,01127,Electrical Engineering
+0112737210,01127,Electronics and Telecommunication Engg
+0112761210,01127,Mechanical Engineering
+0112819110,01128,Civil Engineering
+0112824210,01128,Computer Science and Engineering
+0112824610,01128,Information Technology
+0112829310,01128,Electrical Engineering
+0112837210,01128,Electronics and Telecommunication Engg
+0112891210,01128,Computer Science and Engineering(Data Science)
+0113019110,01130,Civil Engineering
+0113024210,01130,Computer Science and Engineering
+0113035610,01130,Electrical Engg[Electronics and Power]
+0113037210,01130,Electronics and Telecommunication Engg
+0113061210,01130,Mechanical Engineering
+0118019110,01180,Civil Engineering
+0118024210,01180,Computer Science and Engineering
+0118026310,01180,Artificial Intelligence (AI) and Data Science
+0118029310,01180,Electrical Engineering
+0118061210,01180,Mechanical Engineering
+0118219110,01182,Civil Engineering
+0118224210,01182,Computer Science and Engineering
+0118229310,01182,Electrical Engineering
+0118261210,01182,Mechanical Engineering
+0126519110,01265,Civil Engineering
+0126524210,01265,Computer Science and Engineering
+0126524610,01265,Information Technology
+0126535610,01265,Electrical Engg[Electronics and Power]
+0126537210,01265,Electronics and Telecommunication Engg
+0126561210,01265,Mechanical Engineering
+0126819110,01268,Civil Engineering
+0126824210,01268,Computer Science and Engineering
+0126835610,01268,Electrical Engg[Electronics and Power]
+0126837210,01268,Electronics and Telecommunication Engg
+0126861210,01268,Mechanical Engineering
+0126899510,01268,Artificial Intelligence and Data Science
+0127619110,01276,Civil Engineering
+0127624510,01276,Computer Engineering
+0127629310,01276,Electrical Engineering
+0127661210,01276,Mechanical Engineering
+0200819110,02008,Civil Engineering
+0200824210,02008,Computer Science and Engineering
+0200824610,02008,Information Technology
+0200829310,02008,Electrical Engineering
+0200837210,02008,Electronics and Telecommunication Engg
+0200861210,02008,Mechanical Engineering
+0202019110,02020,Civil Engineering
+0202024210,02020,Computer Science and Engineering
+0202024610,02020,Information Technology
+0202029310,02020,Electrical Engineering
+0202037210,02020,Electronics and Telecommunication Engg
+0202046610,02020,Instrumentation Engineering
+0202050710,02020,Chemical Engineering
+0202060610,02020,Production Engineering
+0202061210,02020,Mechanical Engineering
+0202089610,02020,Textile Technology
+0202150310,02021,Food Technology
+0202181610,02021,Pharmaceutical and Fine Chemical Technology
+0203290410,02032,Chemical Engineering
+0211119110,02111,Civil Engineering
+0211124210,02111,Computer Science and Engineering
+0211129310,02111,Electrical Engineering
+0211161210,02111,Mechanical Engineering
+0211192110,02111,Artificial Intelligence and Machine Learning
+0211199510,02111,Artificial Intelligence and Data Science
+0211219110,02112,Civil Engineering
+0211224210,02112,Computer Science and Engineering
+0211229310,02112,Electrical Engineering
+0211261210,02112,Mechanical Engineering
+0211284410,02112,Electronics and Computer Engineering
+0211291110,02112,Computer Science and Engineering(Artificial Intelligence and Machine Learning)
+0211291210,02112,Computer Science and Engineering(Data Science)
+0211292910,02112,VLSI
+0211293210,02112,5G
+0211301110,02113,Agricultural Engineering
+0211319110,02113,Civil Engineering
+0211324210,02113,Computer Science and Engineering
+0211325710,02113,Computer Science and Design
+0211326310,02113,Artificial Intelligence (AI) and Data Science
+0211329310,02113,Electrical Engineering
+0211337210,02113,Electronics and Telecommunication Engg
+0211350110,02113,Plastic and Polymer Engineering
+0211361210,02113,Mechanical Engineering
+0211362410,02113,Mechatronics Engineering
+0211384410,02113,Electronics and Computer Engineering
+0211419110,02114,Civil Engineering
+0211424210,02114,Computer Science and Engineering
+0211437210,02114,Electronics and Telecommunication Engg
+0211461210,02114,Mechanical Engineering
+0211491110,02114,Computer Science and Engineering(Artificial Intelligence and Machine Learning)
+0211619110,02116,Civil Engineering
+0211624210,02116,Computer Science and Engineering
+0211626310,02116,Artificial Intelligence (AI) and Data Science
+0211629310,02116,Electrical Engineering
+0211637210,02116,Electronics and Telecommunication Engg
+0211661510,02116,Mechanical & Automation Engineering
+0211691110,02116,Computer Science and Engineering(Artificial Intelligence and Machine Learning)
+0212719110,02127,Civil Engineering
+0212724210,02127,Computer Science and Engineering
+0212724610,02127,Information Technology
+0212737210,02127,Electronics and Telecommunication Engg
+0212761210,02127,Mechanical Engineering
+0212791610,02127,Automation and Robotics
+0212792110,02127,Artificial Intelligence and Machine Learning
+0212919110,02129,Civil Engineering
+0212924210,02129,Computer Science and Engineering
+0212924610,02129,Information Technology
+0212929310,02129,Electrical Engineering
+0212937210,02129,Electronics and Telecommunication Engg
+0212946310,02129,Architectural Assistantship
+0212961210,02129,Mechanical Engineering
+0212991110,02129,Computer Science and Engineering(Artificial Intelligence and Machine Learning)
+0213019110,02130,Civil Engineering
+0213024210,02130,Computer Science and Engineering
+0213037210,02130,Electronics and Telecommunication Engg
+0213061210,02130,Mechanical Engineering
+0213099510,02130,Artificial Intelligence and Data Science
+0213119110,02131,Civil Engineering
+0213124210,02131,Computer Science and Engineering
+0213137210,02131,Electronics and Telecommunication Engg
+0213161210,02131,Mechanical Engineering
+0213319110,02133,Civil Engineering
+0213324210,02133,Computer Science and Engineering
+0213329310,02133,Electrical Engineering
+0213361210,02133,Mechanical Engineering
+0213384410,02133,Electronics and Computer Engineering
+0213419110,02134,Civil Engineering
+0213424210,02134,Computer Science and Engineering
+0213429310,02134,Electrical Engineering
+0213437810,02134,Electronics Engineering ( VLSI Design and Technology)
+0213461510,02134,Mechanical & Automation Engineering
+0213484410,02134,Electronics and Computer Engineering
+0213491210,02134,Computer Science and Engineering(Data Science)
+0213519110,02135,Civil Engineering
+0213524210,02135,Computer Science and Engineering
+0213561210,02135,Mechanical Engineering
+0213591110,02135,Computer Science and Engineering(Artificial Intelligence and Machine Learning)
+0213619110,02136,Civil Engineering
+0213624210,02136,Computer Science and Engineering
+0213624610,02136,Information Technology
+0213629310,02136,Electrical Engineering
+0213637210,02136,Electronics and Telecommunication Engg
+0213661210,02136,Mechanical Engineering
+0213691210,02136,Computer Science and Engineering(Data Science)
+0213692110,02136,Artificial Intelligence and Machine Learning
+0213719110,02137,Civil Engineering
+0213724210,02137,Computer Science and Engineering
+0213729710,02137,Electrical and Electronics Engineering
+0213761210,02137,Mechanical Engineering
+0213819110,02138,Civil Engineering
+0213824210,02138,Computer Science and Engineering
+0213829310,02138,Electrical Engineering
+0213861210,02138,Mechanical Engineering
+0214619110,02146,Civil Engineering
+0214624210,02146,Computer Science and Engineering
+0214629710,02146,Electrical and Electronics Engineering
+0214637210,02146,Electronics and Telecommunication Engg
+0225019110,02250,Civil Engineering
+0225024210,02250,Computer Science and Engineering
+0225029310,02250,Electrical Engineering
+0225037210,02250,Electronics and Telecommunication Engg
+0225061210,02250,Mechanical Engineering
+0225219110,02252,Civil Engineering
+0225224210,02252,Computer Science and Engineering
+0225229710,02252,Electrical and Electronics Engineering
+0225261210,02252,Mechanical Engineering
+0225419110,02254,Civil Engineering
+0225424510,02254,Computer Engineering
+0225424610,02254,Information Technology
+0225429310,02254,Electrical Engineering
+0225437210,02254,Electronics and Telecommunication Engg
+0225461210,02254,Mechanical Engineering
+0228219110,02282,Civil Engineering
+0228224510,02282,Computer Engineering
+0228224610,02282,Information Technology
+0228229310,02282,Electrical Engineering
+0228290010,02282,Electronics and Computer Science
+0250819110,02508,Civil Engineering
+0250824510,02508,Computer Engineering
+0250829310,02508,Electrical Engineering
+0250837210,02508,Electronics and Telecommunication Engg
+0250850310,02508,Food Technology
+0250861210,02508,Mechanical Engineering
+0250891410,02508,Safety and Fire Engineering
+0251619110,02516,Civil Engineering
+0251624210,02516,Computer Science and Engineering
+0251629710,02516,Electrical and Electronics Engineering
+0251661210,02516,Mechanical Engineering
+0251692110,02516,Artificial Intelligence and Machine Learning
+0252219110,02522,Civil Engineering
+0252224510,02522,Computer Engineering
+0252237210,02522,Electronics and Telecommunication Engg
+0252261210,02522,Mechanical Engineering
+0252299510,02522,Artificial Intelligence and Data Science
+0253319110,02533,Civil Engineering
+0253324210,02533,Computer Science and Engineering
+0253329310,02533,Electrical Engineering
+0253337810,02533,Electronics Engineering ( VLSI Design and Technology)
+0253361210,02533,Mechanical Engineering
+0253384410,02533,Electronics and Computer Engineering
+0253392810,02533,Electronics and Communication(Advanced Communication Technology)
+0253399510,02533,Artificial Intelligence and Data Science
+0263719110,02637,Civil Engineering
+0263724510,02637,Computer Engineering
+0263724610,02637,Information Technology
+0263737210,02637,Electronics and Telecommunication Engg
+0263799710,02637,Artificial Intelligence
+0264119110,02641,Civil Engineering
+0264124210,02641,Computer Science and Engineering
+0264129310,02641,Electrical Engineering
+0264161210,02641,Mechanical Engineering
+0264199710,02641,Artificial Intelligence
+0266624210,02666,Computer Science and Engineering
+0266624610,02666,Information Technology
+0266656610,02666,Computer Science
+0266692110,02666,Artificial Intelligence and Machine Learning
+0301219110,03012,Civil Engineering
+0301224510,03012,Computer Engineering
+0301224610,03012,Information Technology
+0301229310,03012,Electrical Engineering
+0301237210,03012,Electronics and Telecommunication Engg
+0301237610,03012,Electronics Engineering
+0301261210,03012,Mechanical Engineering
+0301262610,03012,Production Engineering[Sandwich]
+0301289610,03012,Textile Technology
+0301419110,03014,Civil Engineering
+0301429310,03014,Electrical Engineering
+0301461210,03014,Mechanical Engineering
+0303319110,03033,Civil Engineering
+0303324510,03033,Computer Engineering
+0303324610,03033,Information Technology
+0303329310,03033,Electrical Engineering
+0303337210,03033,Electronics and Telecommunication Engg
+0303337810,03033,Electronics Engineering ( VLSI Design and Technology)
+0303350710,03033,Chemical Engineering
+0303352710,03033,Petro Chemical Engineering
+0303361210,03033,Mechanical Engineering
+0303390510,03033,Computer Science and Engineering
+0303650710,03036,Chemical Engineering
+0303651110,03036,Dyestuff Technology
+0303651210,03036,"Oil,Oleochemicals and Surfactants Technology"
+0303651310,03036,Pharmaceuticals Chemistry and Technology
+0303651410,03036,Fibres and Textile Processing Technology
+0303651910,03036,Polymer Engineering and Technology
+0303653410,03036,Food Engineering and Technology
+0303672910,03036,Surface Coating Technology
+0304229310,03042,Electrical Engineering
+0304250410,03042,Food Technology And Management
+0304262410,03042,Mechatronics Engineering
+0304291810,03042,Civil and infrastructure Engineering
+0304299510,03042,Artificial Intelligence and Data Science
+0313524510,03135,Computer Engineering
+0313524610,03135,Information Technology
+0313537210,03135,Electronics and Telecommunication Engg
+0313561210,03135,Mechanical Engineering
+0313599510,03135,Artificial Intelligence and Data Science
+0313924510,03139,Computer Engineering
+0313924610,03139,Information Technology
+0313937210,03139,Electronics and Telecommunication Engg
+0313946110,03139,Bio Medical Engineering
+0313990010,03139,Electronics and Computer Science
+0314324510,03143,Computer Engineering
+0314324610,03143,Information Technology
+0314361210,03143,Mechanical Engineering
+0314384410,03143,Electronics and Computer Engineering
+0314391110,03143,Computer Science and Engineering(Artificial Intelligence and Machine Learning)
+0314624510,03146,Computer Engineering
+0314624610,03146,Information Technology
+0314629310,03146,Electrical Engineering
+0314637210,03146,Electronics and Telecommunication Engg
+0314661210,03146,Mechanical Engineering
+0314692010,03146,Computer Science and Engineering (Internet of Things and Cyber Security Including Block Chain
+0314699510,03146,Artificial Intelligence and Data Science
+0314719110,03147,Civil Engineering
+0314724510,03147,Computer Engineering
+0314724610,03147,Information Technology
+0314729310,03147,Electrical Engineering
+0314761210,03147,Mechanical Engineering
+0314791710,03147,Data Science
+0314792110,03147,Artificial Intelligence and Machine Learning
+0314824510,03148,Computer Engineering
+0314824610,03148,Information Technology
+0314825210,03148,Cyber Security
+0314837210,03148,Electronics and Telecommunication Engg
+0314837810,03148,Electronics Engineering ( VLSI Design and Technology)
+0314890010,03148,Electronics and Computer Science
+0314893310,03148,Electronics and Communication (Advanced Communication Technology)
+0314899510,03148,Artificial Intelligence and Data Science
+0315419110,03154,Civil Engineering
+0315424510,03154,Computer Engineering
+0315424610,03154,Information Technology
+0315460210,03154,Automobile Engineering
+0315461210,03154,Mechanical Engineering
+0315491110,03154,Computer Science and Engineering(Artificial Intelligence and Machine Learning)
+0315491210,03154,Computer Science and Engineering(Data Science)
+0317519110,03175,Civil Engineering
+0317524510,03175,Computer Engineering
+0317524610,03175,Information Technology
+0317529310,03175,Electrical Engineering
+0317537210,03175,Electronics and Telecommunication Engg
+0317546110,03175,Bio Medical Engineering
+0317550710,03175,Chemical Engineering
+0317561210,03175,Mechanical Engineering
+0317591110,03175,Computer Science and Engineering(Artificial Intelligence and Machine Learning)
+0317591210,03175,Computer Science and Engineering(Data Science)
+0317591610,03175,Automation and Robotics
+0317619110,03176,Civil Engineering
+0317624510,03176,Computer Engineering
+0317624610,03176,Information Technology
+0317625310,03176,Internet of Things (IoT)
+0317625910,03176,Mechanical and Mechatronics Engineering (Additive Manufacturing)
+0317637210,03176,Electronics and Telecommunication Engg
+0317661210,03176,Mechanical Engineering
+0317690010,03176,Electronics and Computer Science
+0317691010,03176,Computer Science and Engineering(Cyber Security)
+0317692110,03176,Artificial Intelligence and Machine Learning
+0317699510,03176,Artificial Intelligence and Data Science
+0318224510,03182,Computer Engineering
+0318224610,03182,Information Technology
+0318237210,03182,Electronics and Telecommunication Engg
+0318250710,03182,Chemical Engineering
+0318299510,03182,Artificial Intelligence and Data Science
+0318319110,03183,Civil Engineering
+0318324510,03183,Computer Engineering
+0318324610,03183,Information Technology
+0318337210,03183,Electronics and Telecommunication Engg
+0318361210,03183,Mechanical Engineering
+0318361610,03183,Mechanical Engineering Automobile
+0318391110,03183,Computer Science and Engineering(Artificial Intelligence and Machine Learning)
+0318392010,03183,Computer Science and Engineering (Internet of Things and Cyber Security Including Block Chain
+0318424210,03184,Computer Science and Engineering
+0318424510,03184,Computer Engineering
+0318461210,03184,Mechanical Engineering
+0318490010,03184,Electronics and Computer Science
+0318524510,03185,Computer Engineering
+0318524610,03185,Information Technology
+0318537210,03185,Electronics and Telecommunication Engg
+0318590010,03185,Electronics and Computer Science
+0318591610,03185,Automation and Robotics
+0318599510,03185,Artificial Intelligence and Data Science
+0318719110,03187,Civil Engineering
+0318724510,03187,Computer Engineering
+0318724610,03187,Information Technology
+0318737210,03187,Electronics and Telecommunication Engg
+0318750710,03187,Chemical Engineering
+0318761210,03187,Mechanical Engineering
+0318791810,03187,Civil and infrastructure Engineering
+0318799510,03187,Artificial Intelligence and Data Science
+0318824510,03188,Computer Engineering
+0318824610,03188,Information Technology
+0318862410,03188,Mechatronics Engineering
+0318890010,03188,Electronics and Computer Science
+0318891110,03188,Computer Science and Engineering(Artificial Intelligence and Machine Learning)
+0318924510,03189,Computer Engineering
+0318924610,03189,Information Technology
+0318937210,03189,Electronics and Telecommunication Engg
+0318946610,03189,Instrumentation Engineering
+0318950710,03189,Chemical Engineering
+0318961210,03189,Mechanical Engineering
+0319019110,03190,Civil Engineering
+0319024510,03190,Computer Engineering
+0319024610,03190,Information Technology
+0319026310,03190,Artificial Intelligence (AI) and Data Science
+0319037210,03190,Electronics and Telecommunication Engg
+0319037610,03190,Electronics Engineering
+0319061210,03190,Mechanical Engineering
+0319062410,03190,Mechatronics Engineering
+0319224510,03192,Computer Engineering
+0319229310,03192,Electrical Engineering
+0319261210,03192,Mechanical Engineering
+0319291110,03192,Computer Science and Engineering(Artificial Intelligence and Machine Learning)
+0319292010,03192,Computer Science and Engineering (Internet of Things and Cyber Security Including Block Chain
+0319299510,03192,Artificial Intelligence and Data Science
+0319324510,03193,Computer Engineering
+0319324610,03193,Information Technology
+0319337210,03193,Electronics and Telecommunication Engg
+0319350710,03193,Chemical Engineering
+0319361210,03193,Mechanical Engineering
+0319392110,03193,Artificial Intelligence and Machine Learning
+0319419110,03194,Civil Engineering
+0319424510,03194,Computer Engineering
+0319424610,03194,Information Technology
+0319437210,03194,Electronics and Telecommunication Engg
+0319437810,03194,Electronics Engineering ( VLSI Design and Technology)
+0319461210,03194,Mechanical Engineering
+0319491210,03194,Computer Science and Engineering(Data Science)
+0319499510,03194,Artificial Intelligence and Data Science
+0319624510,03196,Computer Engineering
+0319629310,03196,Electrical Engineering
+0319637210,03196,Electronics and Telecommunication Engg
+0319661210,03196,Mechanical Engineering
+0319691110,03196,Computer Science and Engineering(Artificial Intelligence and Machine Learning)
+0319691210,03196,Computer Science and Engineering(Data Science)
+0319692010,03196,Computer Science and Engineering (Internet of Things and Cyber Security Including Block Chain
+0319724510,03197,Computer Engineering
+0319724610,03197,Information Technology
+0319729310,03197,Electrical Engineering
+0319737210,03197,Electronics and Telecommunication Engg
+0319761210,03197,Mechanical Engineering
+0319824210,03198,Computer Science and Engineering
+0319824510,03198,Computer Engineering
+0319824610,03198,Information Technology
+0319861210,03198,Mechanical Engineering
+0319899510,03198,Artificial Intelligence and Data Science
+0319924510,03199,Computer Engineering
+0319924610,03199,Information Technology
+0319926310,03199,Artificial Intelligence (AI) and Data Science
+0319937210,03199,Electronics and Telecommunication Engg
+0319961210,03199,Mechanical Engineering
+0319991210,03199,Computer Science and Engineering(Data Science)
+0319992010,03199,Computer Science and Engineering (Internet of Things and Cyber Security Including Block Chain
+0319992110,03199,Artificial Intelligence and Machine Learning
+0320024610,03200,Information Technology
+0320029310,03200,Electrical Engineering
+0320037210,03200,Electronics and Telecommunication Engg
+0320050710,03200,Chemical Engineering
+0320061210,03200,Mechanical Engineering
+0320091010,03200,Computer Science and Engineering(Cyber Security)
+0320091110,03200,Computer Science and Engineering(Artificial Intelligence and Machine Learning)
+0320119110,03201,Civil Engineering
+0320124510,03201,Computer Engineering
+0320161210,03201,Mechanical Engineering
+0320190010,03201,Electronics and Computer Science
+0320199510,03201,Artificial Intelligence and Data Science
+0320224510,03202,Computer Engineering
+0320260210,03202,Automobile Engineering
+0320261210,03202,Mechanical Engineering
+0320290010,03202,Electronics and Computer Science
+0320324510,03203,Computer Engineering
+0320324610,03203,Information Technology
+0320329310,03203,Electrical Engineering
+0320337210,03203,Electronics and Telecommunication Engg
+0320390010,03203,Electronics and Computer Science
+0320424510,03204,Computer Engineering
+0320424610,03204,Information Technology
+0320429310,03204,Electrical Engineering
+0320437210,03204,Electronics and Telecommunication Engg
+0320461210,03204,Mechanical Engineering
+0320490010,03204,Electronics and Computer Science
+0320492110,03204,Artificial Intelligence and Machine Learning
+0320624510,03206,Computer Engineering
+0320629310,03206,Electrical Engineering
+0320656610,03206,Computer Science
+0320661210,03206,Mechanical Engineering
+0320662410,03206,Mechatronics Engineering
+0320690010,03206,Electronics and Computer Science
+0320691110,03206,Computer Science and Engineering(Artificial Intelligence and Machine Learning)
+0320724510,03207,Computer Engineering
+0320724610,03207,Information Technology
+0320737210,03207,Electronics and Telecommunication Engg
+0320760210,03207,Automobile Engineering
+0320761210,03207,Mechanical Engineering
+0320790010,03207,Electronics and Computer Science
+0320824510,03208,Computer Engineering
+0320824610,03208,Information Technology
+0320837210,03208,Electronics and Telecommunication Engg
+0320861210,03208,Mechanical Engineering
+0320924510,03209,Computer Engineering
+0320924610,03209,Information Technology
+0320937210,03209,Electronics and Telecommunication Engg
+0320999510,03209,Artificial Intelligence and Data Science
+0321024510,03210,Computer Engineering
+0321024610,03210,Information Technology
+0321037210,03210,Electronics and Telecommunication Engg
+0321124510,03211,Computer Engineering
+0321124610,03211,Information Technology
+0321137210,03211,Electronics and Telecommunication Engg
+0321190010,03211,Electronics and Computer Science
+0321192010,03211,Computer Science and Engineering (Internet of Things and Cyber Security Including Block Chain
+0321192110,03211,Artificial Intelligence and Machine Learning
+0321199510,03211,Artificial Intelligence and Data Science
+0321219110,03212,Civil Engineering
+0321224510,03212,Computer Engineering
+0321424510,03214,Computer Engineering
+0321424610,03214,Information Technology
+0321437210,03214,Electronics and Telecommunication Engg
+0321492010,03214,Computer Science and Engineering (Internet of Things and Cyber Security Including Block Chain
+0321524210,03215,Computer Science and Engineering
+0321524510,03215,Computer Engineering
+0321537210,03215,Electronics and Telecommunication Engg
+0321619110,03216,Civil Engineering
+0321624510,03216,Computer Engineering
+0321637210,03216,Electronics and Telecommunication Engg
+0321650710,03216,Chemical Engineering
+0321661210,03216,Mechanical Engineering
+0321691110,03216,Computer Science and Engineering(Artificial Intelligence and Machine Learning)
+0321719110,03217,Civil Engineering
+0321724510,03217,Computer Engineering
+0321737210,03217,Electronics and Telecommunication Engg
+0321761210,03217,Mechanical Engineering
+0321791610,03217,Automation and Robotics
+0321819110,03218,Civil Engineering
+0321824510,03218,Computer Engineering
+0321824610,03218,Information Technology
+0321861210,03218,Mechanical Engineering
+0321890010,03218,Electronics and Computer Science
+0321891210,03218,Computer Science and Engineering(Data Science)
+0321892110,03218,Artificial Intelligence and Machine Learning
+0321919110,03219,Civil Engineering
+0321924510,03219,Computer Engineering
+0321924610,03219,Information Technology
+0321929310,03219,Electrical Engineering
+0321937210,03219,Electronics and Telecommunication Engg
+0321961210,03219,Mechanical Engineering
+0321991110,03219,Computer Science and Engineering(Artificial Intelligence and Machine Learning)
+0322019110,03220,Civil Engineering
+0322024510,03220,Computer Engineering
+0322024610,03220,Information Technology
+0322025210,03220,Cyber Security
+0322037210,03220,Electronics and Telecommunication Engg
+0322061210,03220,Mechanical Engineering
+0322092110,03220,Artificial Intelligence and Machine Learning
+0322119110,03221,Civil Engineering
+0322124510,03221,Computer Engineering
+0322137210,03221,Electronics and Telecommunication Engg
+0322161210,03221,Mechanical Engineering
+0322191110,03221,Computer Science and Engineering(Artificial Intelligence and Machine Learning)
+0322192610,03221,Electrical and Computer Engineering
+0322219110,03222,Civil Engineering
+0322224510,03222,Computer Engineering
+0322224610,03222,Information Technology
+0322229310,03222,Electrical Engineering
+0322260210,03222,Automobile Engineering
+0322261210,03222,Mechanical Engineering
+0322291110,03222,Computer Science and Engineering(Artificial Intelligence and Machine Learning)
+0322319110,03223,Civil Engineering
+0322324510,03223,Computer Engineering
+0322324610,03223,Information Technology
+0322361210,03223,Mechanical Engineering
+0322390010,03223,Electronics and Computer Science
+0322392610,03223,Electrical and Computer Engineering
+0322419110,03224,Civil Engineering
+0322424510,03224,Computer Engineering
+0322461210,03224,Mechanical Engineering
+0322491110,03224,Computer Science and Engineering(Artificial Intelligence and Machine Learning)
+0322492010,03224,Computer Science and Engineering (Internet of Things and Cyber Security Including Block Chain
+0325724510,03257,Computer Engineering
+0325724610,03257,Information Technology
+0325729310,03257,Electrical Engineering
+0325737210,03257,Electronics and Telecommunication Engg
+0325791610,03257,Automation and Robotics
+0327724510,03277,Computer Engineering
+0327724610,03277,Information Technology
+0327735610,03277,Electrical Engg[Electronics and Power]
+0327761510,03277,Mechanical & Automation Engineering
+0327793410,03277,Civil Engineering and Planning
+0327793510,03277,Electronics and Biomedical Engineering
+0335119110,03351,Civil Engineering
+0335124510,03351,Computer Engineering
+0335156810,03351,Computer Science and Information Technology
+0335161210,03351,Mechanical Engineering
+0335191110,03351,Computer Science and Engineering(Artificial Intelligence and Machine Learning)
+0335191210,03351,Computer Science and Engineering(Data Science)
+0335319110,03353,Civil Engineering
+0335324510,03353,Computer Engineering
+0335324610,03353,Information Technology
+0335329310,03353,Electrical Engineering
+0335361210,03353,Mechanical Engineering
+0335392010,03353,Computer Science and Engineering (Internet of Things and Cyber Security Including Block Chain
+0335392110,03353,Artificial Intelligence and Machine Learning
+0342319110,03423,Civil Engineering
+0342324510,03423,Computer Engineering
+0342324610,03423,Information Technology
+0342337210,03423,Electronics and Telecommunication Engg
+0342361210,03423,Mechanical Engineering
+0342390010,03423,Electronics and Computer Science
+0343619110,03436,Civil Engineering
+0343624510,03436,Computer Engineering
+0343624610,03436,Information Technology
+0343629310,03436,Electrical Engineering
+0343661210,03436,Mechanical Engineering
+0343690010,03436,Electronics and Computer Science
+0343691110,03436,Computer Science and Engineering(Artificial Intelligence and Machine Learning)
+0343919110,03439,Civil Engineering
+0343924510,03439,Computer Engineering
+0343961210,03439,Mechanical Engineering
+0343990010,03439,Electronics and Computer Science
+0343991110,03439,Computer Science and Engineering(Artificial Intelligence and Machine Learning)
+0343991210,03439,Computer Science and Engineering(Data Science)
+0343992610,03439,Electrical and Computer Engineering
+0344019110,03440,Civil Engineering
+0344024510,03440,Computer Engineering
+0344037210,03440,Electronics and Telecommunication Engg
+0344519110,03445,Civil Engineering
+0344524510,03445,Computer Engineering
+0344537210,03445,Electronics and Telecommunication Engg
+0344561210,03445,Mechanical Engineering
+0344592010,03445,Computer Science and Engineering (Internet of Things and Cyber Security Including Block Chain
+0344592110,03445,Artificial Intelligence and Machine Learning
+0344719110,03447,Civil Engineering
+0344724510,03447,Computer Engineering
+0344761210,03447,Mechanical Engineering
+0346019110,03460,Civil Engineering
+0346024510,03460,Computer Engineering
+0346024610,03460,Information Technology
+0346092110,03460,Artificial Intelligence and Machine Learning
+0346092410,03460,Data Engineering
+0346219110,03462,Civil Engineering
+0346224510,03462,Computer Engineering
+0346229310,03462,Electrical Engineering
+0346246610,03462,Instrumentation Engineering
+0346261210,03462,Mechanical Engineering
+0346284410,03462,Electronics and Computer Engineering
+0346524210,03465,Computer Science and Engineering
+0346529310,03465,Electrical Engineering
+0346537210,03465,Electronics and Telecommunication Engg
+0346561210,03465,Mechanical Engineering
+0346719110,03467,Civil Engineering
+0346724510,03467,Computer Engineering
+0346729310,03467,Electrical Engineering
+0346737210,03467,Electronics and Telecommunication Engg
+0346761210,03467,Mechanical Engineering
+0346791110,03467,Computer Science and Engineering(Artificial Intelligence and Machine Learning)
+0347024210,03470,Computer Science and Engineering
+0347024510,03470,Computer Engineering
+0347029310,03470,Electrical Engineering
+0347061210,03470,Mechanical Engineering
+0347119110,03471,Civil Engineering
+0347124510,03471,Computer Engineering
+0347125710,03471,Computer Science and Design
+0347161210,03471,Mechanical Engineering
+0347162410,03471,Mechatronics Engineering
+0347199510,03471,Artificial Intelligence and Data Science
+0347519110,03475,Civil Engineering
+0347524510,03475,Computer Engineering
+0347524610,03475,Information Technology
+0347561210,03475,Mechanical Engineering
+0347591110,03475,Computer Science and Engineering(Artificial Intelligence and Machine Learning)
+0347591210,03475,Computer Science and Engineering(Data Science)
+0347719110,03477,Civil Engineering
+0347724510,03477,Computer Engineering
+0347761210,03477,Mechanical Engineering
+0350319110,03503,Civil Engineering
+0350324510,03503,Computer Engineering
+0350324610,03503,Information Technology
+0350326310,03503,Artificial Intelligence (AI) and Data Science
+0350329310,03503,Electrical Engineering
+0350361210,03503,Mechanical Engineering
+0354619110,03546,Civil Engineering
+0354624510,03546,Computer Engineering
+0354629310,03546,Electrical Engineering
+0354661210,03546,Mechanical Engineering
+0354691110,03546,Computer Science and Engineering(Artificial Intelligence and Machine Learning)
+0400419110,04004,Civil Engineering
+0400424210,04004,Computer Science and Engineering
+0400429310,04004,Electrical Engineering
+0400437210,04004,Electronics and Telecommunication Engg
+0400446610,04004,Instrumentation Engineering
+0400461210,04004,Mechanical Engineering
+0402519110,04025,Civil Engineering
+0402524210,04025,Computer Science and Engineering
+0402529310,04025,Electrical Engineering
+0402537210,04025,Electronics and Telecommunication Engg
+0402561210,04025,Mechanical Engineering
+0410419110,04104,Civil Engineering
+0410424610,04104,Information Technology
+0410425110,04104,Computer Technology
+0410429310,04104,Electrical Engineering
+0410437010,04104,Electronics and Communication Engineering
+0410461210,04104,Mechanical Engineering
+0411619110,04116,Civil Engineering
+0411624210,04116,Computer Science and Engineering
+0411624610,04116,Information Technology
+0411626010,04116,Computer Science and Engineering (Cyber Security)
+0411626710,04116,Computer Science and Engineering (IoT)
+0411629310,04116,Electrical Engineering
+0411637210,04116,Electronics and Telecommunication Engg
+0411637610,04116,Electronics Engineering
+0411661210,04116,Mechanical Engineering
+0411691110,04116,Computer Science and Engineering(Artificial Intelligence and Machine Learning)
+0411691310,04116,Computer Science and Engineering (Artificial Intelligence)
+0411691710,04116,Data Science
+0411699710,04116,Artificial Intelligence
+0411819110,04118,Civil Engineering
+0411824510,04118,Computer Engineering
+0411829310,04118,Electrical Engineering
+0411837210,04118,Electronics and Telecommunication Engg
+0411861210,04118,Mechanical Engineering
+0412300210,04123,Aeronautical Engineering
+0412308210,04123,Bio Technology
+0412319110,04123,Civil Engineering
+0412324210,04123,Computer Science and Engineering
+0412324610,04123,Information Technology
+0412325110,04123,Computer Technology
+0412326510,04123,Industrial IoT
+0412326610,04123,Robotics and Artificial Intelligence
+0412329310,04123,Electrical Engineering
+0412337010,04123,Electronics and Communication Engineering
+0412337210,04123,Electronics and Telecommunication Engg
+0412350710,04123,Chemical Engineering
+0412361210,04123,Mechanical Engineering
+0412399510,04123,Artificial Intelligence and Data Science
+0413319110,04133,Civil Engineering
+0413324210,04133,Computer Science and Engineering
+0413324510,04133,Computer Engineering
+0413329310,04133,Electrical Engineering
+0413337210,04133,Electronics and Telecommunication Engg
+0413361210,04133,Mechanical Engineering
+0413424210,04134,Computer Science and Engineering
+0413424610,04134,Information Technology
+0413429310,04134,Electrical Engineering
+0413437210,04134,Electronics and Telecommunication Engg
+0413491210,04134,Computer Science and Engineering(Data Science)
+0413499710,04134,Artificial Intelligence
+0413519110,04135,Civil Engineering
+0413524210,04135,Computer Science and Engineering
+0413524610,04135,Information Technology
+0413529310,04135,Electrical Engineering
+0413537210,04135,Electronics and Telecommunication Engg
+0413561210,04135,Mechanical Engineering
+0413619110,04136,Civil Engineering
+0413624210,04136,Computer Science and Engineering
+0413629310,04136,Electrical Engineering
+0413637210,04136,Electronics and Telecommunication Engg
+0413699710,04136,Artificial Intelligence
+0413724210,04137,Computer Science and Engineering
+0413729310,04137,Electrical Engineering
+0413737210,04137,Electronics and Telecommunication Engg
+0413761210,04137,Mechanical Engineering
+0413791110,04137,Computer Science and Engineering(Artificial Intelligence and Machine Learning)
+0413791210,04137,Computer Science and Engineering(Data Science)
+0413819110,04138,Civil Engineering
+0413824210,04138,Computer Science and Engineering
+0413824610,04138,Information Technology
+0413829310,04138,Electrical Engineering
+0413837210,04138,Electronics and Telecommunication Engg
+0413861210,04138,Mechanical Engineering
+0413891210,04138,Computer Science and Engineering(Data Science)
+0413899710,04138,Artificial Intelligence
+0413924210,04139,Computer Science and Engineering
+0413929310,04139,Electrical Engineering
+0413961210,04139,Mechanical Engineering
+0413984410,04139,Electronics and Computer Engineering
+0413991110,04139,Computer Science and Engineering(Artificial Intelligence and Machine Learning)
+0413992810,04139,Electronics and Communication(Advanced Communication Technology)
+0414119110,04141,Civil Engineering
+0414124510,04141,Computer Engineering
+0414161210,04141,Mechanical Engineering
+0414199510,04141,Artificial Intelligence and Data Science
+0414219110,04142,Civil Engineering
+0414224210,04142,Computer Science and Engineering
+0414224610,04142,Information Technology
+0414229310,04142,Electrical Engineering
+0414237210,04142,Electronics and Telecommunication Engg
+0414261210,04142,Mechanical Engineering
+0414291010,04142,Computer Science and Engineering(Cyber Security)
+0414291710,04142,Data Science
+0414299710,04142,Artificial Intelligence
+0414319110,04143,Civil Engineering
+0414324510,04143,Computer Engineering
+0414329310,04143,Electrical Engineering
+0414337210,04143,Electronics and Telecommunication Engg
+0414361210,04143,Mechanical Engineering
+0414419110,04144,Civil Engineering
+0414424210,04144,Computer Science and Engineering
+0414424610,04144,Information Technology
+0414429310,04144,Electrical Engineering
+0414461210,04144,Mechanical Engineering
+0414519110,04145,Civil Engineering
+0414524210,04145,Computer Science and Engineering
+0414529310,04145,Electrical Engineering
+0414537210,04145,Electronics and Telecommunication Engg
+0414561210,04145,Mechanical Engineering
+0414599510,04145,Artificial Intelligence and Data Science
+0414719110,04147,Civil Engineering
+0414724210,04147,Computer Science and Engineering
+0414724610,04147,Information Technology
+0414729310,04147,Electrical Engineering
+0414737210,04147,Electronics and Telecommunication Engg
+0414761210,04147,Mechanical Engineering
+0414799510,04147,Artificial Intelligence and Data Science
+0415100210,04151,Aeronautical Engineering
+0415108210,04151,Bio Technology
+0415119110,04151,Civil Engineering
+0415124210,04151,Computer Science and Engineering
+0415124610,04151,Information Technology
+0415129310,04151,Electrical Engineering
+0415137010,04151,Electronics and Communication Engineering
+0415161210,04151,Mechanical Engineering
+0415191210,04151,Computer Science and Engineering(Data Science)
+0415192110,04151,Artificial Intelligence and Machine Learning
+0416319110,04163,Civil Engineering
+0416324210,04163,Computer Science and Engineering
+0416329310,04163,Electrical Engineering
+0416337010,04163,Electronics and Communication Engineering
+0416361210,04163,Mechanical Engineering
+0416370110,04163,Mining Engineering
+0416391210,04163,Computer Science and Engineering(Data Science)
+0416719110,04167,Civil Engineering
+0416724210,04167,Computer Science and Engineering
+0416724610,04167,Information Technology
+0416725110,04167,Computer Technology
+0416725710,04167,Computer Science and Design
+0416726710,04167,Computer Science and Engineering (IoT)
+0416735610,04167,Electrical Engg[Electronics and Power]
+0416737210,04167,Electronics and Telecommunication Engg
+0416737610,04167,Electronics Engineering
+0416737810,04167,Electronics Engineering ( VLSI Design and Technology)
+0416761210,04167,Mechanical Engineering
+0416791110,04167,Computer Science and Engineering(Artificial Intelligence and Machine Learning)
+0416799510,04167,Artificial Intelligence and Data Science
+0417219110,04172,Civil Engineering
+0417224210,04172,Computer Science and Engineering
+0417226310,04172,Artificial Intelligence (AI) and Data Science
+0417229310,04172,Electrical Engineering
+0417237210,04172,Electronics and Telecommunication Engg
+0417261210,04172,Mechanical Engineering
+0417419110,04174,Civil Engineering
+0417424510,04174,Computer Engineering
+0417424610,04174,Information Technology
+0417426010,04174,Computer Science and Engineering (Cyber Security)
+0417426210,04174,Computer Science and Business Systems
+0417426510,04174,Industrial IoT
+0417429310,04174,Electrical Engineering
+0417437210,04174,Electronics and Telecommunication Engg
+0417461210,04174,Mechanical Engineering
+0417491210,04174,Computer Science and Engineering(Data Science)
+0417499710,04174,Artificial Intelligence
+0417519110,04175,Civil Engineering
+0417524210,04175,Computer Science and Engineering
+0417537210,04175,Electronics and Telecommunication Engg
+0417561210,04175,Mechanical Engineering
+0417719110,04177,Civil Engineering
+0417724210,04177,Computer Science and Engineering
+0417724610,04177,Information Technology
+0417737010,04177,Electronics and Communication Engineering
+0417761210,04177,Mechanical Engineering
+0418119110,04181,Civil Engineering
+0418124510,04181,Computer Engineering
+0418137210,04181,Electronics and Telecommunication Engg
+0418161210,04181,Mechanical Engineering
+0418819110,04188,Civil Engineering
+0418824210,04188,Computer Science and Engineering
+0418829310,04188,Electrical Engineering
+0418837210,04188,Electronics and Telecommunication Engg
+0418850310,04188,Food Technology
+0418861210,04188,Mechanical Engineering
+0418870110,04188,Mining Engineering
+0419019110,04190,Civil Engineering
+0419024210,04190,Computer Science and Engineering
+0419029310,04190,Electrical Engineering
+0419037010,04190,Electronics and Communication Engineering
+0419061210,04190,Mechanical Engineering
+0419219110,04192,Civil Engineering
+0419224210,04192,Computer Science and Engineering
+0419235610,04192,Electrical Engg[Electronics and Power]
+0419261210,04192,Mechanical Engineering
+0419291110,04192,Computer Science and Engineering(Artificial Intelligence and Machine Learning)
+0419324210,04193,Computer Science and Engineering
+0419329310,04193,Electrical Engineering
+0419337010,04193,Electronics and Communication Engineering
+0419361210,04193,Mechanical Engineering
+0419391110,04193,Computer Science and Engineering(Artificial Intelligence and Machine Learning)
+0419391210,04193,Computer Science and Engineering(Data Science)
+0419619110,04196,Civil Engineering
+0419624210,04196,Computer Science and Engineering
+0419637210,04196,Electronics and Telecommunication Engg
+0419661210,04196,Mechanical Engineering
+0419691010,04196,Computer Science and Engineering(Cyber Security)
+0419691210,04196,Computer Science and Engineering(Data Science)
+0419692110,04196,Artificial Intelligence and Machine Learning
+0419719110,04197,Civil Engineering
+0419724210,04197,Computer Science and Engineering
+0419729310,04197,Electrical Engineering
+0419737010,04197,Electronics and Communication Engineering
+0419761210,04197,Mechanical Engineering
+0428519110,04285,Civil Engineering
+0428524610,04285,Information Technology
+0428529310,04285,Electrical Engineering
+0428561210,04285,Mechanical Engineering
+0430219110,04302,Civil Engineering
+0430224510,04302,Computer Engineering
+0430261210,04302,Mechanical Engineering
+0461319110,04613,Civil Engineering
+0461324510,04613,Computer Engineering
+0461326510,04613,Industrial IoT
+0461329310,04613,Electrical Engineering
+0461337210,04613,Electronics and Telecommunication Engg
+0461361210,04613,Mechanical Engineering
+0461391210,04613,Computer Science and Engineering(Data Science)
+0464819110,04648,Civil Engineering
+0464824210,04648,Computer Science and Engineering
+0464824610,04648,Information Technology
+0464829310,04648,Electrical Engineering
+0464861210,04648,Mechanical Engineering
+0464919110,04649,Civil Engineering
+0464924510,04649,Computer Engineering
+0464929310,04649,Electrical Engineering
+0464961210,04649,Mechanical Engineering
+0467919110,04679,Civil Engineering
+0467924210,04679,Computer Science and Engineering
+0467929310,04679,Electrical Engineering
+0467993610,04679,Fire Engineering
+0467999710,04679,Artificial Intelligence
+0500350310,05003,Food Technology
+0500350710,05003,Chemical Engineering
+0500350810,05003,Plastic Technology
+0500351810,05003,Oil Fats and Waxes Technology
+0500352310,05003,Paints Technology
+0500419110,05004,Civil Engineering
+0500424510,05004,Computer Engineering
+0500429310,05004,Electrical Engineering
+0500437210,05004,Electronics and Telecommunication Engg
+0500446610,05004,Instrumentation Engineering
+0500461210,05004,Mechanical Engineering
+0510319110,05103,Civil Engineering
+0510324510,05103,Computer Engineering
+0510337210,05103,Electronics and Telecommunication Engg
+0510337610,05103,Electronics Engineering
+0510361210,05103,Mechanical Engineering
+0510384410,05103,Electronics and Computer Engineering
+0510419110,05104,Civil Engineering
+0510424510,05104,Computer Engineering
+0510429310,05104,Electrical Engineering
+0510437210,05104,Electronics and Telecommunication Engg
+0510450710,05104,Chemical Engineering
+0510461210,05104,Mechanical Engineering
+0510624510,05106,Computer Engineering
+0510629310,05106,Electrical Engineering
+0510661210,05106,Mechanical Engineering
+0510684410,05106,Electronics and Computer Engineering
+0510691210,05106,Computer Science and Engineering(Data Science)
+0510819110,05108,Civil Engineering
+0510824510,05108,Computer Engineering
+0510824610,05108,Information Technology
+0510826310,05108,Artificial Intelligence (AI) and Data Science
+0510829310,05108,Electrical Engineering
+0510837210,05108,Electronics and Telecommunication Engg
+0510846410,05108,Instrumentation and Control Engineering
+0510861210,05108,Mechanical Engineering
+0510919110,05109,Civil Engineering
+0510924510,05109,Computer Engineering
+0510924610,05109,Information Technology
+0510929310,05109,Electrical Engineering
+0510937210,05109,Electronics and Telecommunication Engg
+0510956610,05109,Computer Science
+0510961210,05109,Mechanical Engineering
+0510991610,05109,Automation and Robotics
+0510992110,05109,Artificial Intelligence and Machine Learning
+0510999510,05109,Artificial Intelligence and Data Science
+0512119110,05121,Civil Engineering
+0512121910,05121,Robotics and Automation
+0512124510,05121,Computer Engineering
+0512124610,05121,Information Technology
+0512125710,05121,Computer Science and Design
+0512129310,05121,Electrical Engineering
+0512137210,05121,Electronics and Telecommunication Engg
+0512150710,05121,Chemical Engineering
+0512161210,05121,Mechanical Engineering
+0512199510,05121,Artificial Intelligence and Data Science
+0512419110,05124,Civil Engineering
+0512424510,05124,Computer Engineering
+0512424610,05124,Information Technology
+0512429310,05124,Electrical Engineering
+0512461210,05124,Mechanical Engineering
+0512462410,05124,Mechatronics Engineering
+0512484410,05124,Electronics and Computer Engineering
+0512524510,05125,Computer Engineering
+0512524610,05125,Information Technology
+0512550710,05125,Chemical Engineering
+0512584410,05125,Electronics and Computer Engineering
+0513019110,05130,Civil Engineering
+0513024510,05130,Computer Engineering
+0513029310,05130,Electrical Engineering
+0513061210,05130,Mechanical Engineering
+0513919110,05139,Civil Engineering
+0513924510,05139,Computer Engineering
+0513924610,05139,Information Technology
+0513937210,05139,Electronics and Telecommunication Engg
+0513946410,05139,Instrumentation and Control Engineering
+0513950710,05139,Chemical Engineering
+0513961210,05139,Mechanical Engineering
+0513984410,05139,Electronics and Computer Engineering
+0513991610,05139,Automation and Robotics
+0513999510,05139,Artificial Intelligence and Data Science
+0515119110,05151,Civil Engineering
+0515124510,05151,Computer Engineering
+0515124610,05151,Information Technology
+0515129310,05151,Electrical Engineering
+0515137210,05151,Electronics and Telecommunication Engg
+0515161210,05151,Mechanical Engineering
+0515199510,05151,Artificial Intelligence and Data Science
+0515219110,05152,Civil Engineering
+0515224210,05152,Computer Science and Engineering
+0515224610,05152,Information Technology
+0515229310,05152,Electrical Engineering
+0515237210,05152,Electronics and Telecommunication Engg
+0515261210,05152,Mechanical Engineering
+0515291110,05152,Computer Science and Engineering(Artificial Intelligence and Machine Learning)
+0515291210,05152,Computer Science and Engineering(Data Science)
+0515291310,05152,Computer Science and Engineering (Artificial Intelligence)
+0516019110,05160,Civil Engineering
+0516024510,05160,Computer Engineering
+0516024610,05160,Information Technology
+0516029310,05160,Electrical Engineering
+0516061210,05160,Mechanical Engineering
+0516062410,05160,Mechatronics Engineering
+0516084410,05160,Electronics and Computer Engineering
+0516091510,05160,Structural Engineering
+0516119110,05161,Civil Engineering
+0516124510,05161,Computer Engineering
+0516124610,05161,Information Technology
+0516125710,05161,Computer Science and Design
+0516129310,05161,Electrical Engineering
+0516137210,05161,Electronics and Telecommunication Engg
+0516137810,05161,Electronics Engineering ( VLSI Design and Technology)
+0516161210,05161,Mechanical Engineering
+0516199510,05161,Artificial Intelligence and Data Science
+0516219110,05162,Civil Engineering
+0516224510,05162,Computer Engineering
+0516224610,05162,Information Technology
+0516229310,05162,Electrical Engineering
+0516237210,05162,Electronics and Telecommunication Engg
+0516261210,05162,Mechanical Engineering
+0516284410,05162,Electronics and Computer Engineering
+0516291610,05162,Automation and Robotics
+0516299510,05162,Artificial Intelligence and Data Science
+0516419110,05164,Civil Engineering
+0516424510,05164,Computer Engineering
+0516429310,05164,Electrical Engineering
+0516437210,05164,Electronics and Telecommunication Engg
+0516446610,05164,Instrumentation Engineering
+0516461210,05164,Mechanical Engineering
+0516819110,05168,Civil Engineering
+0516824510,05168,Computer Engineering
+0516837210,05168,Electronics and Telecommunication Engg
+0516861210,05168,Mechanical Engineering
+0516919110,05169,Civil Engineering
+0516924510,05169,Computer Engineering
+0516929310,05169,Electrical Engineering
+0516937210,05169,Electronics and Telecommunication Engg
+0516961210,05169,Mechanical Engineering
+0517019110,05170,Civil Engineering
+0517024210,05170,Computer Science and Engineering
+0517029310,05170,Electrical Engineering
+0517037210,05170,Electronics and Telecommunication Engg
+0517061210,05170,Mechanical Engineering
+0517084410,05170,Electronics and Computer Engineering
+0517091210,05170,Computer Science and Engineering(Data Science)
+0517124510,05171,Computer Engineering
+0517126310,05171,Artificial Intelligence (AI) and Data Science
+0517129310,05171,Electrical Engineering
+0517137210,05171,Electronics and Telecommunication Engg
+0517161210,05171,Mechanical Engineering
+0517219110,05172,Civil Engineering
+0517224510,05172,Computer Engineering
+0517224610,05172,Information Technology
+0517229310,05172,Electrical Engineering
+0517237210,05172,Electronics and Telecommunication Engg
+0517261210,05172,Mechanical Engineering
+0517291210,05172,Computer Science and Engineering(Data Science)
+0517292110,05172,Artificial Intelligence and Machine Learning
+0517299510,05172,Artificial Intelligence and Data Science
+0517319110,05173,Civil Engineering
+0517324510,05173,Computer Engineering
+0517337210,05173,Electronics and Telecommunication Engg
+0517361210,05173,Mechanical Engineering
+0517399510,05173,Artificial Intelligence and Data Science
+0517719110,05177,Civil Engineering
+0517724510,05177,Computer Engineering
+0517724610,05177,Information Technology
+0517729310,05177,Electrical Engineering
+0517737210,05177,Electronics and Telecommunication Engg
+0517761210,05177,Mechanical Engineering
+0517784410,05177,Electronics and Computer Engineering
+0517799510,05177,Artificial Intelligence and Data Science
+0517919110,05179,Civil Engineering
+0517924510,05179,Computer Engineering
+0517926310,05179,Artificial Intelligence (AI) and Data Science
+0517961210,05179,Mechanical Engineering
+0517984410,05179,Electronics and Computer Engineering
+0518119110,05181,Civil Engineering
+0518124510,05181,Computer Engineering
+0518129310,05181,Electrical Engineering
+0518137210,05181,Electronics and Telecommunication Engg
+0518161210,05181,Mechanical Engineering
+0518199510,05181,Artificial Intelligence and Data Science
+0518219110,05182,Civil Engineering
+0518224510,05182,Computer Engineering
+0518226310,05182,Artificial Intelligence (AI) and Data Science
+0518229310,05182,Electrical Engineering
+0518237210,05182,Electronics and Telecommunication Engg
+0518261210,05182,Mechanical Engineering
+0518419110,05184,Civil Engineering
+0518424510,05184,Computer Engineering
+0518429310,05184,Electrical Engineering
+0518437210,05184,Electronics and Telecommunication Engg
+0518461210,05184,Mechanical Engineering
+0524425710,05244,Computer Science and Design
+0524491610,05244,Automation and Robotics
+0524492210,05244,Civil and Environmental Engineering
+0525624510,05256,Computer Engineering
+0525624610,05256,Information Technology
+0526324510,05263,Computer Engineering
+0526329310,05263,Electrical Engineering
+0526337210,05263,Electronics and Telecommunication Engg
+0530319110,05303,Civil Engineering
+0530324510,05303,Computer Engineering
+0530329310,05303,Electrical Engineering
+0530361210,05303,Mechanical Engineering
+0530384410,05303,Electronics and Computer Engineering
+0532219110,05322,Civil Engineering
+0532229310,05322,Electrical Engineering
+0532261210,05322,Mechanical Engineering
+0533024510,05330,Computer Engineering
+0533024610,05330,Information Technology
+0533037210,05330,Electronics and Telecommunication Engg
+0533061210,05330,Mechanical Engineering
+0533099510,05330,Artificial Intelligence and Data Science
+0533119110,05331,Civil Engineering
+0533124510,05331,Computer Engineering
+0533129310,05331,Electrical Engineering
+0533137210,05331,Electronics and Telecommunication Engg
+0533161210,05331,Mechanical Engineering
+0536525110,05365,Computer Technology
+0536529310,05365,Electrical Engineering
+0536561210,05365,Mechanical Engineering
+0537019110,05370,Civil Engineering
+0537024510,05370,Computer Engineering
+0537029310,05370,Electrical Engineering
+0537061210,05370,Mechanical Engineering
+0537099510,05370,Artificial Intelligence and Data Science
+0538019110,05380,Civil Engineering
+0538024510,05380,Computer Engineering
+0538024610,05380,Information Technology
+0538029310,05380,Electrical Engineering
+0538037210,05380,Electronics and Telecommunication Engg
+0538061210,05380,Mechanical Engineering
+0538099510,05380,Artificial Intelligence and Data Science
+0538119110,05381,Civil Engineering
+0538124210,05381,Computer Science and Engineering
+0538129310,05381,Electrical Engineering
+0538161210,05381,Mechanical Engineering
+0538199510,05381,Artificial Intelligence and Data Science
+0538219110,05382,Civil Engineering
+0538224510,05382,Computer Engineering
+0538226310,05382,Artificial Intelligence (AI) and Data Science
+0538237210,05382,Electronics and Telecommunication Engg
+0538261210,05382,Mechanical Engineering
+0539019110,05390,Civil Engineering
+0539024510,05390,Computer Engineering
+0539024610,05390,Information Technology
+0539029310,05390,Electrical Engineering
+0539061210,05390,Mechanical Engineering
+0539092110,05390,Artificial Intelligence and Machine Learning
+0539619110,05396,Civil Engineering
+0539624510,05396,Computer Engineering
+0539629310,05396,Electrical Engineering
+0539661210,05396,Mechanical Engineering
+0539919110,05399,Civil Engineering
+0539924510,05399,Computer Engineering
+0539924610,05399,Information Technology
+0539929310,05399,Electrical Engineering
+0539961210,05399,Mechanical Engineering
+0539992110,05399,Artificial Intelligence and Machine Learning
+0540119110,05401,Civil Engineering
+0540124510,05401,Computer Engineering
+0540124610,05401,Information Technology
+0540126310,05401,Artificial Intelligence (AI) and Data Science
+0540129310,05401,Electrical Engineering
+0540161210,05401,Mechanical Engineering
+0540184410,05401,Electronics and Computer Engineering
+0540819110,05408,Civil Engineering
+0540824510,05408,Computer Engineering
+0540829310,05408,Electrical Engineering
+0540837210,05408,Electronics and Telecommunication Engg
+0540861210,05408,Mechanical Engineering
+0540924510,05409,Computer Engineering
+0540929310,05409,Electrical Engineering
+0540937210,05409,Electronics and Telecommunication Engg
+0540961210,05409,Mechanical Engineering
+0541119110,05411,Civil Engineering
+0541124510,05411,Computer Engineering
+0541129310,05411,Electrical Engineering
+0541137210,05411,Electronics and Telecommunication Engg
+0541161210,05411,Mechanical Engineering
+0541819110,05418,Civil Engineering
+0541824510,05418,Computer Engineering
+0541826310,05418,Artificial Intelligence (AI) and Data Science
+0541829310,05418,Electrical Engineering
+0541861210,05418,Mechanical Engineering
+0541891610,05418,Automation and Robotics
+0543324510,05433,Computer Engineering
+0543324610,05433,Information Technology
+0543384410,05433,Electronics and Computer Engineering
+0543392110,05433,Artificial Intelligence and Machine Learning
+0544919110,05449,Civil Engineering
+0544924510,05449,Computer Engineering
+0544924610,05449,Information Technology
+0544929310,05449,Electrical Engineering
+0544961210,05449,Mechanical Engineering
+0544991710,05449,Data Science
+0544992110,05449,Artificial Intelligence and Machine Learning
+0549719110,05497,Civil Engineering
+0549724510,05497,Computer Engineering
+0549761210,05497,Mechanical Engineering
+0549791710,05497,Data Science
+0550924510,05509,Computer Engineering
+0550924610,05509,Information Technology
+0550937210,05509,Electronics and Telecommunication Engg
+0550999510,05509,Artificial Intelligence and Data Science
+0551319110,05513,Civil Engineering
+0551324510,05513,Computer Engineering
+0551337210,05513,Electronics and Telecommunication Engg
+0600419110,06004,Civil Engineering
+0600424510,06004,Computer Engineering
+0600437210,06004,Electronics and Telecommunication Engg
+0600446410,06004,Instrumentation and Control Engineering
+0600460210,06004,Automobile Engineering
+0600461210,06004,Mechanical Engineering
+0600519110,06005,Civil Engineering
+0600524610,06005,Information Technology
+0600529310,06005,Electrical Engineering
+0600537210,06005,Electronics and Telecommunication Engg
+0600561210,06005,Mechanical Engineering
+0600719110,06007,Civil Engineering
+0600724210,06007,Computer Science and Engineering
+0600724610,06007,Information Technology
+0600729310,06007,Electrical Engineering
+0600737610,06007,Electronics Engineering
+0600761210,06007,Mechanical Engineering
+0602819110,06028,Civil Engineering
+0602825410,06028,Computer Science and Technology
+0602837210,06028,Electronics and Telecommunication Engg
+0602850310,06028,Food Technology
+0602850710,06028,Chemical Engineering
+0602861210,06028,Mechanical Engineering
+0603624210,06036,Computer Science and Engineering
+0603626310,06036,Artificial Intelligence (AI) and Data Science
+0603629310,06036,Electrical Engineering
+0603637210,06036,Electronics and Telecommunication Engg
+0603661510,06036,Mechanical & Automation Engineering
+0612219110,06122,Civil Engineering
+0612224510,06122,Computer Engineering
+0612237210,06122,Electronics and Telecommunication Engg
+0612261210,06122,Mechanical Engineering
+0612291210,06122,Computer Science and Engineering(Data Science)
+0613819110,06138,Civil Engineering
+0613824510,06138,Computer Engineering
+0613824610,06138,Information Technology
+0613826310,06138,Artificial Intelligence (AI) and Data Science
+0613837210,06138,Electronics and Telecommunication Engg
+0613861210,06138,Mechanical Engineering
+0613924510,06139,Computer Engineering
+0613924610,06139,Information Technology
+0613929310,06139,Electrical Engineering
+0613937210,06139,Electronics and Telecommunication Engg
+0613961210,06139,Mechanical Engineering
+0613984410,06139,Electronics and Computer Engineering
+0613992110,06139,Artificial Intelligence and Machine Learning
+0613999510,06139,Artificial Intelligence and Data Science
+0614119110,06141,Civil Engineering
+0614124510,06141,Computer Engineering
+0614124610,06141,Information Technology
+0614126210,06141,Computer Science and Business Systems
+0614129310,06141,Electrical Engineering
+0614137210,06141,Electronics and Telecommunication Engg
+0614161210,06141,Mechanical Engineering
+0614191610,06141,Automation and Robotics
+0614419110,06144,Civil Engineering
+0614424510,06144,Computer Engineering
+0614424610,06144,Information Technology
+0614437210,06144,Electronics and Telecommunication Engg
+0614461210,06144,Mechanical Engineering
+0614492110,06144,Artificial Intelligence and Machine Learning
+0614499510,06144,Artificial Intelligence and Data Science
+0614524510,06145,Computer Engineering
+0614524610,06145,Information Technology
+0614526310,06145,Artificial Intelligence (AI) and Data Science
+0614529310,06145,Electrical Engineering
+0614537210,06145,Electronics and Telecommunication Engg
+0614561210,06145,Mechanical Engineering
+0614619110,06146,Civil Engineering
+0614624510,06146,Computer Engineering
+0614624610,06146,Information Technology
+0614637210,06146,Electronics and Telecommunication Engg
+0614650710,06146,Chemical Engineering
+0614661210,06146,Mechanical Engineering
+0614691110,06146,Computer Science and Engineering(Artificial Intelligence and Machine Learning)
+0614691210,06146,Computer Science and Engineering(Data Science)
+0614692710,06146,Computer Engineering (Software Engineering)
+0614919110,06149,Civil Engineering
+0614924510,06149,Computer Engineering
+0614924610,06149,Information Technology
+0614925310,06149,Internet of Things (IoT)
+0614937210,06149,Electronics and Telecommunication Engg
+0614961210,06149,Mechanical Engineering
+0614984410,06149,Electronics and Computer Engineering
+0614992110,06149,Artificial Intelligence and Machine Learning
+0614999510,06149,Artificial Intelligence and Data Science
+0615519110,06155,Civil Engineering
+0615524510,06155,Computer Engineering
+0615524610,06155,Information Technology
+0615526010,06155,Computer Science and Engineering (Cyber Security)
+0615529310,06155,Electrical Engineering
+0615537210,06155,Electronics and Telecommunication Engg
+0615561210,06155,Mechanical Engineering
+0615591110,06155,Computer Science and Engineering(Artificial Intelligence and Machine Learning)
+0615591210,06155,Computer Science and Engineering(Data Science)
+0615591310,06155,Computer Science and Engineering (Artificial Intelligence)
+0615624510,06156,Computer Engineering
+0615624610,06156,Information Technology
+0615629310,06156,Electrical Engineering
+0615637210,06156,Electronics and Telecommunication Engg
+0615661210,06156,Mechanical Engineering
+0615699510,06156,Artificial Intelligence and Data Science
+0617519110,06175,Civil Engineering
+0617524510,06175,Computer Engineering
+0617524610,06175,Information Technology
+0617537210,06175,Electronics and Telecommunication Engg
+0617561210,06175,Mechanical Engineering
+0617591110,06175,Computer Science and Engineering(Artificial Intelligence and Machine Learning)
+0617708210,06177,Bio Technology
+0617719110,06177,Civil Engineering
+0617724510,06177,Computer Engineering
+0617724610,06177,Information Technology
+0617737210,06177,Electronics and Telecommunication Engg
+0617750710,06177,Chemical Engineering
+0617761210,06177,Mechanical Engineering
+0617824510,06178,Computer Engineering
+0617824610,06178,Information Technology
+0617837210,06178,Electronics and Telecommunication Engg
+0617861210,06178,Mechanical Engineering
+0617924510,06179,Computer Engineering
+0617924610,06179,Information Technology
+0617937210,06179,Electronics and Telecommunication Engg
+0617961210,06179,Mechanical Engineering
+0617999510,06179,Artificial Intelligence and Data Science
+0618219110,06182,Civil Engineering
+0618224510,06182,Computer Engineering
+0618224610,06182,Information Technology
+0618237210,06182,Electronics and Telecommunication Engg
+0618261210,06182,Mechanical Engineering
+0618324510,06183,Computer Engineering
+0618337210,06183,Electronics and Telecommunication Engg
+0618361210,06183,Mechanical Engineering
+0618419110,06184,Civil Engineering
+0618424510,06184,Computer Engineering
+0618424610,06184,Information Technology
+0618429310,06184,Electrical Engineering
+0618437210,06184,Electronics and Telecommunication Engg
+0618461210,06184,Mechanical Engineering
+0618524510,06185,Computer Engineering
+0618524610,06185,Information Technology
+0618529310,06185,Electrical Engineering
+0618537210,06185,Electronics and Telecommunication Engg
+0618561210,06185,Mechanical Engineering
+0618719110,06187,Civil Engineering
+0618724510,06187,Computer Engineering
+0618724610,06187,Information Technology
+0618737210,06187,Electronics and Telecommunication Engg
+0618761210,06187,Mechanical Engineering
+0620319110,06203,Civil Engineering
+0620324510,06203,Computer Engineering
+0620326610,06203,Robotics and Artificial Intelligence
+0620361210,06203,Mechanical Engineering
+0620362410,06203,Mechatronics Engineering
+0620399510,06203,Artificial Intelligence and Data Science
+0620624510,06206,Computer Engineering
+0620624610,06206,Information Technology
+0620637210,06206,Electronics and Telecommunication Engg
+0620661210,06206,Mechanical Engineering
+0620699510,06206,Artificial Intelligence and Data Science
+0620719110,06207,Civil Engineering
+0620724510,06207,Computer Engineering
+0620724610,06207,Information Technology
+0620729310,06207,Electrical Engineering
+0620737210,06207,Electronics and Telecommunication Engg
+0620746610,06207,Instrumentation Engineering
+0620761210,06207,Mechanical Engineering
+0620791610,06207,Automation and Robotics
+0620799510,06207,Artificial Intelligence and Data Science
+0621419110,06214,Civil Engineering
+0621421910,06214,Robotics and Automation
+0621424510,06214,Computer Engineering
+0621429310,06214,Electrical Engineering
+0621437210,06214,Electronics and Telecommunication Engg
+0621456810,06214,Computer Science and Information Technology
+0621461210,06214,Mechanical Engineering
+0621462410,06214,Mechatronics Engineering
+0621491110,06214,Computer Science and Engineering(Artificial Intelligence and Machine Learning)
+0621719110,06217,Civil Engineering
+0621724210,06217,Computer Science and Engineering
+0621726310,06217,Artificial Intelligence (AI) and Data Science
+0621729310,06217,Electrical Engineering
+0621737210,06217,Electronics and Telecommunication Engg
+0621761210,06217,Mechanical Engineering
+0621784410,06217,Electronics and Computer Engineering
+0621792110,06217,Artificial Intelligence and Machine Learning
+0621919110,06219,Civil Engineering
+0621924210,06219,Computer Science and Engineering
+0621929310,06219,Electrical Engineering
+0621937210,06219,Electronics and Telecommunication Engg
+0621946110,06219,Bio Medical Engineering
+0621961210,06219,Mechanical Engineering
+0622019110,06220,Civil Engineering
+0622024210,06220,Computer Science and Engineering
+0622029310,06220,Electrical Engineering
+0622037210,06220,Electronics and Telecommunication Engg
+0622061210,06220,Mechanical Engineering
+0622219110,06222,Civil Engineering
+0622224210,06222,Computer Science and Engineering
+0622226310,06222,Artificial Intelligence (AI) and Data Science
+0622229310,06222,Electrical Engineering
+0622237210,06222,Electronics and Telecommunication Engg
+0622246510,06222,Technical Textiles
+0622257010,06222,Fashion Technology
+0622261210,06222,Mechanical Engineering
+0622288610,06222,Man Made Textile Technology
+0622289010,06222,Textile Chemistry
+0622289610,06222,Textile Technology
+0622291110,06222,Computer Science and Engineering(Artificial Intelligence and Machine Learning)
+0622319110,06223,Civil Engineering
+0622324210,06223,Computer Science and Engineering
+0622329310,06223,Electrical Engineering
+0622337210,06223,Electronics and Telecommunication Engg
+0622361210,06223,Mechanical Engineering
+0622399510,06223,Artificial Intelligence and Data Science
+0625019110,06250,Civil Engineering
+0625024210,06250,Computer Science and Engineering
+0625037210,06250,Electronics and Telecommunication Engg
+0625050710,06250,Chemical Engineering
+0625061210,06250,Mechanical Engineering
+0625091110,06250,Computer Science and Engineering(Artificial Intelligence and Machine Learning)
+0625091210,06250,Computer Science and Engineering(Data Science)
+0626519110,06265,Civil Engineering
+0626524210,06265,Computer Science and Engineering
+0626524610,06265,Information Technology
+0626537210,06265,Electronics and Telecommunication Engg
+0626561510,06265,Mechanical & Automation Engineering
+0626584410,06265,Electronics and Computer Engineering
+0626708210,06267,Bio Technology
+0626719110,06267,Civil Engineering
+0626724210,06267,Computer Science and Engineering
+0626726210,06267,Computer Science and Business Systems
+0626729310,06267,Electrical Engineering
+0626737210,06267,Electronics and Telecommunication Engg
+0626761210,06267,Mechanical Engineering
+0626791110,06267,Computer Science and Engineering(Artificial Intelligence and Machine Learning)
+0626792210,06267,Civil and Environmental Engineering
+0626819110,06268,Civil Engineering
+0626824210,06268,Computer Science and Engineering
+0626826210,06268,Computer Science and Business Systems
+0626837210,06268,Electronics and Telecommunication Engg
+0626850710,06268,Chemical Engineering
+0626861210,06268,Mechanical Engineering
+0626919110,06269,Civil Engineering
+0626924210,06269,Computer Science and Engineering
+0626937210,06269,Electronics and Telecommunication Engg
+0626946410,06269,Instrumentation and Control Engineering
+0626950710,06269,Chemical Engineering
+0626961210,06269,Mechanical Engineering
+0626990010,06269,Electronics and Computer Science
+0626992510,06269,Computer Science and Engineering (Artificial Intelligence and Data Science)
+0626992610,06269,Electrical and Computer Engineering
+0627019110,06270,Civil Engineering
+0627024210,06270,Computer Science and Engineering
+0627037210,06270,Electronics and Telecommunication Engg
+0627061210,06270,Mechanical Engineering
+0627099510,06270,Artificial Intelligence and Data Science
+0627124510,06271,Computer Engineering
+0627124610,06271,Information Technology
+0627126310,06271,Artificial Intelligence (AI) and Data Science
+0627137210,06271,Electronics and Telecommunication Engg
+0627184410,06271,Electronics and Computer Engineering
+0627219110,06272,Civil Engineering
+0627221910,06272,Robotics and Automation
+0627224510,06272,Computer Engineering
+0627224610,06272,Information Technology
+0627237210,06272,Electronics and Telecommunication Engg
+0627246610,06272,Instrumentation Engineering
+0627261210,06272,Mechanical Engineering
+0627299510,06272,Artificial Intelligence and Data Science
+0627319110,06273,Civil Engineering
+0627324510,06273,Computer Engineering
+0627324610,06273,Information Technology
+0627337210,06273,Electronics and Telecommunication Engg
+0627346410,06273,Instrumentation and Control Engineering
+0627361210,06273,Mechanical Engineering
+0627391110,06273,Computer Science and Engineering(Artificial Intelligence and Machine Learning)
+0627391210,06273,Computer Science and Engineering(Data Science)
+0627391310,06273,Computer Science and Engineering (Artificial Intelligence)
+0627392010,06273,Computer Science and Engineering (Internet of Things and Cyber Security Including Block Chain
+0627392710,06273,Computer Engineering (Software Engineering)
+0627399510,06273,Artificial Intelligence and Data Science
+0627424510,06274,Computer Engineering
+0627424610,06274,Information Technology
+0627429310,06274,Electrical Engineering
+0627437210,06274,Electronics and Telecommunication Engg
+0627461210,06274,Mechanical Engineering
+0627484110,06274,Printing and Packing Technology
+0627499510,06274,Artificial Intelligence and Data Science
+0627519110,06275,Civil Engineering
+0627524510,06275,Computer Engineering
+0627524610,06275,Information Technology
+0627529310,06275,Electrical Engineering
+0627537210,06275,Electronics and Telecommunication Engg
+0627561210,06275,Mechanical Engineering
+0627562410,06275,Mechatronics Engineering
+0627719110,06277,Civil Engineering
+0627724210,06277,Computer Science and Engineering
+0627724610,06277,Information Technology
+0627726310,06277,Artificial Intelligence (AI) and Data Science
+0627737210,06277,Electronics and Telecommunication Engg
+0627761210,06277,Mechanical Engineering
+0627819110,06278,Civil Engineering
+0627821910,06278,Robotics and Automation
+0627824510,06278,Computer Engineering
+0627829310,06278,Electrical Engineering
+0627837210,06278,Electronics and Telecommunication Engg
+0627837810,06278,Electronics Engineering ( VLSI Design and Technology)
+0627850710,06278,Chemical Engineering
+0627861210,06278,Mechanical Engineering
+0627862510,06278,Mechanical Engineering[Sandwich]
+0627892110,06278,Artificial Intelligence and Machine Learning
+0628124510,06281,Computer Engineering
+0628137210,06281,Electronics and Telecommunication Engg
+0628161210,06281,Mechanical Engineering
+0628191610,06281,Automation and Robotics
+0628224510,06282,Computer Engineering
+0628224610,06282,Information Technology
+0628229310,06282,Electrical Engineering
+0628237210,06282,Electronics and Telecommunication Engg
+0628246610,06282,Instrumentation Engineering
+0628299510,06282,Artificial Intelligence and Data Science
+0628300210,06283,Aeronautical Engineering
+0628319110,06283,Civil Engineering
+0628324210,06283,Computer Science and Engineering
+0628326310,06283,Artificial Intelligence (AI) and Data Science
+0628329310,06283,Electrical Engineering
+0628350310,06283,Food Technology
+0628361210,06283,Mechanical Engineering
+0628392010,06283,Computer Science and Engineering (Internet of Things and Cyber Security Including Block Chain
+0628419110,06284,Civil Engineering
+0628424510,06284,Computer Engineering
+0628424610,06284,Information Technology
+0628429310,06284,Electrical Engineering
+0628437210,06284,Electronics and Telecommunication Engg
+0628461210,06284,Mechanical Engineering
+0628499510,06284,Artificial Intelligence and Data Science
+0628819110,06288,Civil Engineering
+0628824210,06288,Computer Science and Engineering
+0628837210,06288,Electronics and Telecommunication Engg
+0628861210,06288,Mechanical Engineering
+0628891110,06288,Computer Science and Engineering(Artificial Intelligence and Machine Learning)
+0629324210,06293,Computer Science and Engineering
+0629329310,06293,Electrical Engineering
+0629337210,06293,Electronics and Telecommunication Engg
+0629361210,06293,Mechanical Engineering
+0629819110,06298,Civil Engineering
+0629821910,06298,Robotics and Automation
+0629824510,06298,Computer Engineering
+0629824610,06298,Information Technology
+0629829310,06298,Electrical Engineering
+0629837210,06298,Electronics and Telecommunication Engg
+0629861210,06298,Mechanical Engineering
+0629884410,06298,Electronics and Computer Engineering
+0629892110,06298,Artificial Intelligence and Machine Learning
+0629899510,06298,Artificial Intelligence and Data Science
+0630319110,06303,Civil Engineering
+0630324210,06303,Computer Science and Engineering
+0630337210,06303,Electronics and Telecommunication Engg
+0630361210,06303,Mechanical Engineering
+0630399510,06303,Artificial Intelligence and Data Science
+0630419110,06304,Civil Engineering
+0630424210,06304,Computer Science and Engineering
+0630429310,06304,Electrical Engineering
+0630437210,06304,Electronics and Telecommunication Engg
+0630461210,06304,Mechanical Engineering
+0630492110,06304,Artificial Intelligence and Machine Learning
+0630492610,06304,Electrical and Computer Engineering
+0630519110,06305,Civil Engineering
+0630524210,06305,Computer Science and Engineering
+0630524610,06305,Information Technology
+0630537210,06305,Electronics and Telecommunication Engg
+0630561210,06305,Mechanical Engineering
+0630724510,06307,Computer Engineering
+0630724610,06307,Information Technology
+0630737210,06307,Electronics and Telecommunication Engg
+0630760210,06307,Automobile Engineering
+0630819110,06308,Civil Engineering
+0630824510,06308,Computer Engineering
+0630837210,06308,Electronics and Telecommunication Engg
+0630861210,06308,Mechanical Engineering
+0631024210,06310,Computer Science and Engineering
+0631024510,06310,Computer Engineering
+0631024610,06310,Information Technology
+0631037210,06310,Electronics and Telecommunication Engg
+0631061210,06310,Mechanical Engineering
+0631091310,06310,Computer Science and Engineering (Artificial Intelligence)
+0631099510,06310,Artificial Intelligence and Data Science
+0631124510,06311,Computer Engineering
+0631124610,06311,Information Technology
+0631129310,06311,Electrical Engineering
+0631137210,06311,Electronics and Telecommunication Engg
+0631161210,06311,Mechanical Engineering
+0631319110,06313,Civil Engineering
+0631324510,06313,Computer Engineering
+0631329310,06313,Electrical Engineering
+0631337210,06313,Electronics and Telecommunication Engg
+0631361210,06313,Mechanical Engineering
+0631519110,06315,Civil Engineering
+0631524210,06315,Computer Science and Engineering
+0631529310,06315,Electrical Engineering
+0631561210,06315,Mechanical Engineering
+0631584410,06315,Electronics and Computer Engineering
+0631592110,06315,Artificial Intelligence and Machine Learning
+0631719110,06317,Civil Engineering
+0631724210,06317,Computer Science and Engineering
+0631729310,06317,Electrical Engineering
+0631761210,06317,Mechanical Engineering
+0631762410,06317,Mechatronics Engineering
+0631784410,06317,Electronics and Computer Engineering
+0631791610,06317,Automation and Robotics
+0631799510,06317,Artificial Intelligence and Data Science
+0631824210,06318,Computer Science and Engineering
+0631826310,06318,Artificial Intelligence (AI) and Data Science
+0631829310,06318,Electrical Engineering
+0631861210,06318,Mechanical Engineering
+0631884410,06318,Electronics and Computer Engineering
+0631919110,06319,Civil Engineering
+0631924510,06319,Computer Engineering
+0631924610,06319,Information Technology
+0631926310,06319,Artificial Intelligence (AI) and Data Science
+0631929310,06319,Electrical Engineering
+0631937210,06319,Electronics and Telecommunication Engg
+0631961210,06319,Mechanical Engineering
+0632019110,06320,Civil Engineering
+0632024510,06320,Computer Engineering
+0632029310,06320,Electrical Engineering
+0632037210,06320,Electronics and Telecommunication Engg
+0632037810,06320,Electronics Engineering ( VLSI Design and Technology)
+0632061210,06320,Mechanical Engineering
+0632092810,06320,Electronics and Communication(Advanced Communication Technology)
+0632119110,06321,Civil Engineering
+0632124210,06321,Computer Science and Engineering
+0632129310,06321,Electrical Engineering
+0632137210,06321,Electronics and Telecommunication Engg
+0632161210,06321,Mechanical Engineering
+0632199510,06321,Artificial Intelligence and Data Science
+0632224510,06322,Computer Engineering
+0632237210,06322,Electronics and Telecommunication Engg
+0632261210,06322,Mechanical Engineering
+0632292110,06322,Artificial Intelligence and Machine Learning
+0632419110,06324,Civil Engineering
+0632424510,06324,Computer Engineering
+0632426310,06324,Artificial Intelligence (AI) and Data Science
+0632437210,06324,Electronics and Telecommunication Engg
+0632461210,06324,Mechanical Engineering
+0632519110,06325,Civil Engineering
+0632524510,06325,Computer Engineering
+0632525710,06325,Computer Science and Design
+0632529310,06325,Electrical Engineering
+0632537210,06325,Electronics and Telecommunication Engg
+0632537810,06325,Electronics Engineering ( VLSI Design and Technology)
+0632561210,06325,Mechanical Engineering
+0632592110,06325,Artificial Intelligence and Machine Learning
+0632593310,06325,Electronics and Communication (Advanced Communication Technology)
+0632619110,06326,Civil Engineering
+0632624210,06326,Computer Science and Engineering
+0632637210,06326,Electronics and Telecommunication Engg
+0632661210,06326,Mechanical Engineering
+0640224210,06402,Computer Science and Engineering
+0640225910,06402,Mechanical and Mechatronics Engineering (Additive Manufacturing)
+0640257310,06402,"Electrical, Electronics and Power"
+0640291110,06402,Computer Science and Engineering(Artificial Intelligence and Machine Learning)
+0644419110,06444,Civil Engineering
+0644424510,06444,Computer Engineering
+0644461210,06444,Mechanical Engineering
+0646619110,06466,Civil Engineering
+0646624210,06466,Computer Science and Engineering
+0646629310,06466,Electrical Engineering
+0646661210,06466,Mechanical Engineering
+0646824210,06468,Computer Science and Engineering
+0646829310,06468,Electrical Engineering
+0646837210,06468,Electronics and Telecommunication Engg
+0646884410,06468,Electronics and Computer Engineering
+0646891110,06468,Computer Science and Engineering(Artificial Intelligence and Machine Learning)
+0654519110,06545,Civil Engineering
+0654524210,06545,Computer Science and Engineering
+0654526310,06545,Artificial Intelligence (AI) and Data Science
+0654529310,06545,Electrical Engineering
+0654537210,06545,Electronics and Telecommunication Engg
+0654561210,06545,Mechanical Engineering
+0660919110,06609,Civil Engineering
+0660924510,06609,Computer Engineering
+0660926310,06609,Artificial Intelligence (AI) and Data Science
+0660937210,06609,Electronics and Telecommunication Engg
+0660961210,06609,Mechanical Engineering
+0662224510,06622,Computer Engineering
+0662237210,06622,Electronics and Telecommunication Engg
+0662237810,06622,Electronics Engineering ( VLSI Design and Technology)
+0662256610,06622,Computer Science
+0662261210,06622,Mechanical Engineering
+0662292110,06622,Artificial Intelligence and Machine Learning
+0662299510,06622,Artificial Intelligence and Data Science
+0662819110,06628,Civil Engineering
+0662824510,06628,Computer Engineering
+0662824610,06628,Information Technology
+0662829310,06628,Electrical Engineering
+0662861210,06628,Mechanical Engineering
+0662884410,06628,Electronics and Computer Engineering
+0663219110,06632,Civil Engineering
+0663224510,06632,Computer Engineering
+0663229310,06632,Electrical Engineering
+0663237210,06632,Electronics and Telecommunication Engg
+0663261210,06632,Mechanical Engineering
+0663292110,06632,Artificial Intelligence and Machine Learning
+0663419110,06634,Civil Engineering
+0663424510,06634,Computer Engineering
+0663424610,06634,Information Technology
+0663437210,06634,Electronics and Telecommunication Engg
+0663461210,06634,Mechanical Engineering
+0663519110,06635,Civil Engineering
+0663524510,06635,Computer Engineering
+0663529310,06635,Electrical Engineering
+0663537210,06635,Electronics and Telecommunication Engg
+0663561210,06635,Mechanical Engineering
+0663591210,06635,Computer Science and Engineering(Data Science)
+0663592110,06635,Artificial Intelligence and Machine Learning
+0664019110,06640,Civil Engineering
+0664024210,06640,Computer Science and Engineering
+0664029310,06640,Electrical Engineering
+0664037210,06640,Electronics and Telecommunication Engg
+0664061210,06640,Mechanical Engineering
+0664319110,06643,Civil Engineering
+0664324210,06643,Computer Science and Engineering
+0664329310,06643,Electrical Engineering
+0664337210,06643,Electronics and Telecommunication Engg
+0664361210,06643,Mechanical Engineering
+0664419110,06644,Civil Engineering
+0664424510,06644,Computer Engineering
+0664429310,06644,Electrical Engineering
+0664437210,06644,Electronics and Telecommunication Engg
+0664461210,06644,Mechanical Engineering
+0664490010,06644,Electronics and Computer Science
+0664491110,06644,Computer Science and Engineering(Artificial Intelligence and Machine Learning)
+0664919110,06649,Civil Engineering
+0664924510,06649,Computer Engineering
+0664929310,06649,Electrical Engineering
+0664937210,06649,Electronics and Telecommunication Engg
+0664961210,06649,Mechanical Engineering
+0671424210,06714,Computer Science and Engineering
+0671429310,06714,Electrical Engineering
+0671437210,06714,Electronics and Telecommunication Engg
+0671461210,06714,Mechanical Engineering
+0673219110,06732,Civil Engineering
+0673224510,06732,Computer Engineering
+0673237210,06732,Electronics and Telecommunication Engg
+0673261210,06732,Mechanical Engineering
+0673299510,06732,Artificial Intelligence and Data Science
+0675424510,06754,Computer Engineering
+0675424610,06754,Information Technology
+0675437210,06754,Electronics and Telecommunication Engg
+0675519110,06755,Civil Engineering
+0675524510,06755,Computer Engineering
+0675526310,06755,Artificial Intelligence (AI) and Data Science
+0675537210,06755,Electronics and Telecommunication Engg
+0675561210,06755,Mechanical Engineering
+0675619110,06756,Civil Engineering
+0675624210,06756,Computer Science and Engineering
+0675629310,06756,Electrical Engineering
+0675637210,06756,Electronics and Telecommunication Engg
+0675661210,06756,Mechanical Engineering
+0675699510,06756,Artificial Intelligence and Data Science
+0675719110,06757,Civil Engineering
+0675724210,06757,Computer Science and Engineering
+0675726010,06757,Computer Science and Engineering (Cyber Security)
+0675726310,06757,Artificial Intelligence (AI) and Data Science
+0675726610,06757,Robotics and Artificial Intelligence
+0675729310,06757,Electrical Engineering
+0675737210,06757,Electronics and Telecommunication Engg
+0675761210,06757,Mechanical Engineering
+0675762410,06757,Mechatronics Engineering
+0675819110,06758,Civil Engineering
+0675824510,06758,Computer Engineering
+0675837210,06758,Electronics and Telecommunication Engg
+0675861210,06758,Mechanical Engineering
+0675892110,06758,Artificial Intelligence and Machine Learning
+0675899510,06758,Artificial Intelligence and Data Science
+0675919110,06759,Civil Engineering
+0675924510,06759,Computer Engineering
+0675929310,06759,Electrical Engineering
+0675961210,06759,Mechanical Engineering
+0675999510,06759,Artificial Intelligence and Data Science
+0676219110,06762,Civil Engineering
+0676224210,06762,Computer Science and Engineering
+0676229310,06762,Electrical Engineering
+0676237210,06762,Electronics and Telecommunication Engg
+0676261210,06762,Mechanical Engineering
+0676619110,06766,Civil Engineering
+0676624510,06766,Computer Engineering
+0676637210,06766,Electronics and Telecommunication Engg
+0676661210,06766,Mechanical Engineering
+0676699510,06766,Artificial Intelligence and Data Science
+0676719110,06767,Civil Engineering
+0676724510,06767,Computer Engineering
+0676761210,06767,Mechanical Engineering
+0676791210,06767,Computer Science and Engineering(Data Science)
+0676799510,06767,Artificial Intelligence and Data Science
+0676824510,06768,Computer Engineering
+0676861210,06768,Mechanical Engineering
+0676919110,06769,Civil Engineering
+0676924510,06769,Computer Engineering
+0676924610,06769,Information Technology
+0676937210,06769,Electronics and Telecommunication Engg
+0676961210,06769,Mechanical Engineering
+0677024510,06770,Computer Engineering
+0677024610,06770,Information Technology
+0677061210,06770,Mechanical Engineering
+0677119110,06771,Civil Engineering
+0677124510,06771,Computer Engineering
+0677161210,06771,Mechanical Engineering
+0677224510,06772,Computer Engineering
+0677224610,06772,Information Technology
+0677229310,06772,Electrical Engineering
+0677237210,06772,Electronics and Telecommunication Engg
+0677261210,06772,Mechanical Engineering
+0678019110,06780,Civil Engineering
+0678024210,06780,Computer Science and Engineering
+0678029310,06780,Electrical Engineering
+0678061210,06780,Mechanical Engineering
+0678091210,06780,Computer Science and Engineering(Data Science)
+0678119110,06781,Civil Engineering
+0678124210,06781,Computer Science and Engineering
+0678137210,06781,Electronics and Telecommunication Engg
+0678161210,06781,Mechanical Engineering
+0678219110,06782,Civil Engineering
+0678224210,06782,Computer Science and Engineering
+0678229310,06782,Electrical Engineering
+0678237210,06782,Electronics and Telecommunication Engg
+0678261210,06782,Mechanical Engineering
+0678299510,06782,Artificial Intelligence and Data Science
+0679419110,06794,Civil Engineering
+0679424510,06794,Computer Engineering
+0679424610,06794,Information Technology
+0679437210,06794,Electronics and Telecommunication Engg
+0679437810,06794,Electronics Engineering ( VLSI Design and Technology)
+0679461210,06794,Mechanical Engineering
+0679492810,06794,Electronics and Communication(Advanced Communication Technology)
+0679499510,06794,Artificial Intelligence and Data Science
+0679519110,06795,Civil Engineering
+0679524510,06795,Computer Engineering
+0679529310,06795,Electrical Engineering
+0679561210,06795,Mechanical Engineering
+0679619110,06796,Civil Engineering
+0679624510,06796,Computer Engineering
+0679637210,06796,Electronics and Telecommunication Engg
+0679661210,06796,Mechanical Engineering
+0679719110,06797,Civil Engineering
+0679724210,06797,Computer Science and Engineering
+0679725910,06797,Mechanical and Mechatronics Engineering (Additive Manufacturing)
+0679729310,06797,Electrical Engineering
+0679737210,06797,Electronics and Telecommunication Engg
+0679924210,06799,Computer Science and Engineering
+0679924510,06799,Computer Engineering
+0679929310,06799,Electrical Engineering
+0680319110,06803,Civil Engineering
+0680324210,06803,Computer Science and Engineering
+0680329310,06803,Electrical Engineering
+0680337210,06803,Electronics and Telecommunication Engg
+0680361210,06803,Mechanical Engineering
+0680824510,06808,Computer Engineering
+0680826310,06808,Artificial Intelligence (AI) and Data Science
+0680837210,06808,Electronics and Telecommunication Engg
+0680861210,06808,Mechanical Engineering
+0681119110,06811,Civil Engineering
+0681124210,06811,Computer Science and Engineering
+0681129310,06811,Electrical Engineering
+0681137210,06811,Electronics and Telecommunication Engg
+0681161210,06811,Mechanical Engineering
+0681519110,06815,Civil Engineering
+0681524510,06815,Computer Engineering
+0681561210,06815,Mechanical Engineering
+0682219110,06822,Civil Engineering
+0682224510,06822,Computer Engineering
+0682224610,06822,Information Technology
+0682237210,06822,Electronics and Telecommunication Engg
+0682261210,06822,Mechanical Engineering
+0683424510,06834,Computer Engineering
+0683426310,06834,Artificial Intelligence (AI) and Data Science
+0683919110,06839,Civil Engineering
+0683924210,06839,Computer Science and Engineering
+0683929310,06839,Electrical Engineering
+0683991210,06839,Computer Science and Engineering(Data Science)
+0687819110,06878,Civil Engineering
+0687824210,06878,Computer Science and Engineering
+0687825910,06878,Mechanical and Mechatronics Engineering (Additive Manufacturing)
+0687890010,06878,Electronics and Computer Science
+0687891110,06878,Computer Science and Engineering(Artificial Intelligence and Machine Learning)
+0687892610,06878,Electrical and Computer Engineering
+0690119110,06901,Civil Engineering
+0690124210,06901,Computer Science and Engineering
+0690137210,06901,Electronics and Telecommunication Engg
+0690161210,06901,Mechanical Engineering
+0690184410,06901,Electronics and Computer Engineering
+0699124510,06991,Computer Engineering
+0699156610,06991,Computer Science
+0699184410,06991,Electronics and Computer Engineering
+0699199510,06991,Artificial Intelligence and Data Science
