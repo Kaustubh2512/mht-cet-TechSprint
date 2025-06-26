@@ -70,7 +70,7 @@ export const predictColleges = async (req: Request, res: Response) => {
         message: 'No branch_ids found for prediction.'
       });
     }
-    // Pass only raw parameters to the service
+    // Pass only raw parameters to the service JEE
     const predictions = await predictCollegesFromJson({
       branch_ids,
       percentile,
