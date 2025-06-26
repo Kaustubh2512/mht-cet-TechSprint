@@ -7,7 +7,7 @@ import csvParser from 'csv-parser';
 
 // Load branch_id to branch_name map for JEE
 let branchIdToName: Record<string, string> = {};
-const branchCsvPath = path.join(__dirname, '../branches.csv');
+const branchCsvPath = path.join(process.cwd(), 'branches.csv');
 console.log('DEBUG: __dirname:', __dirname);
 console.log('DEBUG: branchCsvPath:', branchCsvPath);
 function loadBranchIdToName() {
