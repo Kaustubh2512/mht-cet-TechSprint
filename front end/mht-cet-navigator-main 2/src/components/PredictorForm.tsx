@@ -75,7 +75,7 @@ const PredictorForm = () => {
 
   useEffect(() => {
     // Fetch standardized branch groups from backend
-    axios.get<BranchGroupsResponse>('http://localhost:5001/api/branches/standardized')
+    axios.get<BranchGroupsResponse>('https://mht-cet-navigator.onrender.com/api/branches/standardized')
       .then(res => {
         setBranchGroups(res.data.standardized_branch_ids || []);
         console.log('Fetched branchGroups:', res.data.standardized_branch_ids);
@@ -156,7 +156,7 @@ const PredictorForm = () => {
       if (examType === 'CET') {
         // Make CET prediction request
         response = await axios.post<PredictionResponse>(
-          'http://localhost:5001/api/prediction/predict',
+          'https://mht-cet-navigator.onrender.com/api/prediction/predict',
           {
             standardized_branch_ids: selectedBranches,
             percentile: parseFloat(formData.percentile),
@@ -172,7 +172,7 @@ const PredictorForm = () => {
       } else {
         // Make JEE prediction request
         response = await axios.post<PredictionResponse>(
-          'http://localhost:5001/api/prediction/predict-jee',
+          'https://mht-cet-navigator.onrender.com/api/prediction/predict-jee',
           {
             standardized_branch_ids: selectedBranches,
             percentile: parseFloat(formData.percentile),
@@ -247,7 +247,10 @@ const PredictorForm = () => {
             </DialogDescription>
           </DialogHeader>
           <div className="flex flex-col gap-3 mt-4">
-            <Button onClick={() => window.location.href = '/login'}>Login / Sign Up</Button>
+            <Button onClick={() => {
+              setShowLoginDialog(false);
+              window.dispatchEvent(new Event('open-login-modal'));
+            }}>Login / Sign Up</Button>
             <Button variant="outline" onClick={() => setShowLoginDialog(false)}>Close</Button>
           </div>
         </DialogContent>

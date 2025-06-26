@@ -66,7 +66,7 @@ const Header = () => {
     setLoading(true);
     
     try {
-      const response = await axios.post<LoginResponse>('http://localhost:5001/api/users/login', {
+      const response = await axios.post<LoginResponse>('https://mht-cet-navigator.onrender.com/api/users/login', {
         email: loginData.email,
         password: loginData.password
       });
@@ -131,7 +131,7 @@ const Header = () => {
       console.log('Attempting to register user:', { ...signupData, password: '[REDACTED]' });
       
       // Register the user
-      const registerResponse = await axios.post<RegisterResponse>('http://localhost:5001/api/users/register', {
+      const registerResponse = await axios.post<RegisterResponse>('https://mht-cet-navigator.onrender.com/api/users/register', {
         name: signupData.name,
         email: signupData.email,
         password: signupData.password
@@ -142,7 +142,7 @@ const Header = () => {
       if (registerResponse.data) {
         // Login the user to get the token
         console.log('Attempting to login with new credentials');
-        const loginResponse = await axios.post<LoginResponse>('http://localhost:5001/api/users/login', {
+        const loginResponse = await axios.post<LoginResponse>('https://mht-cet-navigator.onrender.com/api/users/login', {
           email: signupData.email,
           password: signupData.password
         });
@@ -183,7 +183,13 @@ const Header = () => {
       setUserEmail(localStorage.getItem('userEmail') || '');
     };
     window.addEventListener('storage', syncLoginState);
-    return () => window.removeEventListener('storage', syncLoginState);
+    // Listen for custom event to open login modal
+    const openLoginHandler = () => setIsLoginOpen(true);
+    window.addEventListener('open-login-modal', openLoginHandler);
+    return () => {
+      window.removeEventListener('storage', syncLoginState);
+      window.removeEventListener('open-login-modal', openLoginHandler);
+    };
   }, []);
 
   return (
