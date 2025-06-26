@@ -1,73 +1,82 @@
-# Welcome to your Lovable project
+# MHT CET Navigator Frontend
 
-## Project info
+A modern, responsive web application for MHT CET and JEE college prediction, built with React, Vite, TypeScript, Tailwind CSS, and shadcn/ui.
 
-**URL**: https://lovable.dev/projects/6742d838-b145-4518-b12d-2ac8277f0736
+## Features
 
-## How can I edit this code?
+- Multi-branch, priority-based college prediction form
+- Toggle between CET and JEE prediction modes
+- Region and district dropdowns populated from backend data
+- User authentication (login/signup, JWT-based)
+- Beautiful, responsive UI with dark mode support
+- College insights, resources, and more
 
-There are several ways of editing your application.
+## Prerequisites
 
-**Use Lovable**
+- Node.js (v14 or higher)
+- npm or yarn
+- Backend API running (see backend README for setup)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/6742d838-b145-4518-b12d-2ac8277f0736) and start prompting.
+## Setup
 
-Changes made via Lovable will be committed automatically to this repo.
+1. Navigate to the frontend directory:
+   ```bash
+   cd "front end/mht-cet-navigator-main 2"
+   ```
 
-**Use your preferred IDE**
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+3. Start the development server:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+   The app will be available at [http://localhost:5173](http://localhost:5173) by default.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Usage
 
-Follow these steps:
+- **College Predictor:**
+  - Select exam type (CET/JEE) using the toggle.
+  - Fill in the required fields (percentile, region, etc.).
+  - Add one or more branch groups in order of priority.
+  - Click "Predict Colleges" to see your results.
+- **Authentication:**
+  - Sign up or log in to use the predictor.
+  - After login, your name/email appears in the header with a dropdown for logout.
+- **Dark Mode:**
+  - Use the sun/moon icon in the header to toggle dark mode.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## Project Structure
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```
+src/
+├── components/     # React UI components
+│   └── ui/         # shadcn/ui components
+├── hooks/          # Custom React hooks
+├── lib/            # Utility functions
+├── pages/          # Page components (routing)
+├── App.tsx         # Main app component
+└── main.tsx        # Entry point
 ```
 
-**Edit a file directly in GitHub**
+## API Integration
+- The frontend expects the backend API to be running at `http://localhost:5001` by default.
+- You can change the API base URL in the relevant files in `src/lib/` if needed.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Contributing
 
-**Use GitHub Codespaces**
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## License
 
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/6742d838-b145-4518-b12d-2ac8277f0736) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes it is!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+This project is licensed under the MIT License.

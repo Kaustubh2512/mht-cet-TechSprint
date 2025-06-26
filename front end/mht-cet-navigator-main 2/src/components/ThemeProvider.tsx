@@ -16,23 +16,27 @@ const ThemeProviderContext = createContext<ThemeProviderState | undefined>(undef
 
 export function ThemeProvider({
   children,
-  defaultTheme = 'system',
+  defaultTheme = 'dark',
 }: ThemeProviderProps) {
-  const [theme, setTheme] = useState<Theme>(defaultTheme);
+  const [theme, setTheme] = useState<Theme>(() => {
+    if (typeof window !== 'undefined') {
+      return (localStorage.getItem('theme') as Theme) || defaultTheme;
+    }
+    return defaultTheme;
+  });
 
   useEffect(() => {
     const root = window.document.documentElement;
     root.classList.remove('light', 'dark');
 
+    let appliedTheme = theme;
     if (theme === 'system') {
-      const systemTheme = window.matchMedia('(prefers-color-scheme: dark)').matches
+      appliedTheme = window.matchMedia('(prefers-color-scheme: dark)').matches
         ? 'dark'
         : 'light';
-      root.classList.add(systemTheme);
-      return;
     }
-
-    root.classList.add(theme);
+    root.classList.add(appliedTheme);
+    localStorage.setItem('theme', theme);
   }, [theme]);
 
   const value = {

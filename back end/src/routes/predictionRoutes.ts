@@ -5,9 +5,9 @@ import { predictColleges, predictCollegesJEE } from '../controllers/predictionCo
 const router = express.Router();
 
 // POST /api/predict - Get college predictions
-router.post('/predict', auth, predictColleges);
+router.post('/predict', predictColleges);
 
 // POST /api/predict-jee - Get JEE college predictions
-router.post('/predict-jee', auth, predictCollegesJEE);
+router.post('/predict-jee', predictCollegesJEE);
 
 export default router; 
