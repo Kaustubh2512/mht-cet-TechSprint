@@ -10,6 +10,7 @@ import { loadBranchMapping } from './utils/branchMapping';
 // Load environment variables
 dotenv.config();
 console.log('JWT_SECRET:', process.env.JWT_SECRET); // Debug: print JWT secret
+console.log('MONGODB_URI:', process.env.MONGODB_URI);
 
 const app = express();
 
