@@ -8,7 +8,8 @@ import csvParser from 'csv-parser';
 // Load branch_id to branch_name map for JEE
 let branchIdToName: Record<string, string> = {};
 const branchCsvPath = path.join(__dirname, '../branches.csv');
-console.log('branchCsvPath:', branchCsvPath);
+console.log('DEBUG: __dirname:', __dirname);
+console.log('DEBUG: branchCsvPath:', branchCsvPath);
 function loadBranchIdToName() {
   return new Promise<void>((resolve, reject) => {
     const result: Record<string, string> = {};
