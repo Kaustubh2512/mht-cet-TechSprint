@@ -19,7 +19,9 @@
     "dist",
     "src/**/*.tsx",
     "src/components",
-    "src/pages"
+    "src/pages",
+    "src/hooks",
+    "src/lib"
   ]
 }
  

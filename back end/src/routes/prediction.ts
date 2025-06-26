@@ -1,6 +1,6 @@
 import express from 'express';
 import { predictColleges, PredictionInput } from '../services/prediction';
-import { authenticateToken } from '../middleware/auth';
+import { auth as authenticateToken } from '../middleware/auth';
 
 const router = express.Router();
 
@@ -9,16 +9,16 @@ router.post('/predict', authenticateToken, async (req, res) => {
     const input: PredictionInput = req.body;
     
     // Validate required fields
-    if (!input.jeeMainRank || !input.mhtCETScore || !input.category || !input.preferredBranch) {
+    if ((!input.branch_id && !input.standardized_branch_id) || input.percentile === undefined || !input.category) {
       return res.status(400).json({ 
-        error: 'Missing required fields: jeeMainRank, mhtCETScore, category, and preferredBranch are required' 
+        error: 'Missing required fields: branch_id or standardized_branch_id, percentile, and category are required' 
       });
     }
 
     // Validate numeric fields
-    if (isNaN(input.jeeMainRank) || isNaN(input.mhtCETScore)) {
+    if (typeof input.percentile !== 'number' || isNaN(input.percentile)) {
       return res.status(400).json({ 
-        error: 'jeeMainRank and mhtCETScore must be numbers' 
+        error: 'percentile must be a number' 
       });
     }
 
