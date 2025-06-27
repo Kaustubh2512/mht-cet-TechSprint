@@ -73,12 +73,12 @@ const CollegeInfoCentre: React.FC = () => {
   };
 
   return (
-    <section className="w-full max-w-2xl mx-auto my-10 p-6 bg-white dark:bg-neutral-900 rounded-xl shadow-md border">
-      <h2 className="text-2xl font-bold mb-4 text-center">College Information Centre</h2>
+    <section className="w-full max-w-2xl mx-auto my-10 p-6 bg-white dark:bg-neutral-900 dark:text-white rounded-xl shadow-md border">
+      <h2 className="text-2xl font-bold mb-4 text-center text-black">College Information Centre</h2>
       <div className="mb-4">
         <input
           type="text"
-          className="w-full p-3 border rounded focus:outline-none focus:ring"
+          className={`w-full p-3 border rounded focus:outline-none focus:ring dark:bg-neutral-900 dark:placeholder-gray-400 ${selected ? 'text-black' : 'dark:text-white'}`}
           placeholder="Search by college name or DTE code..."
           value={search}
           onChange={e => {
@@ -89,19 +89,19 @@ const CollegeInfoCentre: React.FC = () => {
           }}
         />
         {search && !selected && (
-          <div className="max-h-56 overflow-y-auto border rounded bg-white dark:bg-neutral-800 shadow mt-1 z-10 relative">
+          <div className="max-h-56 overflow-y-auto border rounded bg-white dark:bg-neutral-800 dark:text-white shadow mt-1 z-10 relative">
             {filtered.length === 0 ? (
-              <div className="p-3 text-muted-foreground">No colleges found.</div>
+              <div className="p-3 text-muted-foreground dark:text-white">No colleges found.</div>
             ) : (
               filtered.slice(0, 20).map(college => (
                 <div
                   key={college.college_code}
-                  className="p-3 cursor-pointer hover:bg-primary/10"
+                  className="p-3 cursor-pointer hover:bg-primary/10 dark:hover:bg-primary/20 dark:text-white"
                   onClick={() => handleSelect(college)}
                 >
-                  <span className="font-medium">{college.name}</span>
-                  <span className="ml-2 text-xs text-muted-foreground">({college.college_code})</span>
-                  <span className="ml-2 text-xs text-muted-foreground">{college.district}, {college.region}</span>
+                  <span className="font-medium text-black">{college.name}</span>
+                  <span className="ml-2 text-xs text-muted-foreground dark:text-gray-300">({college.college_code})</span>
+                  <span className="ml-2 text-xs text-muted-foreground dark:text-gray-300">{college.district}, {college.region}</span>
                 </div>
               ))
             )}

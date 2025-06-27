@@ -52,8 +52,8 @@ export async function getCollegeAIInfo(req: Request, res: Response) {
     const aiResponse = await axios.post(deepseekUrl, payload, { headers });
     const aiText = aiResponse.data.choices?.[0]?.message?.content || 'No information found.';
     res.json({ success: true, info: aiText });
-  } catch (err) {
-    console.error('DeepSeek AI error:', err);
-    res.status(500).json({ success: false, message: 'Failed to get AI info for college' });
+  } catch (err: any) {
+    console.error('DeepSeek API error:', err?.response?.data || err?.message || err);
+    res.status(500).json({ success: false, message: 'Internal server error.' });
   }
 } 
