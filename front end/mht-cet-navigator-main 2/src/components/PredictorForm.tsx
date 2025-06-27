@@ -486,13 +486,15 @@ const PredictorForm = () => {
               </div>
               <div className="space-y-4">
                 {predictionResults.map((result, idx) => (
-                  <div key={idx} className="rounded-lg border p-4 shadow-sm bg-white dark:bg-neutral-900 hover:shadow-md transition">
-                    <p><b>Branch:</b> {result.branch}</p>
-                    <p><b>College:</b> {result.collegeName}</p>
-                    {examType === 'CET' && <p><b>Category:</b> {result.category}</p>}
-                    <p><b>Cutoff Percentile:</b> {result.cutoff}</p>
-                    {result.rank !== undefined && <p><b>Rank:</b> {result.rank}</p>}
-                  </div>
+                  <Card key={idx} className="hover:shadow-md transition">
+                    <CardContent className="p-4">
+                      <p><b>Branch:</b> {result.branch}</p>
+                      <p><b>College:</b> {result.collegeName}</p>
+                      {examType === 'CET' && <p><b>Category:</b> {result.category}</p>}
+                      <p><b>Cutoff Percentile:</b> {result.cutoff}</p>
+                      {result.rank !== undefined && <p><b>Rank:</b> {result.rank}</p>}
+                    </CardContent>
+                  </Card>
                 ))}
               </div>
             </div>
