@@ -80,12 +80,12 @@ const CollegeInfoCentre: React.FC = () => {
   };
 
   return (
-    <section className="w-full max-w-2xl mx-auto my-10 p-6 bg-white dark:bg-neutral-900 dark:text-white rounded-xl shadow-md border">
+    <section className="w-full max-w-2xl mx-auto my-10 p-6 bg-white dark:bg-neutral-800 dark:text-white rounded-xl shadow-md border">
       <h2 className="text-2xl font-bold mb-4 text-center text-black">College Information Centre</h2>
       <div className="mb-4">
         <input
           type="text"
-          className={`w-full p-3 border rounded focus:outline-none focus:ring dark:bg-neutral-900 dark:placeholder-gray-400 ${selected ? 'text-black' : 'dark:text-white'}`}
+          className="w-full p-3 border rounded focus:outline-none focus:ring bg-white text-black dark:bg-neutral-800 !text-black dark:!text-black dark:placeholder-gray-400"
           placeholder="Search by college name or DTE code..."
           value={search}
           onChange={e => {

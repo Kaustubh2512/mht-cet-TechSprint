@@ -363,14 +363,23 @@ const PredictorForm = () => {
                 </SelectContent>
               </Select>
               {selectedBranches.length > 0 && (
-                <ul className="mt-2 space-y-1">
+                <ul className="mt-2 flex flex-wrap gap-2">
                   {selectedBranches.map((branch, idx) => (
-                    <li key={branch} className="flex items-center gap-2 bg-muted text-foreground rounded px-2 py-1">
-                      <span className="font-medium">{idx + 1}.</span>
-                      <span>{getBranchDisplayName(branch)}</span>
-                      <Button type="button" size="sm" variant="ghost" onClick={() => moveBranch(idx, idx - 1)} disabled={idx === 0}>&uarr;</Button>
-                      <Button type="button" size="sm" variant="ghost" onClick={() => moveBranch(idx, idx + 1)} disabled={idx === selectedBranches.length - 1}>&darr;</Button>
-                      <Button type="button" size="sm" variant="destructive" onClick={() => handleRemoveBranch(idx)}>Remove</Button>
+                    <li key={branch} className="flex items-center gap-1 bg-muted text-foreground rounded px-2 py-1 min-w-0 max-w-xs">
+                      <span className="font-medium text-xs">{idx + 1}.</span>
+                      <span className="truncate max-w-[120px] text-xs" title={getBranchDisplayName(branch)}>{getBranchDisplayName(branch)}</span>
+                      <Button type="button" size="icon" variant="ghost" className="p-1 h-6 w-6" onClick={() => moveBranch(idx, idx - 1)} disabled={idx === 0} aria-label="Move up">
+                        <span className="sr-only">Up</span>
+                        &uarr;
+                      </Button>
+                      <Button type="button" size="icon" variant="ghost" className="p-1 h-6 w-6" onClick={() => moveBranch(idx, idx + 1)} disabled={idx === selectedBranches.length - 1} aria-label="Move down">
+                        <span className="sr-only">Down</span>
+                        &darr;
+                      </Button>
+                      <Button type="button" size="icon" variant="destructive" className="p-1 h-6 w-6" onClick={() => handleRemoveBranch(idx)} aria-label="Remove">
+                        <span className="sr-only">Remove</span>
+                        ×
+                      </Button>
                     </li>
                   ))}
                 </ul>
