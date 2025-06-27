@@ -44,7 +44,7 @@ export async function getCollegeAIInfo(req: Request, res: Response) {
           { role: 'user', content: prompt }
         ],
         temperature: 0.7,
-        max_tokens: 512,
+        max_tokens: 2048,
       },
       {
         headers: {
