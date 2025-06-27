@@ -79,37 +79,26 @@ export async function predictCollegesFromJson(input: JsonPredictionInput): Promi
       const code = cutoff.category_code;
       const seatType = cutoff.seat_type;
       if (typeof code !== 'string' || typeof seatType !== 'string') continue;
-      // Debug for NBN Sinhgad
-      if (d.college_name === "NBN Sinhgad Technical Institutes Campus, Pune" && d.branch_id === "0677224610") {
-        console.log('DEBUG: NBN Sinhgad cutoff:', { code, seatType, percentile: cutoff.percentile });
-      }
       // --- Gender logic ---
       const startChar = code[0];
       if (gender === 'Male' && startChar !== 'G') {
-        if (d.college_name === "NBN Sinhgad Technical Institutes Campus, Pune" && d.branch_id === "0677224610") {
-          console.log('DEBUG: NBN Sinhgad - filtered out by gender:', { code });
-        }
         continue;
       }
       if (gender === 'Female' && !(startChar === 'G' || startChar === 'L')) {
-        if (d.college_name === "NBN Sinhgad Technical Institutes Campus, Pune" && d.branch_id === "0677224610") {
-          console.log('DEBUG: NBN Sinhgad - filtered out by gender:', { code });
-        }
         continue;
       }
       // --- Category logic ---
-      if (category === 'OPEN' || category === 'General') {
+      if (category === 'EWS' || category === 'TFWS') {
+        // Only show EWS or TFWS, do not include OPEN
+        if (!code.includes(category)) {
+          continue;
+        }
+      } else if (category === 'OPEN' || category === 'General') {
         if (!code.includes('OPEN')) {
-          if (d.college_name === "NBN Sinhgad Technical Institutes Campus, Pune" && d.branch_id === "0677224610") {
-            console.log('DEBUG: NBN Sinhgad - filtered out by category:', { code });
-          }
           continue;
         }
       } else {
         if (!(code.includes(category) || code.includes('OPEN'))) {
-          if (d.college_name === "NBN Sinhgad Technical Institutes Campus, Pune" && d.branch_id === "0677224610") {
-            console.log('DEBUG: NBN Sinhgad - filtered out by category:', { code });
-          }
           continue;
         }
       }
@@ -125,39 +114,24 @@ export async function predictCollegesFromJson(input: JsonPredictionInput): Promi
         });
       }
       if (isAutonomous && seatCode !== 'S') {
-        if (d.college_name === "NBN Sinhgad Technical Institutes Campus, Pune" && d.branch_id === "0677237210") {
-          console.log('DEBUG: NBN Sinhgad - filtered out by seat type (autonomous):', { code });
-        }
         continue;
       }
       if (!isAutonomous) {
         if (userHomeUnis.includes(collegeHomeUni)) {
           if (seatCode !== 'H') {
-            if (d.college_name === "NBN Sinhgad Technical Institutes Campus, Pune" && d.branch_id === "0677237210") {
-              console.log('DEBUG: NBN Sinhgad - filtered out by seat type (home uni):', { code });
-            }
             continue;
           }
         } else {
           if (seatCode !== 'O') {
-            if (d.college_name === "NBN Sinhgad Technical Institutes Campus, Pune" && d.branch_id === "0677237210") {
-              console.log('DEBUG: NBN Sinhgad - filtered out by seat type (other uni):', { code });
-            }
             continue;
           }
         }
       }
       // --- Percentile logic ---
       if (typeof cutoff.percentile !== 'number' || cutoff.percentile > percentile) {
-        if (d.college_name === "NBN Sinhgad Technical Institutes Campus, Pune" && d.branch_id === "0677224610") {
-          console.log('DEBUG: NBN Sinhgad - filtered out by percentile:', { code, percentile: cutoff.percentile });
-        }
         continue;
       }
       // --- Add to results ---
-      if (d.college_name === "NBN Sinhgad Technical Institutes Campus, Pune" && d.branch_id === "0677224610") {
-        console.log('DEBUG: NBN Sinhgad - ADDED to results:', { code, seatType, percentile: cutoff.percentile });
-      }
       allCutoffs.push({
         collegeName: d.college_name,
         branch: d.branch_name,

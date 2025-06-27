@@ -5,6 +5,7 @@ import mongoose from 'mongoose';
 import userRoutes from './routes/userRoutes';
 import predictionRoutes from './routes/predictionRoutes';
 import branchesRoutes from './routes/branches';
+import collegeInfoRoutes from './routes/collegeInfo';
 import { loadBranchMapping } from './utils/branchMapping';
 
 // Load environment variables
@@ -30,6 +31,7 @@ loadBranchMapping().then(() => {
   app.use('/api/users', userRoutes);
   app.use('/api/prediction', predictionRoutes);
   app.use('/api/branches', branchesRoutes);
+  app.use('/api/colleges', collegeInfoRoutes);
 
   // Basic route
   app.get('/', (req, res) => {
