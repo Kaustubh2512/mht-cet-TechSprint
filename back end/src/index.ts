@@ -16,7 +16,10 @@ console.log('MONGODB_URI:', process.env.MONGODB_URI);
 const app = express();
 
 // Middleware
-app.use(cors());
+app.use(cors({
+  origin: 'https://aicollegebuddy.vercel.app',
+  credentials: true
+}));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
