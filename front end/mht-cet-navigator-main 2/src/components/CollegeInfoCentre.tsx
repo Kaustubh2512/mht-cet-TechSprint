@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
-// TODO: Replace with your actual Render backend URL
+
 const API_BASE = 'https://mht-cet-navigator-backend.onrender.com/api/colleges';
 
 interface College {
