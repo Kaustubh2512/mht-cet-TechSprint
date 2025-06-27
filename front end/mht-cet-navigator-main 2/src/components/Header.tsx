@@ -5,11 +5,12 @@ import ThemeSwitcher from './ThemeSwitcher';
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import { GraduationCap, Home, BookOpen, BarChart, FileText, LogIn, UserPlus, User, Eye, EyeOff } from 'lucide-react';
+import { GraduationCap, Home, BookOpen, BarChart, FileText, LogIn, UserPlus, User, Eye, EyeOff, Menu } from 'lucide-react';
 import { NavigationMenu, NavigationMenuContent, NavigationMenuItem, NavigationMenuLink, NavigationMenuList, NavigationMenuTrigger, navigationMenuTriggerStyle } from "@/components/ui/navigation-menu";
 import { useToast } from "@/components/ui/use-toast";
 import axios from 'axios';
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
+import { Sheet, SheetTrigger, SheetContent, SheetClose } from '@/components/ui/sheet';
 
 interface LoginResponse {
   token: string;
@@ -194,214 +195,156 @@ const Header = () => {
 
   return (
     <header className="py-4 px-6 md:px-10 backdrop-blur-sm sticky top-0 z-50 border-b border-neutral/20">
-      <div className="container mx-auto flex items-center justify-between">
-        <div className="flex items-center gap-2">
-          <Link to="/" onClick={() => setActiveTab('home')} className="flex items-center gap-2">
+      <div className="container mx-auto flex items-center justify-between relative">
+        {/* Profile/Login (left on mobile) */}
+        <div className="flex items-center gap-2 md:order-1 order-1 w-1/3 justify-start"></div>
+        {/* Logo (left on desktop, center on mobile) */}
+        <div className="flex items-center gap-2 md:order-2 order-2 justify-start">
+          <Link to="/" onClick={(e) => { setActiveTab('home'); window.scrollTo({top: 0, behavior: 'smooth'}); }} className="flex items-center gap-2">
             <div className="w-10 h-10 bg-gradient-to-br from-primary to-secondary rounded-full flex items-center justify-center">
               <span className="text-neutral font-bold text-xl">A</span>
             </div>
-            <h1 className="text-xl font-bold">AI College Buddy</h1>
+            <h1 className="text-xl font-bold whitespace-nowrap">AI College Buddy</h1>
           </Link>
         </div>
-        
-        <NavigationMenu className="hidden md:flex">
-          <NavigationMenuList>
-            <NavigationMenuItem>
-              <Link to="/" onClick={() => setActiveTab('home')}>
-                <NavigationMenuLink className={`${navigationMenuTriggerStyle()} ${activeTab === 'home' ? 'bg-accent/50' : ''}`}>
-                  <Home className="mr-2 h-4 w-4" />
-                  <span>Home</span>
-                </NavigationMenuLink>
-              </Link>
-            </NavigationMenuItem>
-            
-            <NavigationMenuItem>
-              <Link to="/predictor" onClick={() => setActiveTab('predictor')}>
-                <NavigationMenuLink className={`${navigationMenuTriggerStyle()} ${activeTab === 'predictor' ? 'bg-accent/50' : ''}`}>
-                  <GraduationCap className="mr-2 h-4 w-4" />
-                  <span>Predictor</span>
-                </NavigationMenuLink>
-              </Link>
-            </NavigationMenuItem>
-            
-            <NavigationMenuItem>
-              <Link to="/colleges" onClick={() => setActiveTab('colleges')}>
-                <NavigationMenuLink className={`${navigationMenuTriggerStyle()} ${activeTab === 'colleges' ? 'bg-accent/50' : ''}`}>
-                  <BookOpen className="mr-2 h-4 w-4" />
-                  <span>Colleges</span>
-                </NavigationMenuLink>
-              </Link>
-            </NavigationMenuItem>
-            
-            <NavigationMenuItem>
-              <Link to="/insights" onClick={() => setActiveTab('insights')}>
-                <NavigationMenuLink className={`${navigationMenuTriggerStyle()} ${activeTab === 'insights' ? 'bg-accent/50' : ''}`}>
-                  <BarChart className="mr-2 h-4 w-4" />
-                  <span>Insights</span>
-                </NavigationMenuLink>
-              </Link>
-            </NavigationMenuItem>
-            
-            <NavigationMenuItem>
-              <Link to="/resources" onClick={() => setActiveTab('resources')}>
-                <NavigationMenuLink className={`${navigationMenuTriggerStyle()} ${activeTab === 'resources' ? 'bg-accent/50' : ''}`}>
-                  <FileText className="mr-2 h-4 w-4" />
-                  <span>Resources</span>
-                </NavigationMenuLink>
-              </Link>
-            </NavigationMenuItem>
-          </NavigationMenuList>
-        </NavigationMenu>
-        
-        <div className="flex items-center gap-4">
-          <ThemeSwitcher />
-          
-          {!isLoggedIn ? (
-            <>
-              <Button variant="outline" onClick={() => setIsLoginOpen(true)}>
-                <LogIn className="mr-2 h-4 w-4" />
-                Login
-              </Button>
-              <Dialog open={isLoginOpen} onOpenChange={setIsLoginOpen}>
-                <DialogContent className="sm:max-w-[425px]">
-                  <DialogHeader>
-                    <DialogTitle>Login to Your Account</DialogTitle>
-                    <DialogDescription>
-                      Enter your credentials to access your personalized dashboard.
-                    </DialogDescription>
-                  </DialogHeader>
-                  <form onSubmit={handleLogin} className="grid gap-4 py-4">
-                    <div className="grid gap-2">
-                      <Label htmlFor="email">Email</Label>
-                      <Input 
-                        id="email" 
-                        type="email" 
-                        placeholder="your@email.com" 
-                        value={loginData.email}
-                        onChange={handleLoginChange}
-                        required
-                      />
-                    </div>
-                    <div className="grid gap-2 relative">
-                      <Label htmlFor="password">Password</Label>
-                      <Input
-                        id="password"
-                        type={showLoginPassword ? "text" : "password"}
-                        placeholder="••••••••"
-                        value={loginData.password}
-                        onChange={handleLoginChange}
-                        required
-                      />
-                      <button type="button" className="absolute right-2 top-9 text-gray-500" onClick={() => setShowLoginPassword(v => !v)} tabIndex={-1}>
-                        {showLoginPassword ? <Eye className="w-5 h-5" /> : <EyeOff className="w-5 h-5" />}
-                      </button>
-                    </div>
-                    <Button variant="link" className="justify-start p-0 text-sm">Forgot password?</Button>
-                  </form>
-                  <div className="flex flex-col gap-2">
-                    <Button onClick={handleLogin} disabled={loading}>
-                      {loading ? 'Logging in...' : 'Log In'}
-                    </Button>
-                    <p className="text-sm text-center mt-2">
-                      Don't have an account? <Button variant="link" className="p-0" onClick={() => { setIsLoginOpen(false); setIsSignupOpen(true); }}>Sign Up</Button>
-                    </p>
-                  </div>
-                </DialogContent>
-              </Dialog>
-              <Dialog open={isSignupOpen} onOpenChange={setIsSignupOpen}>
-                <DialogContent className="sm:max-w-[425px]">
-                  <DialogHeader>
-                    <DialogTitle>Create New Account</DialogTitle>
-                    <DialogDescription>
-                      Sign up to get personalized college recommendations.
-                    </DialogDescription>
-                  </DialogHeader>
-                  <form onSubmit={handleSignup} className="grid gap-4 py-4">
-                    <div className="grid gap-2">
-                      <Label htmlFor="name">Full Name</Label>
-                      <Input 
-                        id="name" 
-                        placeholder="Bhupendra jogi" 
-                        value={signupData.name}
-                        onChange={handleSignupChange}
-                        required
-                      />
-                    </div>
-                    <div className="grid gap-2">
-                      <Label htmlFor="email">Email</Label>
-                      <Input 
-                        id="email" 
-                        type="email" 
-                        placeholder="your@email.com" 
-                        value={signupData.email}
-                        onChange={handleSignupChange}
-                        required
-                      />
-                    </div>
-                    <div className="grid gap-2 relative">
-                      <Label htmlFor="password">Password</Label>
-                      <Input
-                        id="password"
-                        type={showSignupPassword ? "text" : "password"}
-                        placeholder="••••••••"
-                        value={signupData.password}
-                        onChange={handleSignupChange}
-                        required
-                      />
-                      <button type="button" className="absolute right-2 top-9 text-gray-500" onClick={() => setShowSignupPassword(v => !v)} tabIndex={-1}>
-                        {showSignupPassword ? <Eye className="w-5 h-5" /> : <EyeOff className="w-5 h-5" />}
-                      </button>
-                    </div>
-                    <div className="grid gap-2 relative">
-                      <Label htmlFor="confirmPassword">Confirm Password</Label>
-                      <Input
-                        id="confirmPassword"
-                        type={showSignupConfirm ? "text" : "password"}
-                        placeholder="••••••••"
-                        value={signupData.confirmPassword}
-                        onChange={handleSignupChange}
-                        required
-                      />
-                      <button type="button" className="absolute right-2 top-9 text-gray-500" onClick={() => setShowSignupConfirm(v => !v)} tabIndex={-1}>
-                        {showSignupConfirm ? <Eye className="w-5 h-5" /> : <EyeOff className="w-5 h-5" />}
-                      </button>
-                    </div>
-                  </form>
-                  {signupError && <p className="text-red-500 text-sm text-center mt-2">{signupError}</p>}
-                  <Button onClick={handleSignup} disabled={loading} className="w-full">
-                    {loading ? 'Creating Account...' : 'Create Account'}
+        {/* Desktop NavigationMenu (center, only on md+) */}
+        <div className="hidden md:flex flex-1 justify-center order-3">
+          <NavigationMenu>
+            <NavigationMenuList>
+              <NavigationMenuItem>
+                <Link to="/" onClick={() => setActiveTab('home')}>
+                  <NavigationMenuLink className={`${navigationMenuTriggerStyle()} ${activeTab === 'home' ? 'bg-accent/50' : ''}`}>
+                    <Home className="mr-2 h-4 w-4" />
+                    <span>Home</span>
+                  </NavigationMenuLink>
+                </Link>
+              </NavigationMenuItem>
+              <NavigationMenuItem>
+                <Link to="/predictor" onClick={() => setActiveTab('predictor')}>
+                  <NavigationMenuLink className={`${navigationMenuTriggerStyle()} ${activeTab === 'predictor' ? 'bg-accent/50' : ''}`}>
+                    <GraduationCap className="mr-2 h-4 w-4" />
+                    <span>Predictor</span>
+                  </NavigationMenuLink>
+                </Link>
+              </NavigationMenuItem>
+              <NavigationMenuItem>
+                <Link to="/colleges" onClick={() => setActiveTab('colleges')}>
+                  <NavigationMenuLink className={`${navigationMenuTriggerStyle()} ${activeTab === 'colleges' ? 'bg-accent/50' : ''}`}>
+                    <BookOpen className="mr-2 h-4 w-4" />
+                    <span>Colleges</span>
+                  </NavigationMenuLink>
+                </Link>
+              </NavigationMenuItem>
+              <NavigationMenuItem>
+                <Link to="/insights" onClick={() => setActiveTab('insights')}>
+                  <NavigationMenuLink className={`${navigationMenuTriggerStyle()} ${activeTab === 'insights' ? 'bg-accent/50' : ''}`}>
+                    <BarChart className="mr-2 h-4 w-4" />
+                    <span>Insights</span>
+                  </NavigationMenuLink>
+                </Link>
+              </NavigationMenuItem>
+              <NavigationMenuItem>
+                <Link to="/resources" onClick={() => setActiveTab('resources')}>
+                  <NavigationMenuLink className={`${navigationMenuTriggerStyle()} ${activeTab === 'resources' ? 'bg-accent/50' : ''}`}>
+                    <FileText className="mr-2 h-4 w-4" />
+                    <span>Resources</span>
+                  </NavigationMenuLink>
+                </Link>
+              </NavigationMenuItem>
+            </NavigationMenuList>
+          </NavigationMenu>
+        </div>
+        {/* Hamburger (right on mobile) and desktop controls */}
+        <div className="flex items-center gap-4 md:order-4 order-3 w-1/3 justify-end">
+          {/* Mobile Hamburger Menu */}
+          <Sheet>
+            <SheetTrigger asChild>
+              <button className="flex md:hidden items-center justify-center p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-primary ml-7">
+                <Menu className="h-7 w-7" />
+              </button>
+            </SheetTrigger>
+            <SheetContent side="right" className="md:hidden p-0">
+              <div className="flex flex-col gap-4 p-6">
+                {/* User profile/login at top of drawer */}
+                {!isLoggedIn ? (
+                  <Button variant="outline" className="w-full" onClick={() => { setIsLoginOpen(true); }}>
+                    <LogIn className="mr-2 h-5 w-5" /> Login
                   </Button>
-                </DialogContent>
-              </Dialog>
-              <Button className="bg-gradient-to-r from-primary to-secondary hover:opacity-90 transition-opacity" onClick={() => setIsSignupOpen(true)}>
-                <UserPlus className="mr-2 h-4 w-4" />
-                Get Started
-              </Button>
-            </>
-          ) : (
-            <DropdownMenu>
-              <DropdownMenuTrigger asChild>
-                <div className="flex items-center gap-2 cursor-pointer">
-                  <div className="w-8 h-8 rounded-full bg-primary text-primary-foreground flex items-center justify-center font-bold text-lg">
-                    {userName.trim() ? userName.trim()[0].toUpperCase() : (userEmail.trim() ? userEmail.trim()[0].toUpperCase() : 'U')}
+                ) : (
+                  <DropdownMenu>
+                    <DropdownMenuTrigger asChild>
+                      <div className="w-10 h-10 rounded-full bg-primary text-primary-foreground flex items-center justify-center font-bold text-lg cursor-pointer mx-auto mb-2">
+                        {userName.trim() ? userName.trim()[0].toUpperCase() : (userEmail.trim() ? userEmail.trim()[0].toUpperCase() : 'U')}
+                      </div>
+                    </DropdownMenuTrigger>
+                    <DropdownMenuContent align="start">
+                      <DropdownMenuItem onClick={() => {
+                        localStorage.removeItem('token');
+                        localStorage.removeItem('userName');
+                        localStorage.removeItem('userEmail');
+                        setIsLoggedIn(false);
+                        setUserName('');
+                        setUserEmail('');
+                      }}>
+                        Logout
+                      </DropdownMenuItem>
+                    </DropdownMenuContent>
+                  </DropdownMenu>
+                )}
+                <nav className="flex flex-col gap-4 mt-2">
+                  <Link to="/" className="flex items-center gap-2 text-lg font-medium" onClick={() => setActiveTab('home')}><Home className="h-5 w-5" /> Home</Link>
+                  <Link to="/predictor" className="flex items-center gap-2 text-lg font-medium" onClick={() => setActiveTab('predictor')}><GraduationCap className="h-5 w-5" /> Predictor</Link>
+                  <Link to="/colleges" className="flex items-center gap-2 text-lg font-medium" onClick={() => setActiveTab('colleges')}><BookOpen className="h-5 w-5" /> Colleges</Link>
+                  <Link to="/insights" className="flex items-center gap-2 text-lg font-medium" onClick={() => setActiveTab('insights')}><BarChart className="h-5 w-5" /> Insights</Link>
+                  <Link to="/resources" className="flex items-center gap-2 text-lg font-medium" onClick={() => setActiveTab('resources')}><FileText className="h-5 w-5" /> Resources</Link>
+                  <SheetClose asChild>
+                    <button className="mt-6 w-full py-2 rounded bg-primary text-white font-semibold">Close</button>
+                  </SheetClose>
+                </nav>
+              </div>
+            </SheetContent>
+          </Sheet>
+          {/* End Mobile Hamburger Menu */}
+          {/* Desktop controls (unchanged) */}
+          <div className="hidden md:flex items-center gap-4">
+            {/* Only one ThemeSwitcher here */}
+            <ThemeSwitcher />
+            {!isLoggedIn ? (
+              <>
+                <Button variant="outline" onClick={() => setIsLoginOpen(true)}>
+                  <LogIn className="mr-2 h-4 w-4" />
+                  Login
+                </Button>
+                <Button className="bg-gradient-to-r from-primary to-secondary hover:opacity-90 transition-opacity" onClick={() => setIsSignupOpen(true)}>
+                  <UserPlus className="mr-2 h-4 w-4" />
+                  Get Started
+                </Button>
+              </>
+            ) : (
+              <DropdownMenu>
+                <DropdownMenuTrigger asChild>
+                  <div className="flex items-center gap-2 cursor-pointer">
+                    <div className="w-8 h-8 rounded-full bg-primary text-primary-foreground flex items-center justify-center font-bold text-lg">
+                      {userName.trim() ? userName.trim()[0].toUpperCase() : (userEmail.trim() ? userEmail.trim()[0].toUpperCase() : 'U')}
+                    </div>
+                    <span className="font-medium text-base">{userName.split(' ')[0] || userEmail}</span>
                   </div>
-                  <span className="font-medium text-base">{userName.split(' ')[0] || userEmail}</span>
-                </div>
-              </DropdownMenuTrigger>
-              <DropdownMenuContent align="end">
-                <DropdownMenuItem onClick={() => {
-                  localStorage.removeItem('token');
-                  localStorage.removeItem('userName');
-                  localStorage.removeItem('userEmail');
-                  setIsLoggedIn(false);
-                  setUserName('');
-                  setUserEmail('');
-                }}>
-                  Logout
-                </DropdownMenuItem>
-              </DropdownMenuContent>
-            </DropdownMenu>
-          )}
+                </DropdownMenuTrigger>
+                <DropdownMenuContent align="end">
+                  <DropdownMenuItem onClick={() => {
+                    localStorage.removeItem('token');
+                    localStorage.removeItem('userName');
+                    localStorage.removeItem('userEmail');
+                    setIsLoggedIn(false);
+                    setUserName('');
+                    setUserEmail('');
+                  }}>
+                    Logout
+                  </DropdownMenuItem>
+                </DropdownMenuContent>
+              </DropdownMenu>
+            )}
+          </div>
         </div>
       </div>
     </header>

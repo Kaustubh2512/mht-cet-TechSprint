@@ -24,16 +24,16 @@ const Footer = () => {
             <h3 className="font-semibold mb-1 text-xl">Quick Links</h3>
             <div className="flex flex-row gap-12">
               <ul className="space-y-1 text-center text-lg">
-                <li><Link to="/" className="text-neutral-300 hover:text-white transition-colors">Home</Link></li>
-                <li><Link to="/about" className="text-neutral-300 hover:text-white transition-colors">About Us</Link></li>
-                <li><Link to="/predictor" className="text-neutral-300 hover:text-white transition-colors">College Predictor</Link></li>
-                <li><Link to="/resources" className="text-neutral-300 hover:text-white transition-colors">Resources</Link></li>
+                <li><Link to="/" className="text-neutral-300 hover:text-white transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Home</Link></li>
+                <li><Link to="/about" className="text-neutral-300 hover:text-white transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>About Us</Link></li>
+                <li><Link to="/predictor" className="text-neutral-300 hover:text-white transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>College Predictor</Link></li>
+                <li><Link to="/resources" className="text-neutral-300 hover:text-white transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Resources</Link></li>
               </ul>
               <ul className="space-y-1 text-center text-lg">
-                <li><Link to="/colleges" className="text-neutral-300 hover:text-white transition-colors">Top Colleges</Link></li>
-                <li><Link to="/insights" className="text-neutral-300 hover:text-white transition-colors">Insights</Link></li>
-                <li><Link to="/contact" className="text-neutral-300 hover:text-white transition-colors">Contact Us</Link></li>
-                <li><Link to="/faq" className="text-neutral-300 hover:text-white transition-colors">FAQ</Link></li>
+                <li><Link to="/colleges" className="text-neutral-300 hover:text-white transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Top Colleges</Link></li>
+                <li><Link to="/insights" className="text-neutral-300 hover:text-white transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Insights</Link></li>
+                <li><Link to="/contact" className="text-neutral-300 hover:text-white transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Contact Us</Link></li>
+                <li><Link to="/faq" className="text-neutral-300 hover:text-white transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>FAQ</Link></li>
               </ul>
             </div>
           </div>
@@ -51,6 +51,9 @@ const Footer = () => {
                 <span>Pune, Maharashtra, India</span>
               </li>
             </ul>
+            <div className="flex flex-col items-center mt-4">
+              <img src="/xlr8-logo.png" alt="Team XLR8 Logo" className="mt-3 w-20 h-20 object-contain" />
+            </div>
           </div>
         </div>
 

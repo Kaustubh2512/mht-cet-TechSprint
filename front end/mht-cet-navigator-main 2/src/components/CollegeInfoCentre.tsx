@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-
+import ReactMarkdown from 'react-markdown';
+import { useToast } from '@/components/ui/use-toast';
 
 const API_BASE = 'https://mht-cet-navigator.onrender.com/api/colleges';
 
@@ -30,6 +31,7 @@ const CollegeInfoCentre: React.FC = () => {
   const [loading, setLoading] = useState(false);
   const [aiInfo, setAiInfo] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const { toast } = useToast();
 
   useEffect(() => {
     axios.get<CollegeListResponse>(`${API_BASE}/list`)
@@ -58,6 +60,11 @@ const CollegeInfoCentre: React.FC = () => {
     setLoading(true);
     setAiInfo(null);
     setError(null);
+    toast({
+      title: 'Generating info…',
+      description: 'This may take up to a minute. Please wait while the AI generates the college information.',
+      duration: 6000,
+    });
     try {
       const res = await axios.post<CollegeInfoResponse>(`${API_BASE}/info`, { college_code: selected.college_code });
       if (res.data.success) {
@@ -116,9 +123,12 @@ const CollegeInfoCentre: React.FC = () => {
         {loading ? 'Getting Info...' : 'Get Info'}
       </button>
       {error && <div className="text-red-600 mb-2 text-center">{error}</div>}
-      {aiInfo && (
-        <div className="mt-4 p-4 bg-muted rounded shadow text-base whitespace-pre-line">
-          {aiInfo}
+      {typeof aiInfo === 'string' && (
+        <div className="mt-4 p-4 bg-muted rounded shadow text-base whitespace-pre-line prose prose-neutral dark:prose-invert">
+          <ReactMarkdown children={aiInfo} />
+          <div className="mt-4 text-xs text-gray-500 dark:text-gray-400 border-t pt-2">
+            <strong>Disclaimer:</strong> These are AI-generated results. Please check the official college website for the latest information.
+          </div>
         </div>
       )}
     </section>

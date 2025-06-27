@@ -1,11 +1,22 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import { useLocation } from 'react-router-dom';
 
 const Contact = () => {
-  const [form, setForm] = useState({ name: '', email: '', message: '' });
+  const location = useLocation();
+  const query = new URLSearchParams(location.search);
+  const prefillMessage = query.get('message') || '';
+  const [form, setForm] = useState({ name: '', email: '', message: prefillMessage });
   const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState('');
+
+  useEffect(() => {
+    if (prefillMessage) {
+      setForm((prev) => ({ ...prev, message: prefillMessage }));
+    }
+    // eslint-disable-next-line
+  }, [prefillMessage]);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setForm({ ...form, [e.target.name]: e.target.value });
@@ -47,15 +58,15 @@ const Contact = () => {
           <form onSubmit={handleSubmit} className="max-w-lg space-y-6">
             <div>
               <label htmlFor="name" className="block font-medium mb-1">Name</label>
-              <input type="text" id="name" name="name" value={form.name} onChange={handleChange} required className="w-full px-3 py-2 border rounded" />
+              <input type="text" id="name" name="name" value={form.name} onChange={handleChange} required className="w-full px-3 py-2 border rounded bg-background text-foreground placeholder:text-muted-foreground" placeholder="Your Name" />
             </div>
             <div>
               <label htmlFor="email" className="block font-medium mb-1">Email</label>
-              <input type="email" id="email" name="email" value={form.email} onChange={handleChange} required className="w-full px-3 py-2 border rounded" />
+              <input type="email" id="email" name="email" value={form.email} onChange={handleChange} required className="w-full px-3 py-2 border rounded bg-background text-foreground placeholder:text-muted-foreground" placeholder="Your Email" />
             </div>
             <div>
               <label htmlFor="message" className="block font-medium mb-1">Message</label>
-              <textarea id="message" name="message" value={form.message} onChange={handleChange} required className="w-full px-3 py-2 border rounded min-h-[120px]" />
+              <textarea id="message" name="message" value={form.message} onChange={handleChange} required className="w-full px-3 py-2 border rounded min-h-[120px] bg-background text-foreground placeholder:text-muted-foreground" placeholder="Your Message" />
             </div>
             {error && <div className="text-red-600 text-sm">{error}</div>}
             <button type="submit" className="bg-primary text-white px-6 py-2 rounded hover:bg-primary/90 transition">Send Message</button>

@@ -16,6 +16,8 @@ import Privacy from "./pages/Privacy";
 import Terms from "./pages/Terms";
 import Cookies from "./pages/Cookies";
 import Faq from "./pages/Faq";
+import CapSimulator from "./pages/cap-simulator";
+import RoundPlanner from "./pages/round-planner";
 
 const queryClient = new QueryClient();
 
@@ -38,6 +40,8 @@ const App = () => (
           <Route path="/terms" element={<Terms />} />
           <Route path="/cookies" element={<Cookies />} />
           <Route path="/faq" element={<Faq />} />
+          <Route path="/cap-simulator" element={<CapSimulator />} />
+          <Route path="/round-planner" element={<RoundPlanner />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

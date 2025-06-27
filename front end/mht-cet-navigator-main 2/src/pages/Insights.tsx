@@ -23,27 +23,6 @@ const Insights = () => {
           </div>
 
           <div className="max-w-4xl mx-auto">
-            <Card className="mb-8">
-              <CardHeader className="text-center">
-                <CardTitle>Featured Insight</CardTitle>
-                <CardDescription>Exclusive interview with a COEP graduate</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <div className="space-y-4">
-                  <div className="flex items-center gap-4">
-                    <div className="w-12 h-12 rounded-full bg-gradient-to-br from-primary to-secondary flex items-center justify-center text-white">RK</div>
-                    <div>
-                      <h3 className="font-semibold">Ravi Kumar</h3>
-                      <p className="text-sm opacity-70">Computer Science, Batch of 2022</p>
-                    </div>
-                  </div>
-                  <p className="italic">
-                    "The practical exposure I got at COEP was invaluable. The labs are well-equipped, and professors encourage hands-on learning. The campus placement cell is extremely active, bringing top companies. The college culture balances academics and extracurricular activities perfectly."
-                  </p>
-                </div>
-              </CardContent>
-            </Card>
-            
             <Tabs defaultValue="academics" className="w-full">
               <TabsList className="grid w-full grid-cols-3 mb-8">
                 <TabsTrigger value="academics">Academics</TabsTrigger>
@@ -98,9 +77,14 @@ const Insights = () => {
             </Tabs>
             
             <div className="text-center mt-8">
-              <p className="text-lg font-medium mb-4">Want more detailed insights from seniors?</p>
+              <p className="text-lg font-medium mb-4">Get real detailed insights from seniors?</p>
+              <a
+                href="/contact?message=I%20am%20interested%20in%20premium%20features%20and%20would%20like%20to%20connect%20with%20seniors."
+              >
+                <Button className="mb-4">Request Premium Access</Button>
+              </a>
               <div className="glass-card p-6 max-w-md mx-auto">
-                <p className="mb-4">Login to access exclusive features:</p>
+                <p className="mb-4">Connect with us to access exclusive features:</p>
                 <ul className="text-left list-disc list-inside space-y-2 mb-4">
                   <li>Chat with seniors from your target colleges</li>
                   <li>Access hidden college reviews</li>
