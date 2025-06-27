@@ -60,7 +60,7 @@ const BRANCH_DISPLAY_NAME_MAP: Record<string, string> = {
   'Mechanical/Auto/mechatronix Engineering': 'Mechanical/Automobile Engineering',
 };
 
-// Custom branch group order (most popular/demanding at top, less popular at bottom, 'Other' always last)
+// Custom branch group order ok (most popular/demanding at top, less popular at bottom, 'Other' always last)
 const BRANCH_ORDER = [
   'Computer Engineering',
   'CS special',
