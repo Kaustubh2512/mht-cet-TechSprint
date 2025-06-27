@@ -50,6 +50,8 @@ export async function getCollegeAIInfo(req: Request, res: Response) {
         headers: {
           'Authorization': `Bearer ${process.env.DEEPSEEK_API_KEY}`,
           'Content-Type': 'application/json',
+          'HTTP-Referer': 'https://aicollegebuddy.vercel.app',
+          'X-Title': 'College Info Centre'
         }
       }
     );
