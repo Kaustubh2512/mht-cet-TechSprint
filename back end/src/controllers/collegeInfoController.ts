@@ -35,21 +35,24 @@ export async function getCollegeAIInfo(req: Request, res: Response) {
       return res.status(500).json({ success: false, message: 'DeepSeek API key not configured' });
     }
     const prompt = `Give me a detailed, up-to-date, and student-friendly overview of the following engineering college in Maharashtra. Include its full name, DTE code, location (district, region), home university, and any notable features, courses, or recent news if available.\n\nCollege: ${college.name}\nDTE Code: ${college.college_code}\nLocation: ${college.district}, ${college.region}\nHome University: ${college.home_university}`;
-    const deepseekUrl = 'https://api.deepseek.com/v1/chat/completions';
-    const payload = {
-      model: 'deepseek-chat',
-      messages: [
-        { role: 'system', content: 'You are a helpful assistant for college information.' },
-        { role: 'user', content: prompt }
-      ],
-      temperature: 0.7,
-      max_tokens: 512
-    };
-    const headers = {
-      'Authorization': `Bearer ${apiKey}`,
-      'Content-Type': 'application/json'
-    };
-    const aiResponse = await axios.post(deepseekUrl, payload, { headers });
+    const aiResponse = await axios.post(
+      'https://openrouter.ai/api/v1/chat/completions',
+      {
+        model: 'deepseek-chat',
+        messages: [
+          { role: 'system', content: 'You are a helpful assistant for college information.' },
+          { role: 'user', content: prompt }
+        ],
+        temperature: 0.7,
+        max_tokens: 512,
+      },
+      {
+        headers: {
+          'Authorization': `Bearer ${process.env.DEEPSEEK_API_KEY}`,
+          'Content-Type': 'application/json',
+        }
+      }
+    );
     const aiText = aiResponse.data.choices?.[0]?.message?.content || 'No information found.';
     res.json({ success: true, info: aiText });
   } catch (err: any) {
