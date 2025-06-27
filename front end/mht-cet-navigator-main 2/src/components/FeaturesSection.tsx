@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
@@ -76,7 +75,7 @@ const FeaturesSection = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {features.map((feature, index) => (
-            <Card key={index} className="card-hover border border-neutral/10">
+            <Card key={index} className="card-hover border border-neutral/10 overflow-hidden">
               <CardHeader>
                 <div className="flex items-start gap-4">
                   {feature.icon}
@@ -86,7 +85,7 @@ const FeaturesSection = () => {
                 </div>
               </CardHeader>
               <CardContent>
-                <CardDescription className="text-base">{feature.description}</CardDescription>
+                <CardDescription className="text-base break-words whitespace-normal">{feature.description}</CardDescription>
               </CardContent>
             </Card>
           ))}

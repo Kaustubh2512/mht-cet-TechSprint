@@ -11,7 +11,7 @@ const HeroSection = () => {
       <div className="container mx-auto grid md:grid-cols-2 gap-10 items-center relative z-10">
         <div className="flex flex-col gap-6 text-center md:text-left">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-            Find Your Perfect <span className="gradient-text">Engineering College</span> with MHT-CET Navigator
+            Find Your Perfect <span className="gradient-text">Engineering College</span> with AI College Buddy
           </h1>
           
           <p className="text-lg opacity-80 max-w-xl mx-auto md:mx-0">

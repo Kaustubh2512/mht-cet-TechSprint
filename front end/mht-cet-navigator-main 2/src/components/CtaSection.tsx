@@ -22,10 +22,10 @@ const CtaSection = () => {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Button asChild className="bg-gradient-to-r from-primary to-secondary hover:opacity-90 transition-opacity px-8 py-6 text-lg">
-              <Link to="/predictor">Try College Predictor Now</Link>
+              <Link to="/predictor" className="text-white">Try College Predictor Now</Link>
             </Button>
-            <Button asChild variant="outline" className="border-primary text-primary hover:bg-primary/10 px-8 py-6 text-lg">
-              <Link to="/resources">Explore Resources</Link>
+            <Button asChild className="bg-gradient-to-r from-primary to-secondary hover:opacity-90 transition-opacity px-8 py-6 text-lg">
+              <Link to="/resources" className="text-white">Explore Resources</Link>
             </Button>
           </div>
           <p className="text-sm mt-6 text-foreground font-medium">

@@ -54,6 +54,44 @@ const toggleStyles = {
   jee: 'right-0',
 };
 
+// Branch group display name mapping
+const BRANCH_DISPLAY_NAME_MAP: Record<string, string> = {
+  'CS special': 'CS (AI/DS/ML/IOT/Cyber)',
+  'Mechanical/Auto/mechatronix Engineering': 'Mechanical/Automobile Engineering',
+};
+
+// Custom branch group order (most popular/demanding at top, less popular at bottom, 'Other' always last)
+const BRANCH_ORDER = [
+  'Computer Engineering',
+  'CS special',
+  'Information Technology',
+  'Electronics and Telecommunication Engineering',
+  'Artificial Intelligence and Data Science/Machine learning',
+  'Mechanical/Auto/mechatronix Engineering',
+  'Electrical Engineering',
+  'Electrical/Electronics +CS',
+  'Instrumentation/production Engineering',
+  'Civil Engineering',
+  'Chemical Engineering',
+  'Automation and Robotics',
+  'Food Technology',
+  'Bio Medical Engineering',
+  'Textile Engineering',
+  'Other',
+];
+
+function sortBranchGroupsCustom(a: string, b: string) {
+  const idxA = BRANCH_ORDER.indexOf(a);
+  const idxB = BRANCH_ORDER.indexOf(b);
+  // If not found, put at end before 'Other'
+  const maxIdx = BRANCH_ORDER.length - 1;
+  return (idxA === -1 ? maxIdx : idxA) - (idxB === -1 ? maxIdx : idxB);
+}
+
+function getBranchDisplayName(group: string) {
+  return BRANCH_DISPLAY_NAME_MAP[group] || group;
+}
+
 const PredictorForm = () => {
   const { toast } = useToast();
   const [loading, setLoading] = useState(false);
@@ -309,13 +347,19 @@ const PredictorForm = () => {
                   <SelectValue placeholder="Add branch group" />
                 </SelectTrigger>
                 <SelectContent>
-                  {branchGroups.filter(group => !selectedBranches.includes(group)).length === 0 ? (
-                    <div className="px-3 py-2 text-muted-foreground">No more branch groups to add</div>
-                  ) : (
-                    branchGroups.filter(group => !selectedBranches.includes(group)).map(group => (
-                      <SelectItem key={group} value={group}>{group}</SelectItem>
-                    ))
-                  )}
+                  {(() => {
+                    // Filter out already selected
+                    const available = branchGroups.filter(group => !selectedBranches.includes(group));
+                    // Sort by custom order
+                    const sorted = available.sort(sortBranchGroupsCustom);
+                    return sorted.length === 0 ? (
+                      <div className="px-3 py-2 text-muted-foreground">No more branch groups to add</div>
+                    ) : (
+                      sorted.map(group => (
+                        <SelectItem key={group} value={group}>{getBranchDisplayName(group)}</SelectItem>
+                      ))
+                    );
+                  })()}
                 </SelectContent>
               </Select>
               {selectedBranches.length > 0 && (
@@ -323,7 +367,7 @@ const PredictorForm = () => {
                   {selectedBranches.map((branch, idx) => (
                     <li key={branch} className="flex items-center gap-2 bg-muted text-foreground rounded px-2 py-1">
                       <span className="font-medium">{idx + 1}.</span>
-                      <span>{branch}</span>
+                      <span>{getBranchDisplayName(branch)}</span>
                       <Button type="button" size="sm" variant="ghost" onClick={() => moveBranch(idx, idx - 1)} disabled={idx === 0}>&uarr;</Button>
                       <Button type="button" size="sm" variant="ghost" onClick={() => moveBranch(idx, idx + 1)} disabled={idx === selectedBranches.length - 1}>&darr;</Button>
                       <Button type="button" size="sm" variant="destructive" onClick={() => handleRemoveBranch(idx)}>Remove</Button>
@@ -334,14 +378,14 @@ const PredictorForm = () => {
             </div>
 
             <div className="space-y-2">
-              <label htmlFor="region">Region</label>
+              <label htmlFor="region">Location</label>
               <Select
                 value={formData.region}
                 onValueChange={(value) => handleChange('region', value)}
                 required
               >
                 <SelectTrigger>
-                  <SelectValue placeholder="Select region" />
+                  <SelectValue placeholder="Select College Location" />
                 </SelectTrigger>
                 <SelectContent>
                   {REGION_OPTIONS.map(region => (
@@ -400,14 +444,14 @@ const PredictorForm = () => {
                 </div>
 
                 <div className="space-y-2">
-                  <label htmlFor="district">District</label>
+                  <label htmlFor="district">Class 12th District</label>
                   <Select
                     value={formData.district}
                     onValueChange={(value) => handleChange('district', value)}
                     required
                   >
                     <SelectTrigger>
-                      <SelectValue placeholder="Select district" />
+                      <SelectValue placeholder="Select Class 12 district" />
                     </SelectTrigger>
                     <SelectContent>
                       {DISTRICT_OPTIONS.map(district => (
@@ -428,19 +472,21 @@ const PredictorForm = () => {
 
           {predictionResults.length > 0 && (
             <div className="mt-6">
-              <h3 className="text-lg font-semibold mb-2">Prediction Results</h3>
-              <Button
-                className="mb-2 px-3 py-1 h-8 text-sm flex items-center gap-2"
-                variant="outline"
-                onClick={() => downloadCSV(predictionResults)}
-                style={{ minWidth: 'unset', width: 'auto' }}
-              >
-                <Download size={16} className="mr-1" />
-                Download
-              </Button>
-              <div className="space-y-2">
+              <div className="flex items-center gap-3 mb-2">
+                <h3 className="text-lg font-semibold m-0">Prediction Results</h3>
+                <Button
+                  className="px-3 py-1 h-8 text-sm flex items-center gap-2"
+                  variant="outline"
+                  onClick={() => downloadCSV(predictionResults)}
+                  style={{ minWidth: 'unset', width: 'auto' }}
+                >
+                  <Download size={16} className="mr-1" />
+                  Download
+                </Button>
+              </div>
+              <div className="space-y-4">
                 {predictionResults.map((result, idx) => (
-                  <div key={idx} className="p-3 bg-card text-card-foreground rounded">
+                  <div key={idx} className="rounded-lg border p-4 shadow-sm bg-white dark:bg-neutral-900 hover:shadow-md transition">
                     <p><b>Branch:</b> {result.branch}</p>
                     <p><b>College:</b> {result.collegeName}</p>
                     {examType === 'CET' && <p><b>Category:</b> {result.category}</p>}

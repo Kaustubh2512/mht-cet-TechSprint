@@ -1,7 +1,7 @@
-
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { MessageCircle, Eye, Award, Users } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const CollegeInsightsSection = () => {
   return (
@@ -52,10 +52,10 @@ const CollegeInsightsSection = () => {
         <div className="mt-12 text-center">
           <div className="inline-flex items-center gap-2 mb-4">
             <Users className="text-primary w-5 h-5" />
-            <span className="text-lg font-medium">Join our community of 5,000+ students and seniors</span>
+            <span className="text-lg font-medium">Join our community of 200+ students and seniors</span>
           </div>
-          <Button className="bg-gradient-to-r from-primary to-secondary hover:opacity-90 transition-opacity px-8 py-6 text-lg">
-            Get College Insights
+          <Button asChild className="bg-gradient-to-r from-primary to-secondary hover:opacity-90 transition-opacity px-8 py-6 text-lg">
+            <Link to="/insights">Get College Insights</Link>
           </Button>
         </div>
       </div>

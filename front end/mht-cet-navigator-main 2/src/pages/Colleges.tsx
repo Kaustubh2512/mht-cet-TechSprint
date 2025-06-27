@@ -1,9 +1,9 @@
-
 import React from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+import CollegeInfoCentre from '../components/CollegeInfoCentre';
 
 const Colleges = () => {
   return (
@@ -19,6 +19,8 @@ const Colleges = () => {
               Explore the best engineering colleges in Maharashtra across different cities and specializations.
             </p>
           </div>
+          
+          <CollegeInfoCentre />
           
           <Tabs defaultValue="pune" className="w-full">
             <TabsList className="grid w-full max-w-md mx-auto grid-cols-2 mb-8">
@@ -58,7 +60,7 @@ const CollegeCard = ({ college }) => {
       </CardHeader>
       <CardContent>
         <div className="space-y-2">
-          <p><strong>NIRF Rank:</strong> {college.rank}</p>
+          {college.rank !== undefined && <p><strong>NIRF Rank:</strong> {college.rank}</p>}
           <p><strong>Top Branches:</strong> {college.topBranches.join(', ')}</p>
           <p><strong>Avg. Placement:</strong> {college.avgPlacement}</p>
           <p><strong>Cutoff Range:</strong> {college.cutoffRange}</p>
@@ -72,26 +74,24 @@ const puneColleges = [
   {
     name: "College of Engineering, Pune (COEP)",
     location: "Shivajinagar, Pune",
-    rank: 4,
+    rank: 77,
     topBranches: ["Computer Science", "Mechanical", "Electronics"],
-    avgPlacement: "12.5 LPA",
-    cutoffRange: "99.8 - 97.5 percentile"
+    avgPlacement: "12-17 LPA",
+    cutoffRange: "99.99 - 97.5 percentile"
   },
   {
     name: "Pune Institute of Computer Technology (PICT)",
     location: "Dhankawadi, Pune",
-    rank: 9,
     topBranches: ["Computer Science", "IT", "Electronics"],
     avgPlacement: "10.2 LPA",
-    cutoffRange: "99.5 - 95.2 percentile"
+    cutoffRange: "99.8 - 95.2 percentile"
   },
   {
     name: "Vishwakarma Institute of Technology (VIT)",
     location: "Upper Indiranagar, Pune",
-    rank: 12,
     topBranches: ["Computer Science", "IT", "AI & DS"],
     avgPlacement: "9.8 LPA",
-    cutoffRange: "99.3 - 93.8 percentile"
+    cutoffRange: "99.7 - 93.8 percentile"
   },
 ];
 
@@ -99,7 +99,6 @@ const mumbaiColleges = [
   {
     name: "Veermata Jijabai Technological Institute (VJTI)",
     location: "Matunga, Mumbai",
-    rank: 2,
     topBranches: ["Computer Science", "Electronics", "Mechanical"],
     avgPlacement: "16.8 LPA",
     cutoffRange: "99.9 - 98.2 percentile"
@@ -107,7 +106,6 @@ const mumbaiColleges = [
   {
     name: "Sardar Patel Institute of Technology (SPIT)",
     location: "Andheri, Mumbai",
-    rank: 6,
     topBranches: ["Computer Science", "IT", "Electronics"],
     avgPlacement: "14.5 LPA",
     cutoffRange: "99.7 - 96.8 percentile"
@@ -115,7 +113,6 @@ const mumbaiColleges = [
   {
     name: "K. J. Somaiya College of Engineering",
     location: "Vidyavihar, Mumbai",
-    rank: 14,
     topBranches: ["Computer Science", "IT", "Chemical"],
     avgPlacement: "11.2 LPA",
     cutoffRange: "99.1 - 92.6 percentile"

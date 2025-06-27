@@ -32,39 +32,39 @@ const Index = () => {
               <Button 
                 asChild
                 variant="outline" 
-                className="h-auto p-6 flex flex-col items-center gap-4 card-hover"
+                className="h-56 max-h-56 min-h-[180px] p-6 flex flex-col items-center gap-4 card-hover overflow-hidden"
               >
                 <Link to="/predictor">
                   <Search className="h-10 w-10 text-primary" />
                   <div>
                     <h3 className="text-xl font-bold mb-2">College Predictor</h3>
-                    <p className="text-sm opacity-70">Get personalized college recommendations based on your scores and preferences</p>
+                    <p className="text-sm opacity-70 break-words whitespace-normal text-ellipsis overflow-hidden">Get personalized college recommendations based on your scores and preferences</p>
                   </div>
                 </Link>
               </Button>
               <Button 
                 asChild
                 variant="outline" 
-                className="h-auto p-6 flex flex-col items-center gap-4 card-hover"
+                className="h-56 max-h-56 min-h-[180px] p-6 flex flex-col items-center gap-4 card-hover overflow-hidden"
               >
                 <Link to="/colleges">
                   <GraduationCap className="h-10 w-10 text-primary" />
                   <div>
                     <h3 className="text-xl font-bold mb-2">Top Colleges</h3>
-                    <p className="text-sm opacity-70">Explore top engineering colleges in Pune, Mumbai and across Maharashtra</p>
+                    <p className="text-sm opacity-70 break-words whitespace-normal text-ellipsis overflow-hidden">Explore top engineering colleges in Pune, Mumbai and across Maharashtra</p>
                   </div>
                 </Link>
               </Button>
               <Button 
                 asChild
                 variant="outline" 
-                className="h-auto p-6 flex flex-col items-center gap-4 card-hover"
+                className="h-56 max-h-56 min-h-[180px] p-6 flex flex-col items-center gap-4 card-hover overflow-hidden"
               >
                 <Link to="/resources">
                   <BookOpen className="h-10 w-10 text-primary" />
                   <div>
                     <h3 className="text-xl font-bold mb-2">Resources</h3>
-                    <p className="text-sm opacity-70">Access MHT-CET study materials, past papers, and admission guidance</p>
+                    <p className="text-sm opacity-70 break-words whitespace-normal text-ellipsis overflow-hidden">Access MHT-CET study materials, past papers, and admission guidance</p>
                   </div>
                 </Link>
               </Button>
@@ -73,19 +73,19 @@ const Index = () => {
               <Button 
                 asChild
                 variant="outline" 
-                className="h-auto p-6 flex flex-col items-center gap-4 card-hover"
+                className="h-56 max-h-56 min-h-[180px] p-6 flex flex-col items-center gap-4 card-hover overflow-hidden"
               >
                 <Link to="/insights">
                   <BarChart className="h-10 w-10 text-primary" />
                   <div>
                     <h3 className="text-xl font-bold mb-2">College Insights</h3>
-                    <p className="text-sm opacity-70">Get insider knowledge about college culture, faculty, and facilities</p>
+                    <p className="text-sm opacity-70 break-words whitespace-normal text-ellipsis overflow-hidden">Get insider knowledge about college culture, faculty, and facilities</p>
                   </div>
                 </Link>
               </Button>
               <Button 
                 variant="outline" 
-                className="h-auto p-6 flex flex-col items-center gap-4 card-hover relative"
+                className="h-56 max-h-56 min-h-[180px] p-6 flex flex-col items-center gap-4 card-hover relative"
               >
                 <div className="absolute -top-2 -right-2 bg-primary text-white text-xs px-2 py-1 rounded-full">
                   Premium
@@ -93,7 +93,7 @@ const Index = () => {
                 <MessageSquare className="h-10 w-10 text-primary" />
                 <div>
                   <h3 className="text-xl font-bold mb-2">Chat with Seniors</h3>
-                  <p className="text-sm opacity-70 text-foreground">Connect with current students and alumni from your target colleges</p>
+                  <p className="text-sm opacity-70 text-foreground break-words whitespace-normal text-ellipsis overflow-hidden">Connect with current students and alumni from your target colleges</p>
                 </div>
               </Button>
             </div>
