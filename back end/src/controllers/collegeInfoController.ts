@@ -38,7 +38,7 @@ export async function getCollegeAIInfo(req: Request, res: Response) {
     const aiResponse = await axios.post(
       'https://openrouter.ai/api/v1/chat/completions',
       {
-        model: 'deepseek-chat',
+        model: 'deepseek/deepseek-r1-0528:free',
         messages: [
           { role: 'system', content: 'You are a helpful assistant for college information.' },
           { role: 'user', content: prompt }
