@@ -11,6 +11,7 @@ import { useToast } from "@/components/ui/use-toast";
 import axios from 'axios';
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
 import { Sheet, SheetTrigger, SheetContent, SheetClose } from '@/components/ui/sheet';
+import { API_ENDPOINTS } from '../lib/api';
 
 interface LoginResponse {
   token: string;
@@ -18,6 +19,7 @@ interface LoginResponse {
     id: string;
     name: string;
     email: string;
+    mobile: string;
   };
 }
 
@@ -25,6 +27,7 @@ interface RegisterResponse {
   id: string;
   name: string;
   email: string;
+  mobile: string;
 }
 
 const Header = () => {
@@ -36,6 +39,7 @@ const Header = () => {
   const [signupData, setSignupData] = useState({ 
     name: '', 
     email: '', 
+    mobile: '',
     password: '', 
     confirmPassword: '' 
   });
@@ -67,7 +71,7 @@ const Header = () => {
     setLoading(true);
     
     try {
-      const response = await axios.post<LoginResponse>('https://mht-cet-navigator.onrender.com/api/users/login', {
+      const response = await axios.post<LoginResponse>(API_ENDPOINTS.LOGIN, {
         email: loginData.email,
         password: loginData.password
       });
@@ -76,6 +80,7 @@ const Header = () => {
         localStorage.setItem('token', response.data.token);
         localStorage.setItem('userName', response.data.user.name || '');
         localStorage.setItem('userEmail', response.data.user.email || '');
+        localStorage.setItem('userMobile', response.data.user.mobile || '');
         setIsLoggedIn(true);
         toast({
           title: "Success",
@@ -109,9 +114,25 @@ const Header = () => {
     return '';
   };
 
+  const validateMobile = (mobile: string) => {
+    const mobileRegex = /^[6-9]\d{9}$/;
+    if (!mobileRegex.test(mobile)) {
+      return 'Please enter a valid 10-digit Indian mobile number starting with 6, 7, 8, or 9.';
+    }
+    return '';
+  };
+
   const handleSignup = async (e: React.FormEvent) => {
     e.preventDefault();
     setSignupError('');
+    
+    // Validate mobile number
+    const mobileValidation = validateMobile(signupData.mobile);
+    if (mobileValidation) {
+      setSignupError(mobileValidation);
+      return;
+    }
+    
     const passwordValidation = validatePassword(signupData.password);
     if (passwordValidation) {
       setSignupError(passwordValidation);
@@ -132,9 +153,10 @@ const Header = () => {
       console.log('Attempting to register user:', { ...signupData, password: '[REDACTED]' });
       
       // Register the user
-      const registerResponse = await axios.post<RegisterResponse>('https://mht-cet-navigator.onrender.com/api/users/register', {
+      const registerResponse = await axios.post<RegisterResponse>(API_ENDPOINTS.REGISTER, {
         name: signupData.name,
         email: signupData.email,
+        mobile: signupData.mobile,
         password: signupData.password
       });
       
@@ -143,7 +165,7 @@ const Header = () => {
       if (registerResponse.data) {
         // Login the user to get the token
         console.log('Attempting to login with new credentials');
-        const loginResponse = await axios.post<LoginResponse>('https://mht-cet-navigator.onrender.com/api/users/login', {
+        const loginResponse = await axios.post<LoginResponse>(API_ENDPOINTS.LOGIN, {
           email: signupData.email,
           password: signupData.password
         });
@@ -154,6 +176,7 @@ const Header = () => {
           localStorage.setItem('token', loginResponse.data.token);
           localStorage.setItem('userName', loginResponse.data.user.name || '');
           localStorage.setItem('userEmail', loginResponse.data.user.email || '');
+          localStorage.setItem('userMobile', loginResponse.data.user.mobile || '');
           setIsLoggedIn(true);
           setIsSignupOpen(false);
           toast({
@@ -287,6 +310,7 @@ const Header = () => {
                           localStorage.removeItem('token');
                           localStorage.removeItem('userName');
                           localStorage.removeItem('userEmail');
+                          localStorage.removeItem('userMobile');
                           setIsLoggedIn(false);
                           setUserName('');
                           setUserEmail('');
@@ -340,6 +364,7 @@ const Header = () => {
                       localStorage.removeItem('token');
                       localStorage.removeItem('userName');
                       localStorage.removeItem('userEmail');
+                      localStorage.removeItem('userMobile');
                       setIsLoggedIn(false);
                       setUserName('');
                       setUserEmail('');
@@ -392,6 +417,16 @@ const Header = () => {
             <Input id="name" type="text" value={signupData.name} onChange={handleSignupChange} required autoFocus />
             <Label htmlFor="email" className="text-sm">Email</Label>
             <Input id="email" type="email" value={signupData.email} onChange={handleSignupChange} required />
+            <Label htmlFor="mobile" className="text-sm">Mobile Number</Label>
+            <Input 
+              id="mobile" 
+              type="tel" 
+              placeholder="9876543210" 
+              value={signupData.mobile} 
+              onChange={handleSignupChange} 
+              required 
+              maxLength={10}
+            />
             <Label htmlFor="password" className="text-sm">Password</Label>
             <div className="relative">
               <Input id="password" type={showSignupPassword ? 'text' : 'password'} value={signupData.password} onChange={handleSignupChange} required />

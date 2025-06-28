@@ -7,6 +7,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@
 import axios from 'axios';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from '@/components/ui/dialog';
 import { Download } from 'lucide-react';
+import { API_ENDPOINTS } from '../lib/api';
 
 interface CollegePrediction {
   collegeName: string;
@@ -30,16 +31,12 @@ interface PredictionResponse {
   message?: string;
 }
 
-const REGION_OPTIONS = [
-  { label: "Amravati", value: "Amravati" },
-  { label: "Chhatrapati Sambhaji Nagar", value: "Aurangabad" },
-  { label: "Mumbai", value: "Mumbai" },
-  { label: "Nagpur", value: "Nagpur" },
-  { label: "Nashik", value: "Nashik" },
-  { label: "Pune", value: "Pune" }
-];
-//district options for cet vercel ok
 const DISTRICT_OPTIONS = [
+  "Ahmednagar", "Akola", "Amravati", "Beed", "Bhandara", "Buldhana", "Chandrapur", "Chhatrapati Sambhajinagar", "Dharashiv", "Dhule", "Gadchiroli", "Gondia", "Hingoli", "Jalgaon", "Jalna", "Kolhapur", "Latur", "Mumbai Metropolitan", "Nagpur", "Nanded", "Nandurbar", "Nashik", "Palghar", "Parbhani", "Pune", "Raigad", "Ratnagiri", "Sangli", "Satara", "Sindhudurg", "Solapur", "Wardha", "Washim", "Yavatmal"
+];
+
+// Separate options for Class 12th district (includes individual Mumbai districts)
+const CLASS12_DISTRICT_OPTIONS = [
   "Ahmednagar", "Akola", "Amravati", "Beed", "Bhandara", "Buldhana", "Chandrapur", "Chhatrapati Sambhajinagar", "Dharashiv", "Dhule", "Gadchiroli", "Gondia", "Hingoli", "Jalgaon", "Jalna", "Kolhapur", "Latur", "Mumbai City", "Mumbai Suburban", "Nagpur", "Nanded", "Nandurbar", "Nashik", "Palghar", "Parbhani", "Pune", "Raigad", "Ratnagiri", "Sangli", "Satara", "Sindhudurg", "Solapur", "Thane", "Wardha", "Washim", "Yavatmal"
 ];
 
@@ -103,7 +100,7 @@ const PredictorForm = () => {
     standardized_branch_id: '',
     category: '',
     gender: '',
-    region: '',
+    college_district: '',
     district: ''
   });
   const [examType, setExamType] = useState<'CET' | 'JEE'>('CET');
@@ -114,7 +111,7 @@ const PredictorForm = () => {
 
   useEffect(() => {
     // Fetch standardized branch groups from backend
-    axios.get<BranchGroupsResponse>('https://mht-cet-navigator.onrender.com/api/branches/standardized')
+    axios.get<BranchGroupsResponse>(API_ENDPOINTS.BRANCHES)
       .then(res => {
         setBranchGroups(res.data.standardized_branch_ids || []);
         console.log('Fetched branchGroups:', res.data.standardized_branch_ids);
@@ -152,7 +149,7 @@ const PredictorForm = () => {
 
   const validateForm = () => {
     if (!formData.percentile) return 'Percentile is required';
-    if (!formData.region) return 'Region is required';
+    if (!formData.college_district) return 'College District is required';
     if (selectedBranches.length === 0) return 'At least one branch group must be selected';
     if (examType === 'CET') {
       if (!formData.category) return 'Category is required';
@@ -195,13 +192,13 @@ const PredictorForm = () => {
       if (examType === 'CET') {
         // Make CET prediction request
         response = await axios.post<PredictionResponse>(
-          'https://mht-cet-navigator.onrender.com/api/prediction/predict',
+          API_ENDPOINTS.PREDICT,
           {
             standardized_branch_ids: selectedBranches,
             percentile: parseFloat(formData.percentile),
             category: formData.category,
             gender: formData.gender,
-            region: formData.region,
+            college_district: formData.college_district,
             district: formData.district
           },
           {
@@ -211,11 +208,11 @@ const PredictorForm = () => {
       } else {
         // Make JEE prediction request
         response = await axios.post<PredictionResponse>(
-          'https://mht-cet-navigator.onrender.com/api/prediction/predict-jee',
+          API_ENDPOINTS.PREDICT_JEE,
           {
             standardized_branch_ids: selectedBranches,
             percentile: parseFloat(formData.percentile),
-            region: formData.region
+            region: formData.college_district
           },
           {
             headers
@@ -225,10 +222,20 @@ const PredictorForm = () => {
 
       if (response.data.success && response.data.data) {
         setPredictionResults(response.data.data);
-        toast({
-          title: 'Success',
-          description: 'Prediction completed successfully!',
-        });
+        
+        if (response.data.data.length === 0) {
+          toast({
+            title: 'No Results Found',
+            description: 'No colleges found for your combination. Try adjusting your percentile, branch selection, or region.',
+            variant: 'destructive'
+          });
+        } else {
+          toast({
+            title: 'Success',
+            description: 'Prediction completed successfully!',
+          });
+        }
+        
         // Increment prediction count for guests
         if (!token) {
           const newCount = predictionCount + 1;
@@ -387,18 +394,18 @@ const PredictorForm = () => {
             </div>
 
             <div className="space-y-2">
-              <label htmlFor="region">Location</label>
+              <label htmlFor="college_district">College District</label>
               <Select
-                value={formData.region}
-                onValueChange={(value) => handleChange('region', value)}
+                value={formData.college_district}
+                onValueChange={(value) => handleChange('college_district', value)}
                 required
               >
                 <SelectTrigger>
-                  <SelectValue placeholder="Select College Location" />
+                  <SelectValue placeholder="Select College District" />
                 </SelectTrigger>
                 <SelectContent>
-                  {REGION_OPTIONS.map(region => (
-                    <SelectItem key={region.value} value={region.value}>{region.label}</SelectItem>
+                  {DISTRICT_OPTIONS.map(district => (
+                    <SelectItem key={district} value={district}>{district}</SelectItem>
                   ))}
                 </SelectContent>
               </Select>
@@ -463,7 +470,7 @@ const PredictorForm = () => {
                       <SelectValue placeholder="Select Class 12 district" />
                     </SelectTrigger>
                     <SelectContent>
-                      {DISTRICT_OPTIONS.map(district => (
+                      {CLASS12_DISTRICT_OPTIONS.map(district => (
                         <SelectItem key={district} value={district}>{district}</SelectItem>
                       ))}
                     </SelectContent>

@@ -2,8 +2,9 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import ReactMarkdown from 'react-markdown';
 import { useToast } from '@/components/ui/use-toast';
+import { API_ENDPOINTS } from '../lib/api';
 
-const API_BASE = 'https://mht-cet-navigator.onrender.com/api/colleges';
+const API_BASE = API_ENDPOINTS.COLLEGES;
 
 interface College {
   college_code: string;
