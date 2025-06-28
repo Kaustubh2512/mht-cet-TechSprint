@@ -10,12 +10,18 @@ interface AuthRequest extends Request {
 
 export const register = async (req: Request, res: Response) => {
   try {
-    const { email, password, name } = req.body;
+    const { email, password, name, mobile } = req.body;
 
-    // Check if user already exists
-    const existingUser = await User.findOne({ email });
-    if (existingUser) {
-      return res.status(400).json({ message: 'User already exists' });
+    // Check if user already exists with email
+    const existingUserByEmail = await User.findOne({ email });
+    if (existingUserByEmail) {
+      return res.status(400).json({ message: 'User with this email already exists' });
+    }
+
+    // Check if user already exists with mobile
+    const existingUserByMobile = await User.findOne({ mobile });
+    if (existingUserByMobile) {
+      return res.status(400).json({ message: 'User with this mobile number already exists' });
     }
 
     // Create new user
@@ -23,6 +29,7 @@ export const register = async (req: Request, res: Response) => {
       email,
       password,
       name,
+      mobile,
     });
 
     await user.save();
@@ -39,6 +46,7 @@ export const register = async (req: Request, res: Response) => {
         id: user._id,
         email: user.email,
         name: user.name,
+        mobile: user.mobile,
         role: user.role,
       },
       token,
@@ -77,6 +85,7 @@ export const login = async (req: Request, res: Response) => {
         id: user._id,
         email: user.email,
         name: user.name,
+        mobile: user.mobile,
         role: user.role,
       },
       token,

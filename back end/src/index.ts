@@ -16,7 +16,18 @@ console.log('MONGODB_URI:', process.env.MONGODB_URI);
 const app = express();
 
 // Middleware
-app.use(cors());
+app.use(cors({
+  origin: [
+    'http://localhost:3000',
+    'http://localhost:5173', 
+    'http://localhost:4173',
+    'https://mht-cet-navigator.onrender.com',
+    'https://mht-cet-navigator.vercel.app',
+    'https://mht-cet-navigator-git-main.vercel.app',
+    'https://mht-cet-navigator-git-develop.vercel.app'
+  ],
+  credentials: true
+}));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 

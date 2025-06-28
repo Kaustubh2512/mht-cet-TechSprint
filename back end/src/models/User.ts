@@ -4,6 +4,7 @@ import bcrypt from 'bcryptjs';
 export interface IUser extends mongoose.Document {
   name: string;
   email: string;
+  mobile: string;
   password: string;
   role: string;
   createdAt: Date;
@@ -24,6 +25,13 @@ const userSchema = new mongoose.Schema({
     trim: true,
     lowercase: true,
     match: [/^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/, 'Please enter a valid email']
+  },
+  mobile: {
+    type: String,
+    required: [true, 'Mobile number is required'],
+    unique: true,
+    trim: true,
+    match: [/^[6-9]\d{9}$/, 'Please enter a valid 10-digit Indian mobile number']
   },
   password: {
     type: String,

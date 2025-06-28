@@ -9,23 +9,26 @@ const JWT_SECRET = process.env.JWT_SECRET || 'your-secret-key';
 // Register a new user
 router.post('/register', async (req, res) => {
   try {
-    const { name, email, password } = req.body;
+    const { name, email, mobile, password } = req.body;
 
-    // Check if user already exists
-    const existingUser = await User.findOne({ email });
-    if (existingUser) {
-      return res.status(400).json({ message: 'User already exists' });
+    // Check if user already exists with email
+    const existingUserByEmail = await User.findOne({ email });
+    if (existingUserByEmail) {
+      return res.status(400).json({ message: 'User with this email already exists' });
     }
 
-    // Hash password
-    const salt = await bcrypt.genSalt(10);
-    const hashedPassword = await bcrypt.hash(password, salt);
+    // Check if user already exists with mobile
+    const existingUserByMobile = await User.findOne({ mobile });
+    if (existingUserByMobile) {
+      return res.status(400).json({ message: 'User with this mobile number already exists' });
+    }
 
     // Create new user
     const user = new User({
       name,
       email,
-      password: hashedPassword
+      mobile,
+      password
     });
 
     await user.save();
@@ -42,7 +45,8 @@ router.post('/register', async (req, res) => {
       user: {
         id: user._id,
         name: user.name,
-        email: user.email
+        email: user.email,
+        mobile: user.mobile
       }
     });
   } catch (error) {
@@ -80,7 +84,8 @@ router.post('/login', async (req, res) => {
       user: {
         id: user._id,
         name: user.name,
-        email: user.email
+        email: user.email,
+        mobile: user.mobile
       }
     });
   } catch (error) {
