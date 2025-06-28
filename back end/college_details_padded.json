@@ -1,0 +1,3492 @@
+[
+  {
+    "college_code": "01005",
+    "Institute Name": "Sant Gadge Baba Amravati University,Amravati",
+    "Region": "Amravati",
+    "District": "Amravati",
+    "Status": "University Department",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Sant Gadge Baba Amravati University"
+  },
+  {
+    "college_code": "01107",
+    "Institute Name": "P. R. Pote Patil College of Engineering & Management, Amravati",
+    "Region": "Amravati",
+    "District": "Amravati",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Sant Gadge Baba Amravati University"
+  },
+  {
+    "college_code": "01101",
+    "Institute Name": "Shri Sant Gajanan Maharaj College of Engineering,Shegaon",
+    "Region": "Amravati",
+    "District": "Buldhana",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Sant Gadge Baba Amravati University"
+  },
+  {
+    "college_code": "01002",
+    "Institute Name": "Government College of Engineering, Amravati",
+    "Region": "Amravati",
+    "District": "Amravati",
+    "Status": "Government",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Sant Gadge Baba Amravati University"
+  },
+  {
+    "college_code": "01116",
+    "Institute Name": "Shri Shivaji Education Society's College of Engineering and Technology, Akola",
+    "Region": "Amravati",
+    "District": "Akola",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Sant Gadge Baba Amravati University"
+  },
+  {
+    "college_code": "01117",
+    "Institute Name": "Janata Shikshan Prasarak Mandals Babasaheb Naik College Of Engineering, Pusad",
+    "Region": "Amravati",
+    "District": "Yavatmal",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Sant Gadge Baba Amravati University"
+  },
+  {
+    "college_code": "01114",
+    "Institute Name": "Sipna Shikshan Prasarak Mandal College of Engineering & Technology, Amravati",
+    "Region": "Amravati",
+    "District": "Amravati",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Sant Gadge Baba Amravati University"
+  },
+  {
+    "college_code": "01105",
+    "Institute Name": "Prof. Ram Meghe Institute of Technology & Research, Amravati",
+    "Region": "Amravati",
+    "District": "Amravati",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Sant Gadge Baba Amravati University"
+  },
+  {
+    "college_code": "01119",
+    "Institute Name": "Paramhansa Ramkrishna Maunibaba Shikshan Santha's , Anuradha Engineering College, Chikhali",
+    "Region": "Amravati",
+    "District": "Buldhana",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Sant Gadge Baba Amravati University"
+  },
+  {
+    "college_code": "01012",
+    "Institute Name": "Government College of Engineering,Yavatmal",
+    "Region": "Amravati",
+    "District": "Yavatmal",
+    "Status": "Government",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "01180",
+    "Institute Name": "Sanmati Engineering College, Sawargaon Barde, Washim",
+    "Region": "Amravati",
+    "District": "Washim",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Sant Gadge Baba Amravati University"
+  },
+  {
+    "college_code": "01125",
+    "Institute Name": "Dwarka Bahu Uddeshiya Gramin Vikas Foundation, Rajarshi Shahu College of Engineering, Buldhana",
+    "Region": "Amravati",
+    "District": "Buldhana",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Sant Gadge Baba Amravati University"
+  },
+  {
+    "college_code": "01127",
+    "Institute Name": "Jagadambha Bahuuddeshiya Gramin Vikas Sanstha's Jagdambha College of Engineering and Technology, Yavatmal",
+    "Region": "Amravati",
+    "District": "Yavatmal",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Sant Gadge Baba Amravati University"
+  },
+  {
+    "college_code": "01130",
+    "Institute Name": "Vision Buldhana Educational & Welfare Society's Pankaj Laddhad Institute of Technology & Management Studies, Yelgaon",
+    "Region": "Amravati",
+    "District": "Buldhana",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Sant Gadge Baba Amravati University"
+  },
+  {
+    "college_code": "01123",
+    "Institute Name": "Dr.Rajendra Gode Institute of Technology & Research, Amravati",
+    "Region": "Amravati",
+    "District": "Amravati",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Sant Gadge Baba Amravati University"
+  },
+  {
+    "college_code": "01126",
+    "Institute Name": "Takshashila Institute of Engineering & Technology, Darapur, Amravati",
+    "Region": "Amravati",
+    "District": "Amravati",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Sant Gadge Baba Amravati University"
+  },
+  {
+    "college_code": "01128",
+    "Institute Name": "Prof Ram Meghe College of Engineering  and Management, Badnera",
+    "Region": "Amravati",
+    "District": "Amravati",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Sant Gadge Baba Amravati University"
+  },
+  {
+    "college_code": "01182",
+    "Institute Name": "Padmashri Dr. V.B.  Kolte College of Engineering, Malkapur, Buldhana",
+    "Region": "Amravati",
+    "District": "Buldhana",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Sant Gadge Baba Amravati University"
+  },
+  {
+    "college_code": "01120",
+    "Institute Name": "Jawaharlal Darda Institute of Engineering and Technology, Yavatmal",
+    "Region": "Amravati",
+    "District": "Yavatmal",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Linguistic Minority - Hindi",
+    "Home University": "Sant Gadge Baba Amravati University"
+  },
+  {
+    "college_code": "01121",
+    "Institute Name": "Shri Hanuman Vyayam  Prasarak Mandals College of Engineering & Technology, Amravati",
+    "Region": "Amravati",
+    "District": "Amravati",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Sant Gadge Baba Amravati University"
+  },
+  {
+    "college_code": "01265",
+    "Institute Name": "Mauli Group of Institutions, College of Engineering and Technology, Shegaon.",
+    "Region": "Amravati",
+    "District": "Buldhana",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Sant Gadge Baba Amravati University"
+  },
+  {
+    "college_code": "01276",
+    "Institute Name": "Manav School of Engineering & Technology, Gut No. 1035 Nagpur Surat Highway, NH No. 6 Tal.Vyala, Balapur, Akola,  444302",
+    "Region": "Amravati",
+    "District": "Akola",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Sant Gadge Baba Amravati University"
+  },
+  {
+    "college_code": "02021",
+    "Institute Name": "University Department of Chemical Technology, Aurangabad",
+    "Region": "Aurangabad",
+    "District": "Chhatrapati Sambhajinagar",
+    "Status": "University Department",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Marathwada University"
+  },
+  {
+    "college_code": "02113",
+    "Institute Name": "G. S. Mandal's Maharashtra Institute of Technology, Aurangabad",
+    "Region": "Aurangabad",
+    "District": "Chhatrapati Sambhajinagar",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Marathwada University"
+  },
+  {
+    "college_code": "02008",
+    "Institute Name": "Government College of Engineering,  Chhatrapati Sambhajinagar",
+    "Region": "Aurangabad",
+    "District": "Chhatrapati Sambhajinagar",
+    "Status": "Government",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Marathwada University"
+  },
+  {
+    "college_code": "01268",
+    "Institute Name": "Siddhivinayak Technical Campus, School of Engineering & Research Technology, Shirasgon, Nile",
+    "Region": "Amravati",
+    "District": "Buldhana",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Sant Gadge Baba Amravati University"
+  },
+  {
+    "college_code": "02112",
+    "Institute Name": "Shree Yash Pratishthan, Shreeyash College of Engineering and Technology, Aurangabad",
+    "Region": "Aurangabad",
+    "District": "Chhatrapati Sambhajinagar",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "02111",
+    "Institute Name": "Everest Education Society, Group of Institutions (Integrated Campus), Ohar",
+    "Region": "Aurangabad",
+    "District": "Chhatrapati Sambhajinagar",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Religious Minority - Muslim",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "02032",
+    "Institute Name": "Institute of Chemical Technology, Mumbai Marathwada off campus, Jalna",
+    "Region": "Aurangabad",
+    "District": "Jalna",
+    "Status": "University Managed",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Deemed to be University"
+  },
+  {
+    "college_code": "02020",
+    "Institute Name": "Shri Guru Gobind Singhji Institute of Engineering and Technology, Nanded",
+    "Region": "Aurangabad",
+    "District": "Nanded",
+    "Status": "Government-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Swami Ramanand Teerth Marathwada University, Nanded"
+  },
+  {
+    "college_code": "02136",
+    "Institute Name": "Aditya Engineering College , Beed",
+    "Region": "Aurangabad",
+    "District": "Beed",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "02133",
+    "Institute Name": "Mahatma Basaweshwar Education Society's College of Engineering, Ambejogai",
+    "Region": "Aurangabad",
+    "District": "Beed",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "02129",
+    "Institute Name": "M.S. Bidve Engineering College, Latur",
+    "Region": "Aurangabad",
+    "District": "Latur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "02114",
+    "Institute Name": "Deogiri Institute of Engineering and Management Studies, Aurangabad",
+    "Region": "Aurangabad",
+    "District": "Chhatrapati Sambhajinagar",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "02130",
+    "Institute Name": "Terna Public Charitable Trust's College of Engineering, Osmanabad",
+    "Region": "Aurangabad",
+    "District": "Dharashiv",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "02116",
+    "Institute Name": "Matoshri Pratishan's Group of Institutions (Integrated Campus), Kupsarwadi , Nanded",
+    "Region": "Aurangabad",
+    "District": "Nanded",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "02134",
+    "Institute Name": "Peoples Education Society's College of Engineering, Aurangabad",
+    "Region": "Aurangabad",
+    "District": "Chhatrapati Sambhajinagar",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "02135",
+    "Institute Name": "Hi-Tech Institute of Technology, Aurangabad",
+    "Region": "Aurangabad",
+    "District": "Chhatrapati Sambhajinagar",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "02127",
+    "Institute Name": "Mahatma Gandhi Missions College of Engineering, Hingoli Rd, Nanded.",
+    "Region": "Aurangabad",
+    "District": "Nanded",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "02131",
+    "Institute Name": "Shree Tuljabhavani College of Engineering, Tuljapur",
+    "Region": "Aurangabad",
+    "District": "Dharashiv",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "02137",
+    "Institute Name": "Nagnathappa Halge Engineering  College, Parli, Beed",
+    "Region": "Aurangabad",
+    "District": "Beed",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Marathwada University"
+  },
+  {
+    "college_code": "02250",
+    "Institute Name": "Aurangabad College of Engineering,  Naygaon Savangi, Aurangabad",
+    "Region": "Aurangabad",
+    "District": "Chhatrapati Sambhajinagar",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "02282",
+    "Institute Name": "Aditya Education Trust's Mitthulalji Sarada Polytechnic, Nalwandi Road, Beed",
+    "Region": "Aurangabad",
+    "District": "Beed",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "02508",
+    "Institute Name": "GRAMIN TECHNICAL AND MANAGEMENT CAMPUS NANDED.",
+    "Region": "Aurangabad",
+    "District": "Nanded",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "02252",
+    "Institute Name": "Marathwada Shikshan Prasarak Mandal's Shri Shivaji Institute of Engineering and Management Studies, Parbhani",
+    "Region": "Aurangabad",
+    "District": "Parbhani",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "02146",
+    "Institute Name": "Adarsh Shikshan Prasarak Mandal's K. T. Patil College of Engineering and Technology, Osmanabad",
+    "Region": "Aurangabad",
+    "District": "Dharashiv",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Marathwada University"
+  },
+  {
+    "college_code": "02138",
+    "Institute Name": "Matsyodari Shikshan Sansatha's College of Engineering and Technology, Jalna",
+    "Region": "Aurangabad",
+    "District": "Jalna",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "02254",
+    "Institute Name": "Vilasrao Deshmukh Foundation Group of Institutions, Latur",
+    "Region": "Aurangabad",
+    "District": "Latur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "02516",
+    "Institute Name": "International Centre Of Excellence In Engineering  and Management (ICEEM)",
+    "Region": "Aurangabad",
+    "District": "Chhatrapati Sambhajinagar",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Marathwada University"
+  },
+  {
+    "college_code": "02522",
+    "Institute Name": "STMEI's Sandipani Technical Campus-Faculty of Engineering, Latur.",
+    "Region": "Aurangabad",
+    "District": "Latur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "02533",
+    "Institute Name": "CSMSS Chh. Shahu College of Engineering, Aurangabad",
+    "Region": "Aurangabad",
+    "District": "Chhatrapati Sambhajinagar",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "03014",
+    "Institute Name": "Sardar Patel College of Engineering, Andheri",
+    "Region": "Mumbai",
+    "District": "Mumbai Suburban",
+    "Status": "Government-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "02666",
+    "Institute Name": "Mangaldeep College of Engineering",
+    "Region": "Aurangabad",
+    "District": "Chhatrapati Sambhajinagar",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Marathwada University"
+  },
+  {
+    "college_code": "02637",
+    "Institute Name": "Jijau Institute of Engineering Technology and Management, Khandgaon (Bendri), Taluka Naigaon, District Nanded",
+    "Region": "Aurangabad",
+    "District": "Nanded",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "03033",
+    "Institute Name": "Dr. Babasaheb Ambedkar Technological University, Lonere",
+    "Region": "Mumbai",
+    "District": "Raigad",
+    "Status": "University",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "02641",
+    "Institute Name": "Dr. V.K. Patil College of Engineering & Technology",
+    "Region": "Aurangabad",
+    "District": "Dharashiv",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "03025",
+    "Institute Name": "Svkm's Shri Bhagubhai Mafatlal Polytechnic & College of Engineering",
+    "Region": "Mumbai",
+    "District": "Mumbai City",
+    "Status": "Government-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Linguistic Minority - Gujarathi",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "03036",
+    "Institute Name": "Institute of Chemical Technology, Matunga, Mumbai",
+    "Region": "Mumbai",
+    "District": "Mumbai City",
+    "Status": "Deemed University",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Deemed to be University"
+  },
+  {
+    "college_code": "03012",
+    "Institute Name": "Veermata Jijabai Technological Institute(VJTI), Matunga, Mumbai",
+    "Region": "Mumbai",
+    "District": "Mumbai City",
+    "Status": "Government-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03035",
+    "Institute Name": "Usha Mittal Institute of Technology SNDT  Women's University, Mumbai",
+    "Region": "Mumbai",
+    "District": "Mumbai Suburban",
+    "Status": "University Managed (Un-Aided)",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "SNDT Women's University"
+  },
+  {
+    "college_code": "03042",
+    "Institute Name": "Loknete Shamrao Peje Government College of Engineering, Ratnagiri",
+    "Region": "Mumbai",
+    "District": "Ratnagiri",
+    "Status": "Government",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "03143",
+    "Institute Name": "Thakur Shyamnarayan Engineering College, Mumbai",
+    "Region": "Mumbai",
+    "District": "Mumbai Suburban",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Linguistic Minority - Hindi",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03139",
+    "Institute Name": "Vidyalankar Institute of Technology,Wadala, Mumbai",
+    "Region": "Mumbai",
+    "District": "Mumbai City",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03148",
+    "Institute Name": "Mahavir Education Trust's Shah & Anchor Kutchhi Engineering College, Mumbai",
+    "Region": "Mumbai",
+    "District": "Mumbai Suburban",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Linguistic Minority - Gujarathi(Jain)",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03146",
+    "Institute Name": "Jawahar Education Society's Annasaheb Chudaman Patil College of Engineering,Kharghar, Navi Mumbai",
+    "Region": "Mumbai",
+    "District": "Raigad",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03154",
+    "Institute Name": "Saraswati Education Society's Saraswati College of Engineering,Kharghar Navi Mumbai",
+    "Region": "Mumbai",
+    "District": "Raigad",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03147",
+    "Institute Name": "Saraswati Education Society, Yadavrao Tasgaonkar  Institute of Engineering & Technology, Karjat",
+    "Region": "Mumbai",
+    "District": "Raigad",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03176",
+    "Institute Name": "Thakur College of Engineering and Technology, Kandivali, Mumbai",
+    "Region": "Mumbai",
+    "District": "Mumbai Suburban",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Linguistic Minority - Hindi",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03135",
+    "Institute Name": "Manjara Charitable Trust's Rajiv Gandhi Institute of Technology, Mumbai",
+    "Region": "Mumbai",
+    "District": "Mumbai Suburban",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03175",
+    "Institute Name": "M.G.M.'s College of Engineering and Technology, Kamothe, Navi Mumbai",
+    "Region": "Mumbai",
+    "District": "Raigad",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03184",
+    "Institute Name": "Fr. Conceicao Rodrigues College of Engineering, Bandra,Mumbai",
+    "Region": "Mumbai",
+    "District": "Mumbai Suburban",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Religious Minority - Christian",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03187",
+    "Institute Name": "N.Y.S.S.'s Datta Meghe College of Engineering, Airoli, Navi Mumbai",
+    "Region": "Mumbai",
+    "District": "Thane",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03182",
+    "Institute Name": "Thadomal Shahani Engineering College, Bandra, Mumbai",
+    "Region": "Mumbai",
+    "District": "Mumbai Suburban",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Linguistic Minority - Sindhi",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03183",
+    "Institute Name": "Anjuman-I-Islam's M.H. Saboo Siddik College of Engineering, Byculla, Mumbai",
+    "Region": "Mumbai",
+    "District": "Mumbai City",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Religious Minority - Muslim",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03188",
+    "Institute Name": "Vasantdada Patil Pratishthan's College Of Engineering and Visual Arts, Sion, Mumbai",
+    "Region": "Mumbai",
+    "District": "Mumbai City",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03192",
+    "Institute Name": "Smt. Indira Gandhi College of Engineering, Navi Mumbai",
+    "Region": "Mumbai",
+    "District": "Thane",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03189",
+    "Institute Name": "Bharati Vidyapeeth College of Engineering,  Navi Mumbai",
+    "Region": "Mumbai",
+    "District": "Thane",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03185",
+    "Institute Name": "Vivekanand Education Society's Institute of Technology, Chembur, Mumbai",
+    "Region": "Mumbai",
+    "District": "Mumbai Suburban",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Linguistic Minority - Sindhi",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03190",
+    "Institute Name": "Terna Engineering College, Nerul, Navi Mumbai",
+    "Region": "Mumbai",
+    "District": "Thane",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03193",
+    "Institute Name": "Shivajirao S. Jondhale College of Engineering, Dombivali,Mumbai",
+    "Region": "Mumbai",
+    "District": "Thane",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03197",
+    "Institute Name": "Agnel Charities FR. C. Rodrigues Institute of Technology, Vashi, Navi Mumbai",
+    "Region": "Mumbai",
+    "District": "Thane",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Religious Minority - Christian",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03196",
+    "Institute Name": "Lokmanya Tilak College of Engineering, Kopar Khairane, Navi Mumbai",
+    "Region": "Mumbai",
+    "District": "Thane",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Linguistic Minority - Hindi",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03194",
+    "Institute Name": "Vidyavardhini's College of Engineering and Technology, Vasai",
+    "Region": "Mumbai",
+    "District": "Palghar",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03200",
+    "Institute Name": "Hope Foundation and research center's  Finolex Academy of Management and Technology, Ratnagiri",
+    "Region": "Mumbai",
+    "District": "Ratnagiri",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03198",
+    "Institute Name": "Konkan Gyanpeeth College of Engineering, Karjat",
+    "Region": "Mumbai",
+    "District": "Raigad",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03203",
+    "Institute Name": "Atharva College of Engineering,Malad(West),Mumbai",
+    "Region": "Mumbai",
+    "District": "Mumbai Suburban",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03202",
+    "Institute Name": "Rajendra Mane College of Engineering & Technology  Ambav Deorukh",
+    "Region": "Mumbai",
+    "District": "Ratnagiri",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03199",
+    "Institute Name": "Shri Vile Parle Kelvani Mandal's Dwarkadas J. Sanghvi College of Engineering, Vile Parle,Mumbai",
+    "Region": "Mumbai",
+    "District": "Mumbai Suburban",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Linguistic Minority - Gujarathi",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03204",
+    "Institute Name": "St. Francis Institute of Technology,Borivali, Mumbai",
+    "Region": "Mumbai",
+    "District": "Mumbai Suburban",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Religious Minority - Christian",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03201",
+    "Institute Name": "Rizvi Education Society's Rizvi College of Engineering, Bandra,Mumbai",
+    "Region": "Mumbai",
+    "District": "Mumbai Suburban",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Religious Minority - Muslim",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03208",
+    "Institute Name": "Don Bosco Institute of Technology, Mumbai",
+    "Region": "Mumbai",
+    "District": "Mumbai Suburban",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Religious Minority - Roman Catholics",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03206",
+    "Institute Name": "S.S.P.M.'s College of Engineering, Kankavli",
+    "Region": "Mumbai",
+    "District": "Sindhudurg",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03207",
+    "Institute Name": "Mahatma Education Society's Pillai College of Engineering, New Panvel",
+    "Region": "Mumbai",
+    "District": "Raigad",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Linguistic Minority - Malyalam",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03209",
+    "Institute Name": "K J Somaiya Institute of Technology",
+    "Region": "Mumbai",
+    "District": "Mumbai Suburban",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Linguistic Minority - Gujarathi",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03210",
+    "Institute Name": "Excelsior Education Society's K.C. College of Engineering and Management Studies and Research, Kopri, Thane (E)",
+    "Region": "Mumbai",
+    "District": "Thane",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Linguistic Minority - Punjabi",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03212",
+    "Institute Name": "Watumull Institute of  Engineering & Technology, Ulhasnagar",
+    "Region": "Mumbai",
+    "District": "Thane",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Linguistic Minority - Sindhi",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03214",
+    "Institute Name": "Xavier Institute Of Engineering C/O  Xavier Technical Institute,Mahim,Mumbai",
+    "Region": "Mumbai",
+    "District": "Mumbai City",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Religious Minority - Christian",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03211",
+    "Institute Name": "S.I.E.S. Graduate School of Technology, Nerul, Navi Mumbai",
+    "Region": "Mumbai",
+    "District": "Thane",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Linguistic Minority - Tamil",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03215",
+    "Institute Name": "Bhartiya Vidya Bhavan's Sardar Patel Institute  of Technology , Andheri, Mumbai",
+    "Region": "Mumbai",
+    "District": "Mumbai Suburban",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03217",
+    "Institute Name": "Vighnaharata Trust's  Shivajirao S. Jondhale College of Engineering & Technology, Shahapur, Asangaon, Dist Thane",
+    "Region": "Mumbai",
+    "District": "Thane",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03216",
+    "Institute Name": "Gharda Foundation's Gharda Institute of Technology,Khed, Ratnagiri",
+    "Region": "Mumbai",
+    "District": "Ratnagiri",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03257",
+    "Institute Name": "Vidya Prasarak Mandal's College of Engineering, Thane",
+    "Region": "Mumbai",
+    "District": "Thane",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03221",
+    "Institute Name": "Vishnu Waman Thakur Charitable Trust's VIVA Institute of Technology, Virar",
+    "Region": "Mumbai",
+    "District": "Palghar",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03224",
+    "Institute Name": "Leela Education Society, G.V. Acharya Institute of Engineering and Technology, Shelu, Karjat",
+    "Region": "Mumbai",
+    "District": "Raigad",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03222",
+    "Institute Name": "Haji Jamaluddin Thim Trust's Theem College of Engineering, At. Villege Betegaon, Boisar",
+    "Region": "Mumbai",
+    "District": "Palghar",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Religious Minority - Muslim",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03219",
+    "Institute Name": "Koti Vidya Charitable Trust's  Smt. Alamuri Ratnamala Institute of Engineering and Technology,  Sapgaon, Tal. Shahapur",
+    "Region": "Mumbai",
+    "District": "Thane",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Linguistic Minority - Hindi",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03220",
+    "Institute Name": "Yadavrao Tasgaonkar College of Engineering & Management",
+    "Region": "Mumbai",
+    "District": "Raigad",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03218",
+    "Institute Name": "Aldel Education Trust's St. John College of Engineering & Management, Vevoor, Palghar",
+    "Region": "Mumbai",
+    "District": "Palghar",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Religious Minority - Christian",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03223",
+    "Institute Name": "Mahatma Education Society's Pillai HOC College of Engineering & Technology, Tal. Khalapur. Dist. Raigad",
+    "Region": "Mumbai",
+    "District": "Raigad",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Linguistic Minority - Malyalam",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03440",
+    "Institute Name": "Metropolitan Institute of Technology & Management, Sukhalwad, Sindhudurg.",
+    "Region": "Mumbai",
+    "District": "Sindhudurg",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03351",
+    "Institute Name": "Bharat College of Engineering, Kanhor, Badlapur(W)",
+    "Region": "Mumbai",
+    "District": "Thane",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03423",
+    "Institute Name": "Shree L.R. Tiwari College of Engineering, Mira Road, Mumbai",
+    "Region": "Mumbai",
+    "District": "Thane",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Linguistic Minority - Hindi",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03277",
+    "Institute Name": "Pravin Rohidas Patil College of Engineering & Technology",
+    "Region": "Mumbai",
+    "District": "Thane",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03436",
+    "Institute Name": "B.R. Harne College of Engineering & Technology, Karav, Tal-Ambernath.",
+    "Region": "Mumbai",
+    "District": "Thane",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03353",
+    "Institute Name": "Dilkap Research Institute Of Engineering and Management Studies, At.Mamdapur, Post- Neral, Tal- Karjat,  Mumbai",
+    "Region": "Mumbai",
+    "District": "Raigad",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03439",
+    "Institute Name": "Anjuman-I-Islam's Kalsekar Technical Campus, Panvel",
+    "Region": "Mumbai",
+    "District": "Raigad",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Religious Minority - Muslim",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03445",
+    "Institute Name": "Vishwatmak Jangli Maharaj Ashram Trust (Kokamthan), Atma Malik Institute Of Technology & Research",
+    "Region": "Mumbai",
+    "District": "Thane",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03447",
+    "Institute Name": "G.M.Vedak Institute of Technology, Tala, Raigad.",
+    "Region": "Mumbai",
+    "District": "Raigad",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03460",
+    "Institute Name": "Universal College of Engineering,Kaman Dist. Palghar",
+    "Region": "Mumbai",
+    "District": "Palghar",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Linguistic Minority - Gujarathi",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03470",
+    "Institute Name": "YASHWANTRAO BHONSALE INSTITUTE OF TECHNOLOGY",
+    "Region": "Mumbai",
+    "District": "Sindhudurg",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03462",
+    "Institute Name": "VPM's Maharshi Parshuram College of Engineering, Velneshwar, Ratnagiri.",
+    "Region": "Mumbai",
+    "District": "Ratnagiri",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03477",
+    "Institute Name": "Chhartrapati Shivaji Maharaj Institute of Technology, Shedung, Panvel",
+    "Region": "Mumbai",
+    "District": "Raigad",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03465",
+    "Institute Name": "Ideal Institute of Technology, Wada, Dist.Thane",
+    "Region": "Mumbai",
+    "District": "Palghar",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03467",
+    "Institute Name": "Vishwaniketan's Institute of Management Entrepreneurship and Engineering Technology(i MEET), Khalapur Dist Raigad",
+    "Region": "Mumbai",
+    "District": "Raigad",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03546",
+    "Institute Name": "Devi Mahalaxmi College of Engineering and Technology",
+    "Region": "Mumbai",
+    "District": "Thane",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03471",
+    "Institute Name": "New Horizon Institute of Technology & Management, Thane",
+    "Region": "Mumbai",
+    "District": "Thane",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03503",
+    "Institute Name": "Indala College Of Engineering, Bapsai Tal.Kalyan",
+    "Region": "Mumbai",
+    "District": "Thane",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "03475",
+    "Institute Name": "A. P. Shah Institute of Technology, Thane",
+    "Region": "Mumbai",
+    "District": "Thane",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Religious Minority - Jain",
+    "Home University": "Mumbai University"
+  },
+  {
+    "college_code": "04004",
+    "Institute Name": "Government College of Engineering, Chandrapur",
+    "Region": "Nagpur",
+    "District": "Chandrapur",
+    "Status": "Government",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Gondwana University"
+  },
+  {
+    "college_code": "04104",
+    "Institute Name": "Kavi Kulguru Institute of Technology & Science, Ramtek",
+    "Region": "Nagpur",
+    "District": "Nagpur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Rashtrasant Tukadoji Maharaj Nagpur University"
+  },
+  {
+    "college_code": "04025",
+    "Institute Name": "Government College of Engineering, Nagpur",
+    "Region": "Nagpur",
+    "District": "Nagpur",
+    "Status": "Government",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Rashtrasant Tukadoji Maharaj Nagpur University"
+  },
+  {
+    "college_code": "04118",
+    "Institute Name": "Bapurao Deshmukh College of Engineering, Sevagram",
+    "Region": "Nagpur",
+    "District": "Wardha",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Rashtrasant Tukadoji Maharaj Nagpur University"
+  },
+  {
+    "college_code": "04123",
+    "Institute Name": "Lokmanya Tilak Jankalyan Shikshan Sanstha, Priyadarshani College of Engineering, Nagpur",
+    "Region": "Nagpur",
+    "District": "Nagpur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Linguistic Minority - Hindi",
+    "Home University": "Rashtrasant Tukadoji Maharaj Nagpur University"
+  },
+  {
+    "college_code": "04133",
+    "Institute Name": "Sanmarg Shikshan Sanstha's Smt. Radhikatai Pandav College of Engineering, Nagpur",
+    "Region": "Nagpur",
+    "District": "Nagpur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Rashtrasant Tukadoji Maharaj Nagpur University"
+  },
+  {
+    "college_code": "04116",
+    "Institute Name": "Ankush Shikshan Sanstha's G.H.Raisoni College of Engineering, Nagpur",
+    "Region": "Nagpur",
+    "District": "Nagpur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Linguistic Minority - Hindi",
+    "Home University": "Rashtrasant Tukadoji Maharaj Nagpur University"
+  },
+  {
+    "college_code": "04134",
+    "Institute Name": "Guru Nanak Institute of Engineering & Technology,Kalmeshwar, Nagpur",
+    "Region": "Nagpur",
+    "District": "Nagpur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Rashtrasant Tukadoji Maharaj Nagpur University"
+  },
+  {
+    "college_code": "04136",
+    "Institute Name": "Lokmanya Tilak Jankalyan Shikshan Sastha, Priyadarshini J. L. College Of Engineering, Nagpur",
+    "Region": "Nagpur",
+    "District": "Nagpur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Linguistic Minority - Hindi",
+    "Home University": "Rashtrasant Tukadoji Maharaj Nagpur University"
+  },
+  {
+    "college_code": "04137",
+    "Institute Name": "Sir Shantilal Badjate Charitable Trust's S. B. Jain Institute of technology, Management & Research, Nagpur",
+    "Region": "Nagpur",
+    "District": "Nagpur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Linguistic Minority - Hindi",
+    "Home University": "Rashtrasant Tukadoji Maharaj Nagpur University"
+  },
+  {
+    "college_code": "04135",
+    "Institute Name": "Amar Seva Mandal's Shree Govindrao Vanjari College of Engineering &  Technology, Nagpur",
+    "Region": "Nagpur",
+    "District": "Nagpur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "04138",
+    "Institute Name": "Jaidev Education Society, J D College of Engineering and Management, Nagpur",
+    "Region": "Nagpur",
+    "District": "Nagpur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Linguistic Minority - Hindi",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "04139",
+    "Institute Name": "Samridhi Sarwajanik Charitable Trust, Jhulelal Institute of Technology, Nagpur",
+    "Region": "Nagpur",
+    "District": "Nagpur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Linguistic Minority - Sindhi",
+    "Home University": "Rashtrasant Tukadoji Maharaj Nagpur University"
+  },
+  {
+    "college_code": "04141",
+    "Institute Name": "Shriram Gram Vikas Shikshan Sanstha, Vilasrao Deshmukh College of Engineering and Technology, Nagpur",
+    "Region": "Nagpur",
+    "District": "Nagpur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "04147",
+    "Institute Name": "K.D.K. College of Engineering, Nagpur",
+    "Region": "Nagpur",
+    "District": "Nagpur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Rashtrasant Tukadoji Maharaj Nagpur University"
+  },
+  {
+    "college_code": "04143",
+    "Institute Name": "Sanmarg Shikshan Sanstha, Mandukarrao Pandav College of Engineering, Bhandara",
+    "Region": "Nagpur",
+    "District": "Bhandara",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Rashtrasant Tukadoji Maharaj Nagpur University"
+  },
+  {
+    "college_code": "04142",
+    "Institute Name": "G H Raisoni College of Engineering & Management, Nagpur",
+    "Region": "Nagpur",
+    "District": "Nagpur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Linguistic Minority - Hindi",
+    "Home University": "Rashtrasant Tukadoji Maharaj Nagpur University"
+  },
+  {
+    "college_code": "04172",
+    "Institute Name": "Anjuman College of Engineering & Technology, Nagpur",
+    "Region": "Nagpur",
+    "District": "Nagpur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Religious Minority - Muslim",
+    "Home University": "Rashtrasant Tukadoji Maharaj Nagpur University"
+  },
+  {
+    "college_code": "04145",
+    "Institute Name": "Wainganga College of Engineering and Management, Dongargaon, Nagpur",
+    "Region": "Nagpur",
+    "District": "Nagpur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Rashtrasant Tukadoji Maharaj Nagpur University"
+  },
+  {
+    "college_code": "04144",
+    "Institute Name": "Shri. Sai Shikshan Sanstha, Nagpur Institute of Technology, Nagpur",
+    "Region": "Nagpur",
+    "District": "Nagpur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Rashtrasant Tukadoji Maharaj Nagpur University"
+  },
+  {
+    "college_code": "04163",
+    "Institute Name": "Rajiv Gandhi College of Engineering Research & Technology  Chandrapur",
+    "Region": "Nagpur",
+    "District": "Chandrapur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "04167",
+    "Institute Name": "Yeshwantrao Chavan College of Engineering,Wanadongri, Nagpur",
+    "Region": "Nagpur",
+    "District": "Nagpur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Rashtrasant Tukadoji Maharaj Nagpur University"
+  },
+  {
+    "college_code": "04151",
+    "Institute Name": "Tulsiramji Gaikwad Patil College of Engineering & Technology, Nagpur",
+    "Region": "Nagpur",
+    "District": "Nagpur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Rashtrasant Tukadoji Maharaj Nagpur University"
+  },
+  {
+    "college_code": "04174",
+    "Institute Name": "ST. Vincent Pallotti College of Engineering & Technology, Nagpur",
+    "Region": "Nagpur",
+    "District": "Nagpur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Religious Minority - Christian",
+    "Home University": "Rashtrasant Tukadoji Maharaj Nagpur University"
+  },
+  {
+    "college_code": "04177",
+    "Institute Name": "Priyadarshini Bhagwati  College of Engineering, Harpur Nagar, Umred Road,Nagpur",
+    "Region": "Nagpur",
+    "District": "Nagpur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Linguistic Minority - Hindi",
+    "Home University": "Rashtrasant Tukadoji Maharaj Nagpur University"
+  },
+  {
+    "college_code": "04190",
+    "Institute Name": "M.D. Yergude Memorial Shikshan Prasarak Mandal's Shri Sai College of Engineering & Technology, Bhadrawati",
+    "Region": "Nagpur",
+    "District": "Chandrapur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "04192",
+    "Institute Name": "Maitraya Education Society, Nagarjuna Institute of Engineering Technology & Management, Nagpur",
+    "Region": "Nagpur",
+    "District": "Nagpur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Rashtrasant Tukadoji Maharaj Nagpur University"
+  },
+  {
+    "college_code": "04193",
+    "Institute Name": "K.D.M. Education Society, Vidharbha Institute of Technology,Umred Road ,Nagpur",
+    "Region": "Nagpur",
+    "District": "Nagpur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Linguistic Minority - Hindi",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "04175",
+    "Institute Name": "JMSS Shri Shankarprasad Agnihotri College of Engineering, Wardha",
+    "Region": "Nagpur",
+    "District": "Wardha",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Rashtrasant Tukadoji Maharaj Nagpur University"
+  },
+  {
+    "college_code": "04181",
+    "Institute Name": "Swaminarayan Siddhanta Institute Of Technology, Nagpur",
+    "Region": "Nagpur",
+    "District": "Nagpur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "04188",
+    "Institute Name": "Krushi Jivan Vikas Pratishthan, Ballarpur Institute of Technology, Mouza Bamni",
+    "Region": "Nagpur",
+    "District": "Chandrapur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "04197",
+    "Institute Name": "Jai Mahakali Shikshan Sanstha, Agnihotri College of Engineering, Sindhi(Meghe)",
+    "Region": "Nagpur",
+    "District": "Wardha",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Rashtrasant Tukadoji Maharaj Nagpur University"
+  },
+  {
+    "college_code": "04196",
+    "Institute Name": "Gurunanak Educational Society's Gurunanak Institute of Technology, Nagpur",
+    "Region": "Nagpur",
+    "District": "Nagpur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Rashtrasant Tukadoji Maharaj Nagpur University"
+  },
+  {
+    "college_code": "05003",
+    "Institute Name": "University Institute  of Chemical Technology, North Maharashtra University, Jalgaon",
+    "Region": "Nashik",
+    "District": "Jalgaon",
+    "Status": "University Department",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Kavayitri Bahinabai Chaudhari North Maharashtra University, Jalgaon"
+  },
+  {
+    "college_code": "04285",
+    "Institute Name": "V M Institute of Engineering and Technology, Dongargaon, Nagpur",
+    "Region": "Nagpur",
+    "District": "Nagpur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Rashtrasant Tukadoji Maharaj Nagpur University"
+  },
+  {
+    "college_code": "05004",
+    "Institute Name": "Government College of Engineering, Jalgaon",
+    "Region": "Nashik",
+    "District": "Jalgaon",
+    "Status": "Government",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Kavayitri Bahinabai Chaudhari North Maharashtra University, Jalgaon"
+  },
+  {
+    "college_code": "04648",
+    "Institute Name": "R.V. Parankar College of Engineering & Technology, Arvi, Dist Wardha",
+    "Region": "Nagpur",
+    "District": "Wardha",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Rashtrasant Tukadoji Maharaj Nagpur University"
+  },
+  {
+    "college_code": "04613",
+    "Institute Name": "Suryodaya College of Engineering & Technology, Nagpur",
+    "Region": "Nagpur",
+    "District": "Nagpur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Rashtrasant Tukadoji Maharaj Nagpur University"
+  },
+  {
+    "college_code": "04302",
+    "Institute Name": "Gondia Education Society's Manoharbhai Patel Institute Of Engineering & Technology, Shahapur, Bhandara",
+    "Region": "Nagpur",
+    "District": "Bhandara",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Rashtrasant Tukadoji Maharaj Nagpur University"
+  },
+  {
+    "college_code": "04304",
+    "Institute Name": "Cummins College of Engineering For Women, Sukhali (Gupchup), Tal. Hingna Hingna Nagpur",
+    "Region": "Nagpur",
+    "District": "Nagpur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Rashtrasant Tukadoji Maharaj Nagpur University"
+  },
+  {
+    "college_code": "04679",
+    "Institute Name": "Karanjekar College of Engineering & Management, Sakoli",
+    "Region": "Nagpur",
+    "District": "Bhandara",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "05103",
+    "Institute Name": "Shri Shivaji Vidya Prasarak Sanstha's Late Bapusaheb Shivaji Rao Deore College of Engineering,Dhule",
+    "Region": "Nashik",
+    "District": "Dhule",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "05104",
+    "Institute Name": "Shramsadhana Bombay Trust, College of Engineering & Technology, Jalgaon",
+    "Region": "Nashik",
+    "District": "Jalgaon",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Kavayitri Bahinabai Chaudhari North Maharashtra University, Jalgaon"
+  },
+  {
+    "college_code": "04649",
+    "Institute Name": "Bajaj Institute of Technology, Wardha",
+    "Region": "Nagpur",
+    "District": "Wardha",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Linguistic Minority - Hindi",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "05109",
+    "Institute Name": "Sandip Foundation, Sandip Institute of Technology and Research Centre, Mahiravani, Nashik",
+    "Region": "Nashik",
+    "District": "Nashik",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "05121",
+    "Institute Name": "K. K. Wagh Institute of Engineering Education and Research, Nashik",
+    "Region": "Nashik",
+    "District": "Nashik",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "05152",
+    "Institute Name": "G H Raisoni College of  Engineering and Management, Jalgaon",
+    "Region": "Nashik",
+    "District": "Jalgaon",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Linguistic Minority - Hindi",
+    "Home University": "Kavayitri Bahinabai Chaudhari North Maharashtra University, Jalgaon"
+  },
+  {
+    "college_code": "05108",
+    "Institute Name": "Maratha Vidya Prasarak Samaj's Karmaveer Adv. Baburao Ganpatrao Thakare College Of Engineering, Nashik",
+    "Region": "Nashik",
+    "District": "Nashik",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "05106",
+    "Institute Name": "Khandesh College Education Society's College Of Engineering And Management, Jalgaon",
+    "Region": "Nashik",
+    "District": "Jalgaon",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "05151",
+    "Institute Name": "MET Bhujbal Knowledge City MET League's Engineering College, Adgaon, Nashik.",
+    "Region": "Nashik",
+    "District": "Nashik",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "05125",
+    "Institute Name": "Pravara Rural Education Society's Sir Visvesvaraya Institute of Technology, Chincholi Dist. Nashik",
+    "Region": "Nashik",
+    "District": "Nashik",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "05130",
+    "Institute Name": "Brahma Valley College of Engineering & Research, Trimbakeshwar, Nashik",
+    "Region": "Nashik",
+    "District": "Nashik",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "05124",
+    "Institute Name": "Jagadamba Education Soc. Nashik's S.N.D. College of Engineering & Reserch, Babulgaon",
+    "Region": "Nashik",
+    "District": "Nashik",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "05139",
+    "Institute Name": "Pravara Rural College of Engineering, Loni, Pravaranagar, Ahmednagar.",
+    "Region": "Nashik",
+    "District": "Ahmednagar",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "05164",
+    "Institute Name": "P.S.G.V.P. Mandal's D.N. Patel College of Engineering, Shahada, Dist. Nandurbar",
+    "Region": "Nashik",
+    "District": "Nandurbar",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Linguistic Minority - Gujar",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "05170",
+    "Institute Name": "Hindi Seva Mandal's Shri Sant Gadgebaba College of Engineering & Technology, Bhusawal",
+    "Region": "Nashik",
+    "District": "Jalgaon",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Linguistic Minority - Hindi",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "05169",
+    "Institute Name": "Nagaon  Education Society's Gangamai College of Engineering, Nagaon, Tal Dist Dhule",
+    "Region": "Nashik",
+    "District": "Dhule",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Kavayitri Bahinabai Chaudhari North Maharashtra University, Jalgaon"
+  },
+  {
+    "college_code": "05161",
+    "Institute Name": "Dr. Vithalrao Vikhe Patil College of Engineering, Ahmednagar",
+    "Region": "Nashik",
+    "District": "Ahmednagar",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "05172",
+    "Institute Name": "R. C. Patel Institute of Technology, Shirpur",
+    "Region": "Nashik",
+    "District": "Dhule",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Linguistic Minority - Gujarathi",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "05171",
+    "Institute Name": "Godavari Foundation's Godavari College Of Engineering,  Jalgaon",
+    "Region": "Nashik",
+    "District": "Jalgaon",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "05162",
+    "Institute Name": "Amrutvahini Sheti & Shikshan Vikas Sanstha's Amrutvahini College of Engineering, Sangamner",
+    "Region": "Nashik",
+    "District": "Ahmednagar",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "05160",
+    "Institute Name": "Sanjivani Rural Education Society's Sanjivani College of Engineering, Kopargaon",
+    "Region": "Nashik",
+    "District": "Ahmednagar",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "05168",
+    "Institute Name": "T.M.E. Society's J.T.Mahajan College of Engineering, Faizpur",
+    "Region": "Nashik",
+    "District": "Jalgaon",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "05173",
+    "Institute Name": "SNJB's Late Sau. Kantabai Bhavarlalji Jain College of Engineering,  (Jain Gurukul), Neminagar,Chandwad,(Nashik)",
+    "Region": "Nashik",
+    "District": "Nashik",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Religious Minority - Jain",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "05177",
+    "Institute Name": "Matoshri College of Engineering and Research Centre, Eklahare, Nashik",
+    "Region": "Nashik",
+    "District": "Nashik",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "05182",
+    "Institute Name": "Kalyani Charitable Trust, Late Gambhirrao Natuba Sapkal College of Engineering, Anjaneri, Trimbakeshwar Road, Nashik",
+    "Region": "Nashik",
+    "District": "Nashik",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "05263",
+    "Institute Name": "Matoshri Education Soceity, Matoshri Institute Of Technology, Dhanore, Nashik",
+    "Region": "Nashik",
+    "District": "Nashik",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "05181",
+    "Institute Name": "Gokhale Education Society's, R.H. Sapat College of Engineering, Management Studies and Research, Nashik",
+    "Region": "Nashik",
+    "District": "Nashik",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "05256",
+    "Institute Name": "Matoshri Education Soceity, Matoshri Asarabai Polytechnic,Nashik",
+    "Region": "Nashik",
+    "District": "Nashik",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "05322",
+    "Institute Name": "Jamia Institute Of Engineering And Management Studies, Akkalkuwa",
+    "Region": "Nashik",
+    "District": "Nandurbar",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Religious Minority - Muslim",
+    "Home University": "Kavayitri Bahinabai Chaudhari North Maharashtra University, Jalgaon"
+  },
+  {
+    "college_code": "05179",
+    "Institute Name": "Vishwabharati Academy's College of Engineering, Ahmednagar",
+    "Region": "Nashik",
+    "District": "Ahmednagar",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "05303",
+    "Institute Name": "Hon. Shri. Babanrao Pachpute Vichardhara Trust, Group of Institutions (Integrated Campus)-Parikrama, Kashti Shrigondha,",
+    "Region": "Nashik",
+    "District": "Ahmednagar",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "05184",
+    "Institute Name": "Amruta Vaishnavi Education & Welfare Trust's Shatabdi Institute of Engineering & Research, Agaskhind Tal. Sinnar",
+    "Region": "Nashik",
+    "District": "Nashik",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Religious Minority - Christian",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "05370",
+    "Institute Name": "Kedareshwar Gramin Vikas Pratishthan, Samajbhushan Eknathrao Dhakane  College, of Engineering, Shevgaon",
+    "Region": "Nashik",
+    "District": "Ahmednagar",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "05380",
+    "Institute Name": "Adsul's Technical Campus, Chas Dist. Ahmednagar",
+    "Region": "Nashik",
+    "District": "Ahmednagar",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "05330",
+    "Institute Name": "PUNE VIDYARTHI GRIHAS COLLEGE OF ENGINEERING & SHRIKRUSHNA S. DHAMANKAR INSTITUTE OF MANAGEMENT, NASHIK",
+    "Region": "Nashik",
+    "District": "Nashik",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "05365",
+    "Institute Name": "Vardhaman Education & Welfare Society, Ahinsa Institute of Technology, Post. Dondaicha,  Dhule",
+    "Region": "Nashik",
+    "District": "Dhule",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Religious Minority - Jain",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "05331",
+    "Institute Name": "Sandip Foundation's, Sandip Institute of Engineering & Management, Nashik",
+    "Region": "Nashik",
+    "District": "Nashik",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "05390",
+    "Institute Name": "K.V.N. Naik S. P. Sansth's Loknete Gopinathji Munde Institute of Engineering Education & Research, Nashik.",
+    "Region": "Nashik",
+    "District": "Nashik",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "05381",
+    "Institute Name": "Shri. Jaykumar Rawal Institute of Technology, Dondaicha.",
+    "Region": "Nashik",
+    "District": "Dhule",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Kavayitri Bahinabai Chaudhari North Maharashtra University, Jalgaon"
+  },
+  {
+    "college_code": "05382",
+    "Institute Name": "Ahmednagar Jilha Maratha Vidya Prasarak Samajache, Shri. Chhatrapati Shivaji Maharaj College of Engineering, Nepti",
+    "Region": "Nashik",
+    "District": "Ahmednagar",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "05244",
+    "Institute Name": "MET's Institute of Technology Polytechnic, Bhujbal Knowledge City, Adgaon Nashik",
+    "Region": "Nashik",
+    "District": "Nashik",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "05396",
+    "Institute Name": "College of Engineering and Technology ,North Maharashtra Knowledge City, Jalgaon",
+    "Region": "Nashik",
+    "District": "Jalgaon",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "05409",
+    "Institute Name": "Rajiv Gandhi College of Engineering, At Post Karjule Hariya Tal.Parner, Dist.Ahmednagar",
+    "Region": "Nashik",
+    "District": "Ahmednagar",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "05401",
+    "Institute Name": "Jawahar Education Society's Institute of Technology, Management & Research, Nashik.",
+    "Region": "Nashik",
+    "District": "Nashik",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "05411",
+    "Institute Name": "Maulana Mukhtar Ahmad Nadvi Technical Campus, Malegaon.",
+    "Region": "Nashik",
+    "District": "Nashik",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Religious Minority - Muslim",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "05399",
+    "Institute Name": "Sanghavi College of Engineering, Varvandi, Nashik.",
+    "Region": "Nashik",
+    "District": "Nashik",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "05433",
+    "Institute Name": "R.C. Patel College of Engineering and Polytechnic, Shirpur",
+    "Region": "Nashik",
+    "District": "Dhule",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Linguistic Minority - Gujarathi",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "05449",
+    "Institute Name": "Shri Vile Parle Kelavani Mandal's Institute of Technology, Dhule",
+    "Region": "Nashik",
+    "District": "Dhule",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Linguistic Minority - Gujarathi",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "05408",
+    "Institute Name": "Vidya Niketan College of Engineering, Bota Sangamner",
+    "Region": "Nashik",
+    "District": "Ahmednagar",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "05497",
+    "Institute Name": "P.G. College of Engineering & Technology, Nandurbar",
+    "Region": "Nashik",
+    "District": "Nandurbar",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "05418",
+    "Institute Name": "Guru Gobind Singh College of Engineering & Research Centre, Nashik.",
+    "Region": "Nashik",
+    "District": "Nashik",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "05513",
+    "Institute Name": "MKD Institute of Technology, Nadurbar",
+    "Region": "Nashik",
+    "District": "Nandurbar",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "05509",
+    "Institute Name": "Shri Swami Samarth Institute of Management and Technology, Malwadi-Bota",
+    "Region": "Nashik",
+    "District": "Ahmednagar",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "06122",
+    "Institute Name": "TSSMS's Pd. Vasantdada Patil Institute of Technology, Bavdhan, Pune",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06138",
+    "Institute Name": "Genba Sopanrao Moze Trust Parvatibai Genba Moze College of Engineering,Wagholi, Pune",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06005",
+    "Institute Name": "Government College of Engineering, Karad",
+    "Region": "Pune",
+    "District": "Satara",
+    "Status": "Government",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Shivaji University"
+  },
+  {
+    "college_code": "06004",
+    "Institute Name": "Government College of Engineering & Research, Avasari Khurd",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Government",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06139",
+    "Institute Name": "Progressive Education Society's Modern College of Engineering, Pune",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06036",
+    "Institute Name": "Government College of Engineering, Kolhapur",
+    "Region": "Pune",
+    "District": "Kolhapur",
+    "Status": "Government",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "06007",
+    "Institute Name": "Walchand College of Engineering, Sangli",
+    "Region": "Pune",
+    "District": "Sangli",
+    "Status": "Government-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Shivaji University"
+  },
+  {
+    "college_code": "06028",
+    "Institute Name": "Department of Technology, Shivaji University, Kolhapur",
+    "Region": "Pune",
+    "District": "Kolhapur",
+    "Status": "University Department",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Shivaji University"
+  },
+  {
+    "college_code": "06141",
+    "Institute Name": "Jaywant Shikshan Prasarak Mandal's,Rajarshi Shahu College of Engineering, Tathawade, Pune",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06144",
+    "Institute Name": "Genba Sopanrao Moze College of Engineering, Baner-Balewadi, Pune",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06145",
+    "Institute Name": "JSPM'S Jaywantrao Sawant College of Engineering,Pune",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06149",
+    "Institute Name": "Siddhant College of Engineering, A/p Sudumbare, Tal.Maval, Dist-Pune",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Linguistic Minority - Hindi",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06178",
+    "Institute Name": "Sinhgad Technical Education Society's Smt. Kashibai Navale College of Engineering,Vadgaon,Pune",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06175",
+    "Institute Name": "Pimpri Chinchwad Education Trust, Pimpri Chinchwad College of Engineering, Pune",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06146",
+    "Institute Name": "MIT Academy of Engineering,Alandi, Pune",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06156",
+    "Institute Name": "Marathwada Mitra Mandal's College of Engineering, Karvenagar, Pune",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06155",
+    "Institute Name": "G.H.Raisoni College of Engineering & Management, Wagholi, Pune",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Linguistic Minority - Hindi",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06177",
+    "Institute Name": "Sinhgad College of Engineering, Vadgaon (BK), Pune",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06179",
+    "Institute Name": "Indira College of Engineering & Management, Pune",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06182",
+    "Institute Name": "Sinhgad Technical Education Society, Sinhgad Institute of Technology and Science, Narhe (Ambegaon)",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06183",
+    "Institute Name": "Al-Ameen Educational and Medical Foundation, College of Engineering, Koregaon, Bhima",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Religious Minority - Muslim",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06184",
+    "Institute Name": "K. J.'s Educational Institut Trinity College of Engineering and Research, Pisoli, Haveli",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06185",
+    "Institute Name": "Sinhgad Institute of Technology",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06187",
+    "Institute Name": "Sinhgad Academy of Engineering, Kondhwa (BK)  Kondhwa-Saswad Road, Pune",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06203",
+    "Institute Name": "Marathwada Mitra Mandal's Institute of Technology, Lohgaon, Pune",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06206",
+    "Institute Name": "Pune District Education  Association's College of Engineering, Manjari(Bk), Hadapsar, Pune",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06214",
+    "Institute Name": "K. E. Society's Rajarambapu Institute of Technology, Walwa, Sangli",
+    "Region": "Pune",
+    "District": "Sangli",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Shivaji University"
+  },
+  {
+    "college_code": "06207",
+    "Institute Name": "Dr. D. Y. Patil Unitech Society's Dr. D. Y. Patil  Institute of Technology, Pimpri, Pune",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06220",
+    "Institute Name": "Shri Vithal Education and Research Institute's College of Engineering, Pandharpur",
+    "Region": "Pune",
+    "District": "Solapur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Punyashlok Ahilyadevi Holkar Solapur University"
+  },
+  {
+    "college_code": "06217",
+    "Institute Name": "Shri. Balasaheb Mane Shikshan  Prasarak Mandal's, Ashokrao Mane Group of Institutions",
+    "Region": "Pune",
+    "District": "Kolhapur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "06219",
+    "Institute Name": "KSGBS's Bharat- Ratna Indira Gandhi College of Engineering, Kegaon, Solapur",
+    "Region": "Pune",
+    "District": "Solapur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "06222",
+    "Institute Name": "Dattajirao Kadam Technical Education Society's Textile & Engineering Institute, Ichalkaranji.",
+    "Region": "Pune",
+    "District": "Kolhapur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Shivaji University"
+  },
+  {
+    "college_code": "06271",
+    "Institute Name": "Pune Institute of Computer Technology",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06223",
+    "Institute Name": "Pradnya Niketan Education Society's Nagesh Karajagi Orchid College of Engineering & Technology, Solapur",
+    "Region": "Pune",
+    "District": "Solapur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "06250",
+    "Institute Name": "D.Y. Patil College of Engineering and Technology, Kolhapur",
+    "Region": "Pune",
+    "District": "Kolhapur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Shivaji University"
+  },
+  {
+    "college_code": "06265",
+    "Institute Name": "Walchand Institute of Technology, Solapur",
+    "Region": "Pune",
+    "District": "Solapur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Religious Minority - Jain",
+    "Home University": "Punyashlok Ahilyadevi Holkar Solapur University"
+  },
+  {
+    "college_code": "06270",
+    "Institute Name": "Rayat Shikshan Sanstha's Karmaveer Bhaurao Patil College of Engineering, Satara",
+    "Region": "Pune",
+    "District": "Satara",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "06272",
+    "Institute Name": "Dr. D. Y. Patil Pratishthan's D.Y.Patil College of Engineering Akurdi, Pune",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06267",
+    "Institute Name": "Kolhapur Institute of Technology's College of Engineering(Autonomous), Kolhapur",
+    "Region": "Pune",
+    "District": "Kolhapur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Shivaji University"
+  },
+  {
+    "college_code": "06268",
+    "Institute Name": "Tatyasaheb Kore Institute of Engineering and Technology, Warananagar",
+    "Region": "Pune",
+    "District": "Kolhapur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Shivaji University"
+  },
+  {
+    "college_code": "06269",
+    "Institute Name": "Shetkari Shikshan Mandal's Pad. Vasantraodada Patil Institute of Technology, Budhgaon, Sangli",
+    "Region": "Pune",
+    "District": "Sangli",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "06273",
+    "Institute Name": "Bansilal Ramnath Agarawal Charitable Trust's Vishwakarma Institute of Technology, Bibwewadi, Pune",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06284",
+    "Institute Name": "Vidya Pratishthan's Kamalnayan Bajaj Institute of Engineering & Technology, Baramati Dist.Pune",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06278",
+    "Institute Name": "All India Shri Shivaji Memorial Society's College of Engineering, Pune",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06276",
+    "Institute Name": "MKSSS's Cummins College of Engineering for Women, Karvenagar,Pune",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06275",
+    "Institute Name": "Shivnagar Vidya Prasarak Mandal's College of Engineering, Malegaon-Baramati",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06277",
+    "Institute Name": "Dr. J. J. Magdum  Charitable Trust's Dr. J.J. Magdum College of Engineering, Jaysingpur",
+    "Region": "Pune",
+    "District": "Kolhapur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Shivaji University"
+  },
+  {
+    "college_code": "06274",
+    "Institute Name": "Pune Vidyarthi Griha's College of Engineering and Technology and G K Pate(Wani) Institute of  Management,  Pune",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06285",
+    "Institute Name": "Bharati Vidyapeeth's College of Engineering for Women, Katraj, Dhankawadi, Pune",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06283",
+    "Institute Name": "Annasaheb Dange College of Engineering and Technology, Ashta, Sangli",
+    "Region": "Pune",
+    "District": "Sangli",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Shivaji University"
+  },
+  {
+    "college_code": "06282",
+    "Institute Name": "All India Shri Shivaji Memorial Society's Institute of Information Technology,Pune",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06281",
+    "Institute Name": "Modern Education Society's Wadia College of Engineering, Pune",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06288",
+    "Institute Name": "Bharati Vidyapeeth's College of Engineering, Kolhapur",
+    "Region": "Pune",
+    "District": "Kolhapur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Shivaji University"
+  },
+  {
+    "college_code": "06293",
+    "Institute Name": "Kai Amdar  Bramhadevdada Mane Shikshan & Samajik Prathistan's Bramhadevdada Mane Institute of Technology, Solapur",
+    "Region": "Pune",
+    "District": "Solapur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Punyashlok Ahilyadevi Holkar Solapur University"
+  },
+  {
+    "college_code": "06298",
+    "Institute Name": "Zeal Education Society's Zeal College of Engineering & Reserch, Narhe, Pune",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06303",
+    "Institute Name": "Dr. Ashok Gujar Technical Institute's  Dr. Daulatrao Aher College of Engineering, Karad",
+    "Region": "Pune",
+    "District": "Satara",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Shivaji University"
+  },
+  {
+    "college_code": "06307",
+    "Institute Name": "Dhole Patil Education Society, Dhole Patil College of Engineering, Wagholi, Tal. Haveli",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06310",
+    "Institute Name": "Nutan Maharashtra Vidya Prasarak Mandal, Nutan Maharashtra Institute of Engineering &Technology, Talegaon station, Pune",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06311",
+    "Institute Name": "Jayawant Shikshan Prasarak Mandal, Bhivarabai Sawant Institute of Technology & Research, Wagholi",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06308",
+    "Institute Name": "Shanti Education Society, A.G. Patil Institute of Technology, Soregaon, Solapur(North)",
+    "Region": "Pune",
+    "District": "Solapur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "06305",
+    "Institute Name": "Late Narayandas Bhawandas Chhabada Institute of Engineering & Technology, Satara",
+    "Region": "Pune",
+    "District": "Satara",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "06304",
+    "Institute Name": "Loknete Hanumantrao Charitable Trust's Adarsh Institute of Technology and Research Centre, Vita,Sangli",
+    "Region": "Pune",
+    "District": "Sangli",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "06318",
+    "Institute Name": "Abhinav Education Society's College of Engineering and Technology (Degree), Wadwadi",
+    "Region": "Pune",
+    "District": "Satara",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "06313",
+    "Institute Name": "Jaywant College of Engineering & Polytechnic , Kille Macchindragad Tal. Walva District- Sangali",
+    "Region": "Pune",
+    "District": "Sangli",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "06321",
+    "Institute Name": "Vidya Vikas Pratishthan Institute of Engineering and Technology, Solapur",
+    "Region": "Pune",
+    "District": "Solapur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "06315",
+    "Institute Name": "Sanjeevan Group of Institutions",
+    "Region": "Pune",
+    "District": "Kolhapur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "06320",
+    "Institute Name": "K.J.'s Educational Institute's K.J.College of Engineering & Management Research, Pisoli",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06324",
+    "Institute Name": "Rajgad Dnyanpeeth's Shri Chhatrapati Shivajiraje College of Engineering, Bhor",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06317",
+    "Institute Name": "Sharad Institute of Technology College of Engineering, Yadrav(Ichalkaranji)",
+    "Region": "Pune",
+    "District": "Kolhapur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "06322",
+    "Institute Name": "Shree Gajanan Maharaj Shikshan Prasarak Manda'l Sharadchandra Pawar College of Engineering, Dumbarwadi",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06319",
+    "Institute Name": "Shahajirao Patil Vikas Pratishthan, S.B.Patil College of Engineering, Vangali, Tal. Indapur",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06325",
+    "Institute Name": "Alard  Charitable Trust's Alard College of Engineering and Management, Pune",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Linguistic Minority - Hindi",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06326",
+    "Institute Name": "Karmayogi Institute of Technology",
+    "Region": "Pune",
+    "District": "Solapur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "06444",
+    "Institute Name": "Shriram Institute Of Engineering & Technology, (Poly), Paniv",
+    "Region": "Pune",
+    "District": "Solapur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "06466",
+    "Institute Name": "Shree Santkrupa Shikshan Sanstha, Shree Santkrupa Institute Of Engineering & Technology, Karad",
+    "Region": "Pune",
+    "District": "Satara",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "06402",
+    "Institute Name": "NEW INSTITUTE OF TECHNOLOGY,KOLHAPUR",
+    "Region": "Pune",
+    "District": "Kolhapur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "06632",
+    "Institute Name": "Navsahyadri Education Society's Group of Institutions",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06622",
+    "Institute Name": "ISBM College Of Engineering Pune",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Linguistic Minority - Hindi",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06468",
+    "Institute Name": "Swami Vivekananda Shikshan Sanstha, Dr. Bapuji Salunkhe Institute Of Engineering & Technology,Kolhapur",
+    "Region": "Pune",
+    "District": "Kolhapur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "06609",
+    "Institute Name": "Jaihind College Of Engineering,Kuran",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06545",
+    "Institute Name": "Samarth Education Trust's Arvind Gavali College Of Engineering Panwalewadi, Varye,Satara.",
+    "Region": "Pune",
+    "District": "Satara",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "06628",
+    "Institute Name": "Dattakala Group Of Institutions, Swami - Chincholi Tal. Daund Dist. Pune",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06634",
+    "Institute Name": "KJEI's Trinity Academy of Engineering, Yewalewadi, Pune",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06643",
+    "Institute Name": "S K N Sinhgad College of Engineering, Korti Tal. Pandharpur Dist Solapur",
+    "Region": "Pune",
+    "District": "Solapur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Punyashlok Ahilyadevi Holkar Solapur University"
+  },
+  {
+    "college_code": "06640",
+    "Institute Name": "N. B. Navale Sinhgad College of Engineering, Kegaon, solapur",
+    "Region": "Pune",
+    "District": "Solapur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Punyashlok Ahilyadevi Holkar Solapur University"
+  },
+  {
+    "college_code": "06635",
+    "Institute Name": "Samarth College of Engineering and Management",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06756",
+    "Institute Name": "Fabtech Technical Campus College of Engineering and Research, Sangola",
+    "Region": "Pune",
+    "District": "Solapur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "06755",
+    "Institute Name": "JSPM Narhe Technical Campus, Pune.",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06649",
+    "Institute Name": "TSSM's Bhivarabai Sawant College of Engineering and Research, Narhe, Pune",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06714",
+    "Institute Name": "APPASAHEB ALIAS SA.RE.PATIL INSTITUTE OF TECHNOLOGY, Dattanagar  Tal-Shirol, Dist Kolhapur",
+    "Region": "Pune",
+    "District": "Kolhapur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "06644",
+    "Institute Name": "Shri. Ambabai Talim Sanstha's Sanjay Bhokare Group of Institutes, Miraj",
+    "Region": "Pune",
+    "District": "Sangli",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "06732",
+    "Institute Name": "Ajeenkya DY Patil School of Engineering, Lohegaon, Pune",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06754",
+    "Institute Name": "International Institute of Information Technology (I²IT), Pune.",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06759",
+    "Institute Name": "Shree Ramchandra College of Engineering, Lonikand,Pune",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06757",
+    "Institute Name": "Yashoda Technical Campus, Wadhe, Satara.",
+    "Region": "Pune",
+    "District": "Satara",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "06758",
+    "Institute Name": "Sahyadri Valley College of Engineering & Technology, Rajuri, Pune.",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06768",
+    "Institute Name": "P.K. Technical Campus, Pune.",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06766",
+    "Institute Name": "Phaltan Education Society's College of Engineering Thakurki Tal- Phaltan Dist-Satara",
+    "Region": "Pune",
+    "District": "Satara",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "06762",
+    "Institute Name": "Nanasaheb Mahadik College of Engineering,Walwa, Sangli.",
+    "Region": "Pune",
+    "District": "Sangli",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "06767",
+    "Institute Name": "Suman Ramesh Tulsiani Technical Campus Faculty of Engineering, Kamshet,Pune.",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06770",
+    "Institute Name": "SKN Sinhgad Institute of Technology & Science, Kusgaon(BK),Pune.",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06769",
+    "Institute Name": "Rasiklal M. Dhariwal Sinhgad Technical Institutes Campus, Warje, Pune.",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06771",
+    "Institute Name": "Flora Institute of Technology, Khopi, Near Khed Shivapur Toll Plaza, Pune",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06772",
+    "Institute Name": "NBN Sinhgad Technical Institutes Campus, Pune",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06781",
+    "Institute Name": "Bhagwant Institute of Technology, Barshi",
+    "Region": "Pune",
+    "District": "Solapur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "06780",
+    "Institute Name": "D.Y.Patil Education Society's,D.Y.Patil Technical Campus, Faculty of Engineering & Faculty of Management,Talsande,Kolhapur.",
+    "Region": "Pune",
+    "District": "Kolhapur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Shivaji University"
+  },
+  {
+    "college_code": "06794",
+    "Institute Name": "Anantrao Pawar College of Engineering & Research, Pune",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06795",
+    "Institute Name": "Shri.Someshwar Shikshan Prasarak Mandal, Sharadchandra Pawar College of Engineering & Technology, Someshwar Nagar",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06782",
+    "Institute Name": "Sahakar Maharshee Shankarrao Mohite Patil Institute of Technology & Research, Akluj",
+    "Region": "Pune",
+    "District": "Solapur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "06796",
+    "Institute Name": "Bharati Vidyapeeth's College of Engineering,Lavale, Pune",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06803",
+    "Institute Name": "Sant Gajanan Maharaj College of Engineering, Gadhinglaj",
+    "Region": "Pune",
+    "District": "Kolhapur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Shivaji University"
+  },
+  {
+    "college_code": "06799",
+    "Institute Name": "Shivganga Charitable Trust, Sangli Vishveshwarya Technical Campus, Faculty of Diploma Engineering, Patgaon, Miraj",
+    "Region": "Pune",
+    "District": "Sangli",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "06797",
+    "Institute Name": "Dnyanshree Institute Engineering and Technology, Satara",
+    "Region": "Pune",
+    "District": "Satara",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "06808",
+    "Institute Name": "Keystone School of Engineering, Pune",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06815",
+    "Institute Name": "Vidya Prasarini Sabha's College of Engineering & Technology, Lonavala",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06811",
+    "Institute Name": "Sanjay Ghodawat Institute",
+    "Region": "Pune",
+    "District": "Kolhapur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "06822",
+    "Institute Name": "Pimpri Chinchwad Education Trust's Pimpri Chinchwad College Of Engineering And Research, Ravet",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06839",
+    "Institute Name": "Dr. D Y Patil Pratishthan's College of Engineering, Kolhapur",
+    "Region": "Pune",
+    "District": "Kolhapur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Shivaji University"
+  },
+  {
+    "college_code": "06834",
+    "Institute Name": "Dr.D.Y.Patil College Of Engineering & Innovation,Talegaon",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06878",
+    "Institute Name": "Dr. A. D. Shinde College Of Engineering, Tal.Gadhinglaj, Kolhapur",
+    "Region": "Pune",
+    "District": "Kolhapur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Shivaji University"
+  },
+  {
+    "college_code": "16121",
+    "Institute Name": "Shri. Anandrao Abitkar College of Engineering, Pal",
+    "Region": "Pune",
+    "District": "Kolhapur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "14005",
+    "Institute Name": "Laxminarayan Innovation Technological University, Nagpur",
+    "Region": "Nagpur",
+    "District": "Nagpur",
+    "Status": "University",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Unitary Public University of Government of Maharashtra"
+  },
+  {
+    "college_code": "06901",
+    "Institute Name": "MAEER's MIT College of Railway Engineering and Research, Jamgaon, Barshi",
+    "Region": "Pune",
+    "District": "Solapur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Punyashlok Ahilyadevi Holkar Solapur University"
+  },
+  {
+    "college_code": "06991",
+    "Institute Name": "Dr. D.Y. Patil Technical Campus, Varale, Talegaon, Pune",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Savitribai Phule Pune University"
+  },
+  {
+    "college_code": "06938",
+    "Institute Name": "Shree Siddheshwar Women's College Of Engineering Solapur.",
+    "Region": "Pune",
+    "District": "Solapur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Non-Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Dr. Babasaheb Ambedkar Technological University,Lonere"
+  },
+  {
+    "college_code": "16006",
+    "Institute Name": "COEP Technological University",
+    "Region": "Pune",
+    "District": "Pune",
+    "Status": "University",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Unitary Public University of Government of Maharashtra"
+  },
+  {
+    "college_code": "16126",
+    "Institute Name": "Tatyasaheb Kore Institute of Engineering and Technology, Yelur",
+    "Region": "Pune",
+    "District": "Kolhapur",
+    "Status": "Un-Aided",
+    "Autonomy Status": "Autonomous",
+    "Minority Status": "Non-Minority",
+    "Home University": "Shivaji University"
+  }
+]

@@ -34,16 +34,16 @@ loadBranchIdToName();
 
 export const predictColleges = async (req: Request, res: Response) => {
   try {
-    const { branch_id, branch_code, standardized_branch_id, standardized_branch_ids, percentile, category, gender, region, district } = req.body;
+    const { branch_id, branch_code, standardized_branch_id, standardized_branch_ids, percentile, category, gender, college_district, district } = req.body;
 
     // Validate required fields
     if (
       (!branch_id && !standardized_branch_id && !branch_code && (!standardized_branch_ids || !Array.isArray(standardized_branch_ids) || standardized_branch_ids.length === 0)) ||
-      percentile === undefined || !category || !gender
+      percentile === undefined || !category || !gender || !college_district || !district
     ) {
       return res.status(400).json({
         success: false,
-        message: 'branch_id, standardized_branch_id, branch_code, standardized_branch_ids, percentile, category, and gender are required'
+        message: 'branch_id, standardized_branch_id, branch_code, standardized_branch_ids, percentile, category, gender, college_district, and district are required'
       });
     }
 
@@ -70,14 +70,13 @@ export const predictColleges = async (req: Request, res: Response) => {
         message: 'No branch_ids found for prediction.'
       });
     }
-    // Pass only raw parameters to the service JEE
     const predictions = await predictCollegesFromJson({
-      branch_ids,
-      percentile,
-      category,
-      gender,
-      region,
-      district
+      branch_ids: branch_ids,
+      percentile: percentile,
+      category: category,
+      gender: gender,
+      college_district: college_district,
+      district: district
     });
     return res.status(200).json({
       success: true,

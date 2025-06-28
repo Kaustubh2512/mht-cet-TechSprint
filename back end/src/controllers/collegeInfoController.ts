@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { getAllColleges, findCollegeByCodeOrName } from '../utils/collegeDetails';
+import { getAllColleges, findCollegeByCodeOrName, getAvailableDistricts, getCollegesByDistrict } from '../utils/collegeDetails';
 import axios from 'axios';
 
 export async function getCollegesList(req: Request, res: Response) {
@@ -9,13 +9,42 @@ export async function getCollegesList(req: Request, res: Response) {
     const minimal = colleges.map(c => ({
       college_code: c.college_code,
       name: c.name,
-      region: c.region,
       district: c.district,
-      home_university: c.home_university,
+      originalDistrict: c.originalDistrict,
     }));
     res.json({ success: true, colleges: minimal });
   } catch (err) {
     res.status(500).json({ success: false, message: 'Failed to load colleges' });
+  }
+}
+
+export async function getDistrictsList(req: Request, res: Response) {
+  try {
+    const districts = getAvailableDistricts();
+    res.json({ success: true, districts: districts });
+  } catch (err) {
+    res.status(500).json({ success: false, message: 'Failed to load districts' });
+  }
+}
+
+export async function getCollegesByDistrictList(req: Request, res: Response) {
+  try {
+    const { district } = req.params;
+    if (!district) {
+      return res.status(400).json({ success: false, message: 'District parameter is required' });
+    }
+    
+    const colleges = getCollegesByDistrict(district);
+    const minimal = colleges.map(c => ({
+      college_code: c.college_code,
+      name: c.name,
+      district: c.district,
+      originalDistrict: c.originalDistrict,
+    }));
+    
+    res.json({ success: true, colleges: minimal });
+  } catch (err) {
+    res.status(500).json({ success: false, message: 'Failed to load colleges for district' });
   }
 }
 
@@ -34,7 +63,7 @@ export async function getCollegeAIInfo(req: Request, res: Response) {
     if (!apiKey) {
       return res.status(500).json({ success: false, message: 'DeepSeek API key not configured' });
     }
-    const prompt = `Give me a detailed, up-to-date, and student-friendly overview of the following engineering college in Maharashtra. Include its full name, DTE code, location (district, region), home university, and any notable features, courses, or recent news if available.\n\nCollege: ${college.name}\nDTE Code: ${college.college_code}\nLocation: ${college.district}, ${college.region}\nHome University: ${college.home_university}`;
+    const prompt = `Give me a detailed, up-to-date, and student-friendly overview of the following engineering college in Maharashtra. Include its full name, DTE code, location (district), and any notable features, courses, or recent news if available.\n\nCollege: ${college.name}\nDTE Code: ${college.college_code}\nLocation: ${college.district}\nOriginal District: ${college.originalDistrict}`;
     const aiResponse = await axios.post(
       'https://openrouter.ai/api/v1/chat/completions',
       {
