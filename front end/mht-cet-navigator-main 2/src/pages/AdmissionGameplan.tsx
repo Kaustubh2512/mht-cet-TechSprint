@@ -5,7 +5,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 const AdmissionGameplan = () => {
-  const [openSections, setOpenSections] = useState<number[]>([0]); // Start with first section open
+  const [openSections, setOpenSections] = useState<number[]>([]); // Start with all sections closed
 
   const toggleSection = (index: number) => {
     setOpenSections(prev => 

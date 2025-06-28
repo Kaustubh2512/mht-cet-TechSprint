@@ -51,8 +51,8 @@ const Footer = () => {
                 <span>Pune, Maharashtra, India</span>
               </li>
             </ul>
-            <div className="flex flex-col items-center mt-4">
-              <img src="/xlr8-logo.png" alt="Team XLR8 Logo" className="mt-3 w-20 h-20 object-contain" />
+            <div className="flex flex-col items-center mt-2">
+              <img src="/xlr8-logo.png" alt="Team XLR8 Logo" className="w-20 h-20 object-contain" />
             </div>
           </div>
         </div>

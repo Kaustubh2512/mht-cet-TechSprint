@@ -220,10 +220,9 @@ const Header = () => {
     <>
       <header className="py-4 px-6 md:px-10 backdrop-blur-sm sticky top-0 z-50 border-b border-neutral/20">
         <div className="container mx-auto flex items-center justify-between relative">
-          {/* Profile/Login (left on mobile) */}
-          <div className="flex items-center gap-2 md:order-1 order-1 w-1/3 justify-start"></div>
+          {/* Removed extra left space */}
           {/* Logo (left on desktop, center on mobile) */}
-          <div className="flex items-center gap-2 md:order-2 order-2 justify-start">
+          <div className="flex items-center gap-2 md:order-2 order-2 justify-start flex-1">
             <Link to="/" onClick={(e) => { setActiveTab('home'); window.scrollTo({top: 0, behavior: 'smooth'}); }} className="flex items-center gap-2">
               <div className="w-10 h-10 bg-gradient-to-br from-primary to-secondary rounded-full flex items-center justify-center">
                 <span className="text-neutral font-bold text-xl">A</span>
@@ -231,63 +230,12 @@ const Header = () => {
               <h1 className="text-xl font-bold whitespace-nowrap">AI College Buddy</h1>
             </Link>
           </div>
-          {/* Theme Switcher always visible */}
-          <div className="flex items-center md:hidden order-3 w-auto justify-center">
+          {/* Theme Switcher and Hamburger always visible, now both on right in mobile */}
+          <div className="flex items-center md:hidden order-3 w-full justify-end gap-2">
             <ThemeSwitcher />
-          </div>
-          {/* Desktop NavigationMenu (center, only on md+) */}
-          <div className="hidden md:flex flex-1 justify-center order-3">
-            <NavigationMenu>
-              <NavigationMenuList>
-                <NavigationMenuItem>
-                  <Link to="/" onClick={() => setActiveTab('home')}>
-                    <NavigationMenuLink className={`${navigationMenuTriggerStyle()} ${activeTab === 'home' ? 'bg-accent/50' : ''}`}>
-                      <Home className="mr-2 h-4 w-4" />
-                      <span>Home</span>
-                    </NavigationMenuLink>
-                  </Link>
-                </NavigationMenuItem>
-                <NavigationMenuItem>
-                  <Link to="/predictor" onClick={() => setActiveTab('predictor')}>
-                    <NavigationMenuLink className={`${navigationMenuTriggerStyle()} ${activeTab === 'predictor' ? 'bg-accent/50' : ''}`}>
-                      <GraduationCap className="mr-2 h-4 w-4" />
-                      <span>Predictor</span>
-                    </NavigationMenuLink>
-                  </Link>
-                </NavigationMenuItem>
-                <NavigationMenuItem>
-                  <Link to="/colleges" onClick={() => setActiveTab('colleges')}>
-                    <NavigationMenuLink className={`${navigationMenuTriggerStyle()} ${activeTab === 'colleges' ? 'bg-accent/50' : ''}`}>
-                      <BookOpen className="mr-2 h-4 w-4" />
-                      <span>Colleges</span>
-                    </NavigationMenuLink>
-                  </Link>
-                </NavigationMenuItem>
-                <NavigationMenuItem>
-                  <Link to="/insights" onClick={() => setActiveTab('insights')}>
-                    <NavigationMenuLink className={`${navigationMenuTriggerStyle()} ${activeTab === 'insights' ? 'bg-accent/50' : ''}`}>
-                      <BarChart className="mr-2 h-4 w-4" />
-                      <span>Insights</span>
-                    </NavigationMenuLink>
-                  </Link>
-                </NavigationMenuItem>
-                <NavigationMenuItem>
-                  <Link to="/resources" onClick={() => setActiveTab('resources')}>
-                    <NavigationMenuLink className={`${navigationMenuTriggerStyle()} ${activeTab === 'resources' ? 'bg-accent/50' : ''}`}>
-                      <FileText className="mr-2 h-4 w-4" />
-                      <span>Resources</span>
-                    </NavigationMenuLink>
-                  </Link>
-                </NavigationMenuItem>
-              </NavigationMenuList>
-            </NavigationMenu>
-          </div>
-          {/* Hamburger (right on mobile) and desktop controls */}
-          <div className="flex items-center gap-4 md:order-4 order-3 w-1/3 justify-end">
-            {/* Mobile Hamburger Menu */}
             <Sheet>
               <SheetTrigger asChild>
-                <button className="flex md:hidden items-center justify-center p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-primary ml-7">
+                <button className="flex md:hidden items-center justify-center p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-primary">
                   <Menu className="h-7 w-7" />
                 </button>
               </SheetTrigger>
@@ -333,48 +281,94 @@ const Header = () => {
                 </div>
               </SheetContent>
             </Sheet>
-            {/* End Mobile Hamburger Menu */}
-            {/* Desktop controls (unchanged) */}
-            <div className="hidden md:flex items-center gap-4">
-              {/* Only one ThemeSwitcher here */}
-              <ThemeSwitcher />
-              {!isLoggedIn ? (
-                <>
-                  <Button variant="outline" onClick={() => setIsLoginOpen(true)}>
-                    <LogIn className="mr-2 h-4 w-4" />
-                    Login
-                  </Button>
-                  <Button className="bg-gradient-to-r from-primary to-secondary hover:opacity-90 transition-opacity" onClick={() => setIsSignupOpen(true)}>
-                    <UserPlus className="mr-2 h-4 w-4" />
-                    Get Started
-                  </Button>
-                </>
-              ) : (
-                <DropdownMenu>
-                  <DropdownMenuTrigger asChild>
-                    <div className="flex items-center gap-2 cursor-pointer">
-                      <div className="w-8 h-8 rounded-full bg-primary text-primary-foreground flex items-center justify-center font-bold text-lg">
-                        {userName.trim() ? userName.trim()[0].toUpperCase() : (userEmail.trim() ? userEmail.trim()[0].toUpperCase() : 'U')}
-                      </div>
-                      <span className="font-medium text-base">{userName.split(' ')[0] || userEmail}</span>
+          </div>
+          {/* Desktop NavigationMenu (center, only on md+) */}
+          <div className="hidden md:flex order-3 absolute left-1/2 -translate-x-1/2">
+            <NavigationMenu>
+              <NavigationMenuList>
+                <NavigationMenuItem>
+                  <Link to="/" onClick={() => setActiveTab('home')}>
+                    <NavigationMenuLink className={`${navigationMenuTriggerStyle()} text-lg px-5 py-2 ${activeTab === 'home' ? 'bg-accent/50' : ''}`}>
+                      <Home className="mr-2 h-6 w-6" />
+                      <span>Home</span>
+                    </NavigationMenuLink>
+                  </Link>
+                </NavigationMenuItem>
+                <NavigationMenuItem>
+                  <Link to="/predictor" onClick={() => setActiveTab('predictor')}>
+                    <NavigationMenuLink className={`${navigationMenuTriggerStyle()} text-lg px-5 py-2 ${activeTab === 'predictor' ? 'bg-accent/50' : ''}`}>
+                      <GraduationCap className="mr-2 h-6 w-6" />
+                      <span>Predictor</span>
+                    </NavigationMenuLink>
+                  </Link>
+                </NavigationMenuItem>
+                <NavigationMenuItem>
+                  <Link to="/colleges" onClick={() => setActiveTab('colleges')}>
+                    <NavigationMenuLink className={`${navigationMenuTriggerStyle()} text-lg px-5 py-2 ${activeTab === 'colleges' ? 'bg-accent/50' : ''}`}>
+                      <BookOpen className="mr-2 h-6 w-6" />
+                      <span>Colleges</span>
+                    </NavigationMenuLink>
+                  </Link>
+                </NavigationMenuItem>
+                <NavigationMenuItem>
+                  <Link to="/insights" onClick={() => setActiveTab('insights')}>
+                    <NavigationMenuLink className={`${navigationMenuTriggerStyle()} text-lg px-5 py-2 ${activeTab === 'insights' ? 'bg-accent/50' : ''}`}>
+                      <BarChart className="mr-2 h-6 w-6" />
+                      <span>Insights</span>
+                    </NavigationMenuLink>
+                  </Link>
+                </NavigationMenuItem>
+                <NavigationMenuItem>
+                  <Link to="/resources" onClick={() => setActiveTab('resources')}>
+                    <NavigationMenuLink className={`${navigationMenuTriggerStyle()} text-lg px-5 py-2 ${activeTab === 'resources' ? 'bg-accent/50' : ''}`}>
+                      <FileText className="mr-2 h-6 w-6" />
+                      <span>Resources</span>
+                    </NavigationMenuLink>
+                  </Link>
+                </NavigationMenuItem>
+              </NavigationMenuList>
+            </NavigationMenu>
+          </div>
+          {/* Desktop controls (unchanged) */}
+          <div className="hidden md:flex items-center gap-4 md:order-4 order-3 justify-end">
+            {/* Only one ThemeSwitcher here */}
+            <ThemeSwitcher />
+            {!isLoggedIn ? (
+              <>
+                <Button variant="outline" onClick={() => setIsLoginOpen(true)}>
+                  <LogIn className="mr-2 h-4 w-4" />
+                  Login
+                </Button>
+                <Button className="bg-gradient-to-r from-primary to-secondary hover:opacity-90 transition-opacity" onClick={() => setIsSignupOpen(true)}>
+                  <UserPlus className="mr-2 h-4 w-4" />
+                  Get Started
+                </Button>
+              </>
+            ) : (
+              <DropdownMenu>
+                <DropdownMenuTrigger asChild>
+                  <div className="flex items-center gap-2 cursor-pointer">
+                    <div className="w-8 h-8 rounded-full bg-primary text-primary-foreground flex items-center justify-center font-bold text-lg">
+                      {userName.trim() ? userName.trim()[0].toUpperCase() : (userEmail.trim() ? userEmail.trim()[0].toUpperCase() : 'U')}
                     </div>
-                  </DropdownMenuTrigger>
-                  <DropdownMenuContent align="end">
-                    <DropdownMenuItem onClick={() => {
-                      localStorage.removeItem('token');
-                      localStorage.removeItem('userName');
-                      localStorage.removeItem('userEmail');
-                      localStorage.removeItem('userMobile');
-                      setIsLoggedIn(false);
-                      setUserName('');
-                      setUserEmail('');
-                    }}>
-                      Logout
-                    </DropdownMenuItem>
-                  </DropdownMenuContent>
-                </DropdownMenu>
-              )}
-            </div>
+                    <span className="font-medium text-base">{userName.split(' ')[0] || userEmail}</span>
+                  </div>
+                </DropdownMenuTrigger>
+                <DropdownMenuContent align="end">
+                  <DropdownMenuItem onClick={() => {
+                    localStorage.removeItem('token');
+                    localStorage.removeItem('userName');
+                    localStorage.removeItem('userEmail');
+                    localStorage.removeItem('userMobile');
+                    setIsLoggedIn(false);
+                    setUserName('');
+                    setUserEmail('');
+                  }}>
+                    Logout
+                  </DropdownMenuItem>
+                </DropdownMenuContent>
+              </DropdownMenu>
+            )}
           </div>
         </div>
       </header>
