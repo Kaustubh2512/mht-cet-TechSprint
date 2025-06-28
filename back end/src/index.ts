@@ -22,6 +22,7 @@ app.use(cors({
     'http://localhost:5173', 
     'http://localhost:4173',
     'https://mht-cet-navigator.onrender.com',
+    'https://aicollegebuddy.vercel.app',
     'https://mht-cet-navigator.vercel.app',
     'https://mht-cet-navigator-git-main.vercel.app',
     'https://mht-cet-navigator-git-develop.vercel.app'
