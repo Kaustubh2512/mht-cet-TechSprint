@@ -109,6 +109,10 @@ const Index = () => {
               <Button 
                 variant="outline" 
                 className="h-56 max-h-56 min-h-[180px] p-6 flex flex-col items-center gap-4 card-hover relative"
+                onClick={() => {
+                  navigate('/insights');
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                }}
               >
                 <div className="absolute -top-2 -right-2 bg-primary text-white text-xs px-2 py-1 rounded-full">
                   Premium
