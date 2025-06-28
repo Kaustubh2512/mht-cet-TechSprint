@@ -1,0 +1,16 @@
+{
+  "name": "AI College Buddy - MHT-CET Navigator",
+  "short_name": "AI College Buddy",
+  "description": "AI-powered college predictor for MHT-CET engineering aspirants in Maharashtra",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#3B82F6",
+  "theme_color": "#3B82F6",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+} 
