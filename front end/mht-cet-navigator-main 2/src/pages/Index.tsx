@@ -17,6 +17,17 @@ const Index = () => {
       <Header />
       <main className="flex-grow">
         <HeroSection />
+        <div className="flex justify-center mt-6 mb-2">
+          <div className="w-full max-w-xl border-2 border-primary bg-white/90 rounded-2xl shadow-lg p-6 flex flex-col items-center gap-3
+            dark:bg-neutral800 dark:border-secondary">
+            <div className="text-center text-base text-neutral800 font-medium mb-2 dark:text-neutral">
+              Everything you need to get admission-ready—documents, deadlines, and step-by-step actions to ace the CET CAP process.
+            </div>
+            <Button asChild className="bg-primary text-white px-6 py-3 rounded-lg shadow font-semibold hover:bg-primary/90 transition text-base dark:bg-secondary dark:hover:bg-secondary/90">
+              <Link to="/admission-gameplan">Your Admission Gameplan</Link>
+            </Button>
+          </div>
+        </div>
         <section className="py-16 bg-gradient-to-b from-background to-accent/10 relative overflow-hidden">
           {/* Cool animated SVG background */}
           <svg className="absolute inset-0 w-full h-full z-0 animate-float" viewBox="0 0 800 400" fill="none" xmlns="http://www.w3.org/2000/svg" style={{pointerEvents: 'none'}}>

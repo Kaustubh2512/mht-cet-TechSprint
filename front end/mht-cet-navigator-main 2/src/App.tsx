@@ -4,6 +4,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import { ThemeProvider } from "@/components/ThemeProvider";
+import ScrollToTop from "@/components/ScrollToTop";
 import Index from "./pages/Index";
 import Predictor from "./pages/Predictor";
 import Colleges from "./pages/Colleges";
@@ -18,6 +19,7 @@ import Cookies from "./pages/Cookies";
 import Faq from "./pages/Faq";
 import CapSimulator from "./pages/cap-simulator";
 import RoundPlanner from "./pages/round-planner";
+import AdmissionGameplan from "./pages/AdmissionGameplan";
 import React from "react";
 
 const queryClient = new QueryClient();
@@ -34,6 +36,7 @@ const AppContent = () => {
         <TooltipProvider>
           <Toaster />
           <Sonner />
+          <ScrollToTop />
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/predictor" element={<Predictor />} />
@@ -48,6 +51,7 @@ const AppContent = () => {
             <Route path="/faq" element={<Faq />} />
             <Route path="/cap-simulator" element={<CapSimulator />} />
             <Route path="/round-planner" element={<RoundPlanner />} />
+            <Route path="/admission-gameplan" element={<AdmissionGameplan />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
