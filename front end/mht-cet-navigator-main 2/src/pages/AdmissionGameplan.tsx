@@ -48,7 +48,7 @@ const AdmissionGameplan = () => {
       content: (
         <div className="space-y-4">
           <div className="overflow-x-auto">
-            <table className="min-w-[600px] w-full border border-border rounded-lg text-sm bg-card">
+            <table className="min-w-[400px] w-full border border-border rounded-lg text-xs sm:text-sm bg-card">
               <thead className="bg-primary/10 dark:bg-secondary/20">
                 <tr>
                   <th className="p-3 border-b border-border text-left">Feature</th>
