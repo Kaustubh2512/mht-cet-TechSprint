@@ -7,7 +7,7 @@ const Contact = () => {
   const location = useLocation();
   const query = new URLSearchParams(location.search);
   const prefillMessage = query.get('message') || '';
-  const [form, setForm] = useState({ name: '', email: '', message: prefillMessage });
+  const [form, setForm] = useState({ name: '', email: '', mobile: '', message: prefillMessage });
   const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState('');
 
@@ -63,6 +63,10 @@ const Contact = () => {
             <div>
               <label htmlFor="email" className="block font-medium mb-1">Email</label>
               <input type="email" id="email" name="email" value={form.email} onChange={handleChange} required className="w-full px-3 py-2 border rounded bg-background text-foreground placeholder:text-muted-foreground" placeholder="Your Email" />
+            </div>
+            <div>
+              <label htmlFor="mobile" className="block font-medium mb-1">Mobile Number</label>
+              <input type="tel" id="mobile" name="mobile" value={form.mobile} onChange={handleChange} required className="w-full px-3 py-2 border rounded bg-background text-foreground placeholder:text-muted-foreground" placeholder="Your Mobile Number" />
             </div>
             <div>
               <label htmlFor="message" className="block font-medium mb-1">Message</label>

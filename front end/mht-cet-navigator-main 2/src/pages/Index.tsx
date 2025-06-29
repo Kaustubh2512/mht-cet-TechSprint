@@ -18,7 +18,7 @@ const Index = () => {
       <main className="flex-grow">
         <HeroSection />
         <div className="flex justify-center mt-6 mb-2">
-          <div className="w-full max-w-xl border-2 border-primary bg-white/90 rounded-2xl shadow-lg p-6 flex flex-col items-center gap-3
+          <div className="w-full max-w-xl border border-primary bg-white/90 rounded-2xl shadow-lg p-6 flex flex-col items-center gap-3
             dark:bg-neutral800 dark:border-secondary">
             <div className="text-center text-base text-neutral800 font-medium mb-2 dark:text-neutral">
               Everything you need to get admission-ready—documents, deadlines, and step-by-step actions to ace the CET CAP process.

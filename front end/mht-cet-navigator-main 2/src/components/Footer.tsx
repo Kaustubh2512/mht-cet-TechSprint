@@ -19,21 +19,85 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Quick Links - Split into 2 columns, without Home */}
+          {/* Quick Links */}
           <div className="flex flex-col items-center">
             <h3 className="font-semibold mb-1 text-xl">Quick Links</h3>
             <div className="flex flex-row gap-12">
               <ul className="space-y-1 text-center text-lg">
-                <li><Link to="/" className="text-neutral-300 hover:text-white transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Home</Link></li>
-                <li><Link to="/about" className="text-neutral-300 hover:text-white transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>About Us</Link></li>
-                <li><Link to="/predictor" className="text-neutral-300 hover:text-white transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>College Predictor</Link></li>
-                <li><Link to="/resources" className="text-neutral-300 hover:text-white transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Resources</Link></li>
+                <li>
+                  <Link
+                    to="/"
+                    className="text-neutral-300 hover:text-white transition-colors"
+                    onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+                  >
+                    Home
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/about"
+                    className="text-neutral-300 hover:text-white transition-colors"
+                    onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+                  >
+                    About Us
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/predictor"
+                    className="text-neutral-300 hover:text-white transition-colors"
+                    onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+                  >
+                    College Predictor
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/resources"
+                    className="text-neutral-300 hover:text-white transition-colors"
+                    onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+                  >
+                    Resources
+                  </Link>
+                </li>
               </ul>
               <ul className="space-y-1 text-center text-lg">
-                <li><Link to="/colleges" className="text-neutral-300 hover:text-white transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Top Colleges</Link></li>
-                <li><Link to="/insights" className="text-neutral-300 hover:text-white transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Insights</Link></li>
-                <li><Link to="/contact" className="text-neutral-300 hover:text-white transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Contact Us</Link></li>
-                <li><Link to="/faq" className="text-neutral-300 hover:text-white transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>FAQ</Link></li>
+                <li>
+                  <Link
+                    to="/colleges"
+                    className="text-neutral-300 hover:text-white transition-colors"
+                    onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+                  >
+                    Top Colleges
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/insights"
+                    className="text-neutral-300 hover:text-white transition-colors"
+                    onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+                  >
+                    Insights
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/contact"
+                    className="text-neutral-300 hover:text-white transition-colors"
+                    onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+                  >
+                    Contact Us
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/faq"
+                    className="text-neutral-300 hover:text-white transition-colors"
+                    onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+                  >
+                    FAQ
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>
@@ -43,16 +107,77 @@ const Footer = () => {
             <h3 className="text-sm font-semibold mb-1">Contact Us</h3>
             <ul className="space-y-1 text-neutral-300 text-center md:text-right text-sm">
               <li className="flex items-center gap-1 justify-center md:justify-end">
-                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
-                <a href="mailto:aicollegebuddy@gmail.com" className="hover:underline">aicollegebuddy@gmail.com</a>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="12"
+                  height="12"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  aria-hidden="true"
+                >
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                  <polyline points="22,6 12,13 2,6" />
+                </svg>
+                <a href="mailto:aicollegebuddy@gmail.com" className="hover:underline">
+                  aicollegebuddy@gmail.com
+                </a>
               </li>
               <li className="flex items-center gap-1 justify-center md:justify-end">
-                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="12"
+                  height="12"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  aria-hidden="true"
+                >
+                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                  <line x1="17.5" y1="6.5" x2="17.5" y2="6.5" />
+                </svg>
+                <a
+                  href="https://www.instagram.com/aicollegebuddy"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:underline"
+                >
+                  @aicollegebuddy
+                </a>
+              </li>
+              <li className="flex items-center gap-1 justify-center md:justify-end">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="12"
+                  height="12"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  aria-hidden="true"
+                >
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                  <circle cx="12" cy="10" r="3" />
+                </svg>
                 <span>Pune, Maharashtra, India</span>
               </li>
             </ul>
             <div className="flex flex-col items-center mt-2">
-              <img src="/xlr8-logo.png" alt="Team XLR8 Logo" className="w-20 h-20 object-contain" />
+              <img
+                src="/xlr8-logo.png"
+                alt="Team XLR8 Logo"
+                className="w-20 h-20 object-contain"
+                loading="lazy"
+              />
             </div>
           </div>
         </div>
@@ -61,12 +186,20 @@ const Footer = () => {
         <div className="border-t border-neutral-700 mt-2 pt-2 flex flex-col md:flex-row justify-between items-center gap-2">
           <p className="text-neutral-400 text-sm">© {new Date().getFullYear()} Team XLR8. All rights reserved.</p>
           <div className="text-neutral-400 text-sm text-center md:text-center">
-            <span>By the student, for the student, with love <span role="img" aria-label="heart">❤️</span></span>
+            <span>
+              By the student, for the student, with love <span role="img" aria-label="heart">❤️</span>
+            </span>
           </div>
           <div className="flex gap-2 mt-1 md:mt-0">
-            <Link to="/privacy" className="text-neutral-400 text-sm hover:text-white transition-colors">Privacy Policy</Link>
-            <Link to="/terms" className="text-neutral-400 text-sm hover:text-white transition-colors">Terms of Service</Link>
-            <Link to="/cookies" className="text-neutral-400 text-sm hover:text-white transition-colors">Cookie Policy</Link>
+            <Link to="/privacy" className="text-neutral-400 text-sm hover:text-white transition-colors">
+              Privacy Policy
+            </Link>
+            <Link to="/terms" className="text-neutral-400 text-sm hover:text-white transition-colors">
+              Terms of Service
+            </Link>
+            <Link to="/cookies" className="text-neutral-400 text-sm hover:text-white transition-colors">
+              Cookie Policy
+            </Link>
           </div>
         </div>
       </div>
