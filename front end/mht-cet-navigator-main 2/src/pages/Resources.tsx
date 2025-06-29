@@ -5,6 +5,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { FileText, Link as LinkIcon, Calculator, BookOpen, HelpCircle, Code, User, Wrench, Youtube, Globe, Home, BarChart, Calendar } from 'lucide-react';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+import { Link } from 'react-router-dom';
 
 const Resources = () => {
   return (
@@ -123,6 +124,7 @@ const Resources = () => {
 };
 
 const ResourceCard = ({ icon, title, description, link }) => {
+  const isInternal = link.startsWith('/');
   return (
     <Card className="card-hover">
       <CardHeader className="flex flex-row items-center gap-4">
@@ -133,14 +135,23 @@ const ResourceCard = ({ icon, title, description, link }) => {
         </div>
       </CardHeader>
       <CardContent>
-        <a 
-          href={link} 
-          target="_blank" 
-          rel="noopener noreferrer" 
-          className="inline-flex items-center text-primary hover:underline"
-        >
-          Access Resource <LinkIcon className="ml-2 h-4 w-4" />
-        </a>
+        {isInternal ? (
+          <Link 
+            to={link}
+            className="inline-flex items-center text-primary hover:underline"
+          >
+            Access Resource <LinkIcon className="ml-2 h-4 w-4" />
+          </Link>
+        ) : (
+          <a 
+            href={link} 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="inline-flex items-center text-primary hover:underline"
+          >
+            Access Resource <LinkIcon className="ml-2 h-4 w-4" />
+          </a>
+        )}
       </CardContent>
     </Card>
   );
