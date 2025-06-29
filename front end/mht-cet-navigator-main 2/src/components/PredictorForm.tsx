@@ -33,12 +33,80 @@ interface PredictionResponse {
 }
 
 const DISTRICT_OPTIONS = [
-  "Ahmednagar", "Akola", "Amravati", "Beed", "Bhandara", "Buldhana", "Chandrapur", "Chhatrapati Sambhajinagar", "Dharashiv", "Dhule", "Gadchiroli", "Gondia", "Hingoli", "Jalgaon", "Jalna", "Kolhapur", "Latur", "Mumbai Metropolitan", "Nagpur", "Nanded", "Nandurbar", "Nashik", "Palghar", "Parbhani", "Pune", "Raigad", "Ratnagiri", "Sangli", "Satara", "Sindhudurg", "Solapur", "Wardha", "Washim", "Yavatmal"
+  { value: "Ahmednagar", label: "Ahilyanagar" },
+  { value: "Akola", label: "Akola" },
+  { value: "Amravati", label: "Amravati" },
+  { value: "Beed", label: "Beed" },
+  { value: "Bhandara", label: "Bhandara" },
+  { value: "Buldhana", label: "Buldhana" },
+  { value: "Chandrapur", label: "Chandrapur" },
+  { value: "Chhatrapati Sambhajinagar", label: "Chhatrapati Sambhajinagar" },
+  { value: "Dharashiv", label: "Dharashiv" },
+  { value: "Dhule", label: "Dhule" },
+  { value: "Gadchiroli", label: "Gadchiroli" },
+  { value: "Gondia", label: "Gondia" },
+  { value: "Hingoli", label: "Hingoli" },
+  { value: "Jalgaon", label: "Jalgaon" },
+  { value: "Jalna", label: "Jalna" },
+  { value: "Kolhapur", label: "Kolhapur" },
+  { value: "Latur", label: "Latur" },
+  { value: "Mumbai Metropolitan", label: "Mumbai Metropolitan" },
+  { value: "Nagpur", label: "Nagpur" },
+  { value: "Nanded", label: "Nanded" },
+  { value: "Nandurbar", label: "Nandurbar" },
+  { value: "Nashik", label: "Nashik" },
+  { value: "Palghar", label: "Palghar" },
+  { value: "Parbhani", label: "Parbhani" },
+  { value: "Pune", label: "Pune" },
+  { value: "Raigad", label: "Raigad" },
+  { value: "Ratnagiri", label: "Ratnagiri" },
+  { value: "Sangli", label: "Sangli" },
+  { value: "Satara", label: "Satara" },
+  { value: "Sindhudurg", label: "Sindhudurg" },
+  { value: "Solapur", label: "Solapur" },
+  { value: "Wardha", label: "Wardha" },
+  { value: "Washim", label: "Washim" },
+  { value: "Yavatmal", label: "Yavatmal" }
 ];
 
 // Separate options for Class 12th district (includes individual Mumbai districts)
 const CLASS12_DISTRICT_OPTIONS = [
-  "Ahmednagar", "Akola", "Amravati", "Beed", "Bhandara", "Buldhana", "Chandrapur", "Chhatrapati Sambhajinagar", "Dharashiv", "Dhule", "Gadchiroli", "Gondia", "Hingoli", "Jalgaon", "Jalna", "Kolhapur", "Latur", "Mumbai City", "Mumbai Suburban", "Nagpur", "Nanded", "Nandurbar", "Nashik", "Palghar", "Parbhani", "Pune", "Raigad", "Ratnagiri", "Sangli", "Satara", "Sindhudurg", "Solapur", "Thane", "Wardha", "Washim", "Yavatmal"
+  { value: "Ahmednagar", label: "Ahilyanagar" },
+  { value: "Akola", label: "Akola" },
+  { value: "Amravati", label: "Amravati" },
+  { value: "Beed", label: "Beed" },
+  { value: "Bhandara", label: "Bhandara" },
+  { value: "Buldhana", label: "Buldhana" },
+  { value: "Chandrapur", label: "Chandrapur" },
+  { value: "Chhatrapati Sambhajinagar", label: "Chhatrapati Sambhajinagar" },
+  { value: "Dharashiv", label: "Dharashiv" },
+  { value: "Dhule", label: "Dhule" },
+  { value: "Gadchiroli", label: "Gadchiroli" },
+  { value: "Gondia", label: "Gondia" },
+  { value: "Hingoli", label: "Hingoli" },
+  { value: "Jalgaon", label: "Jalgaon" },
+  { value: "Jalna", label: "Jalna" },
+  { value: "Kolhapur", label: "Kolhapur" },
+  { value: "Latur", label: "Latur" },
+  { value: "Mumbai City", label: "Mumbai City" },
+  { value: "Mumbai Suburban", label: "Mumbai Suburban" },
+  { value: "Nagpur", label: "Nagpur" },
+  { value: "Nanded", label: "Nanded" },
+  { value: "Nandurbar", label: "Nandurbar" },
+  { value: "Nashik", label: "Nashik" },
+  { value: "Palghar", label: "Palghar" },
+  { value: "Parbhani", label: "Parbhani" },
+  { value: "Pune", label: "Pune" },
+  { value: "Raigad", label: "Raigad" },
+  { value: "Ratnagiri", label: "Ratnagiri" },
+  { value: "Sangli", label: "Sangli" },
+  { value: "Satara", label: "Satara" },
+  { value: "Sindhudurg", label: "Sindhudurg" },
+  { value: "Solapur", label: "Solapur" },
+  { value: "Thane", label: "Thane" },
+  { value: "Wardha", label: "Wardha" },
+  { value: "Washim", label: "Washim" },
+  { value: "Yavatmal", label: "Yavatmal" }
 ];
 
 // Update custom toggle switch styles for a smaller, elegant look
@@ -547,8 +615,8 @@ const PredictorForm = () => {
                   <SelectValue placeholder="Select College District" />
                 </SelectTrigger>
                 <SelectContent>
-                  {DISTRICT_OPTIONS.map(district => (
-                    <SelectItem key={district} value={district}>{district}</SelectItem>
+                  {DISTRICT_OPTIONS.map(option => (
+                    <SelectItem key={option.value} value={option.value}>{option.label}</SelectItem>
                   ))}
                 </SelectContent>
               </Select>
@@ -613,8 +681,8 @@ const PredictorForm = () => {
                       <SelectValue placeholder="Select Class 12 district" />
                     </SelectTrigger>
                     <SelectContent>
-                      {CLASS12_DISTRICT_OPTIONS.map(district => (
-                        <SelectItem key={district} value={district}>{district}</SelectItem>
+                      {CLASS12_DISTRICT_OPTIONS.map(option => (
+                        <SelectItem key={option.value} value={option.value}>{option.label}</SelectItem>
                       ))}
                     </SelectContent>
                   </Select>
