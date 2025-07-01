@@ -177,6 +177,7 @@ const PredictorForm = () => {
   const [predictionCount, setPredictionCount] = useState(() => {
     return parseInt(localStorage.getItem('predictionCount') || '0', 10);
   });
+  const [showDisclaimer, setShowDisclaimer] = useState(false);
 
   useEffect(() => {
     // Fetch standardized branch groups from backend
@@ -303,6 +304,7 @@ const PredictorForm = () => {
             title: 'Success',
             description: 'Prediction completed successfully!',
           });
+          setShowDisclaimer(true);
         }
         
         // Increment prediction count for guests
@@ -509,6 +511,19 @@ const PredictorForm = () => {
               window.dispatchEvent(new Event('open-login-modal'));
             }}>Login / Sign Up</Button>
             <Button variant="outline" onClick={() => setShowLoginDialog(false)}>Close</Button>
+          </div>
+        </DialogContent>
+      </Dialog>
+      <Dialog open={showDisclaimer} onOpenChange={setShowDisclaimer}>
+        <DialogContent>
+          <DialogHeader>
+            <DialogTitle>Disclaimer</DialogTitle>
+            <DialogDescription>
+              These resultsare based on previous year data. Actual cutoffs and college availability may change each year. Please use this as a guide to understand your options, but always refer to the latest official information and order your college preferences accordingly.
+            </DialogDescription>
+          </DialogHeader>
+          <div className="flex justify-end mt-4">
+            <Button onClick={() => setShowDisclaimer(false)}>OK</Button>
           </div>
         </DialogContent>
       </Dialog>
