@@ -245,7 +245,7 @@ const PredictorForm = () => {
 
     // Prediction limit logic
     const token = localStorage.getItem('token');
-    if (!token && predictionCount >= 5) {
+    if (!token && predictionCount >= 3) {
       setShowLoginDialog(true);
       setLoading(false);
       return;
