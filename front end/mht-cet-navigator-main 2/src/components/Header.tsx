@@ -5,13 +5,15 @@ import ThemeSwitcher from './ThemeSwitcher';
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import { GraduationCap, Home, BookOpen, BarChart, FileText, LogIn, UserPlus, User, Eye, EyeOff, Menu } from 'lucide-react';
+import { GraduationCap, Home, BookOpen, BarChart, FileText, LogIn, UserPlus, User, Eye, EyeOff, Menu, Sparkles } from 'lucide-react';
 import { NavigationMenu, NavigationMenuContent, NavigationMenuItem, NavigationMenuLink, NavigationMenuList, NavigationMenuTrigger, navigationMenuTriggerStyle } from "@/components/ui/navigation-menu";
 import { useToast } from "@/components/ui/use-toast";
 import axios from 'axios';
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
 import { Sheet, SheetTrigger, SheetContent, SheetClose } from '@/components/ui/sheet';
 import { API_ENDPOINTS } from '../lib/api';
+import { auth, googleProvider } from '@/lib/firebase';
+import { signInWithPopup } from 'firebase/auth';
 
 interface LoginResponse {
   token: string;
@@ -36,12 +38,12 @@ const Header = () => {
   const [isLoginOpen, setIsLoginOpen] = useState(false);
   const [isSignupOpen, setIsSignupOpen] = useState(false);
   const [loginData, setLoginData] = useState({ email: '', password: '' });
-  const [signupData, setSignupData] = useState({ 
-    name: '', 
-    email: '', 
+  const [signupData, setSignupData] = useState({
+    name: '',
+    email: '',
     mobile: '',
-    password: '', 
-    confirmPassword: '' 
+    password: '',
+    confirmPassword: ''
   });
   const [loading, setLoading] = useState(false);
   const [isLoggedIn, setIsLoggedIn] = useState(!!localStorage.getItem('token'));
@@ -69,13 +71,13 @@ const Header = () => {
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
-    
+
     try {
       const response = await axios.post<LoginResponse>(API_ENDPOINTS.LOGIN, {
         email: loginData.email,
         password: loginData.password
       });
-      
+
       if (response.data.token) {
         localStorage.setItem('token', response.data.token);
         localStorage.setItem('userName', response.data.user.name || '');
@@ -125,14 +127,14 @@ const Header = () => {
   const handleSignup = async (e: React.FormEvent) => {
     e.preventDefault();
     setSignupError('');
-    
+
     // Validate mobile number
     const mobileValidation = validateMobile(signupData.mobile);
     if (mobileValidation) {
       setSignupError(mobileValidation);
       return;
     }
-    
+
     const passwordValidation = validatePassword(signupData.password);
     if (passwordValidation) {
       setSignupError(passwordValidation);
@@ -148,10 +150,10 @@ const Header = () => {
       return;
     }
     setLoading(true);
-    
+
     try {
       console.log('Attempting to register user:', { ...signupData, password: '[REDACTED]' });
-      
+
       // Register the user
       const registerResponse = await axios.post<RegisterResponse>(API_ENDPOINTS.REGISTER, {
         name: signupData.name,
@@ -159,9 +161,9 @@ const Header = () => {
         mobile: signupData.mobile,
         password: signupData.password
       });
-      
+
       console.log('Registration successful:', registerResponse.data);
-      
+
       if (registerResponse.data) {
         // Login the user to get the token
         console.log('Attempting to login with new credentials');
@@ -169,9 +171,9 @@ const Header = () => {
           email: signupData.email,
           password: signupData.password
         });
-        
+
         console.log('Login successful:', { ...loginResponse.data, token: '[REDACTED]' });
-        
+
         if (loginResponse.data.token) {
           localStorage.setItem('token', loginResponse.data.token);
           localStorage.setItem('userName', loginResponse.data.user.name || '');
@@ -188,7 +190,7 @@ const Header = () => {
     } catch (error: any) {
       console.error('Signup error:', error);
       console.error('Error response:', error.response?.data);
-      
+
       const errorMessage = error.response?.data?.message || 'Failed to create account. Please try again.';
       toast({
         title: "Error",
@@ -223,7 +225,7 @@ const Header = () => {
           {/* Removed extra left space */}
           {/* Logo (left on desktop, center on mobile) */}
           <div className="flex items-center gap-2 md:order-2 order-2 justify-start flex-1">
-            <Link to="/" onClick={(e) => { setActiveTab('home'); window.scrollTo({top: 0, behavior: 'smooth'}); }} className="flex items-center gap-2">
+            <Link to="/" onClick={(e) => { setActiveTab('home'); window.scrollTo({ top: 0, behavior: 'smooth' }); }} className="flex items-center gap-2">
               <div className="w-10 h-10 bg-gradient-to-br from-primary to-secondary rounded-full flex items-center justify-center">
                 <span className="text-neutral font-bold text-xl">A</span>
               </div>
@@ -270,6 +272,7 @@ const Header = () => {
                   )}
                   <nav className="flex flex-col gap-4 mt-2">
                     <Link to="/" className="flex items-center gap-2 text-lg font-medium" onClick={() => setActiveTab('home')}><Home className="h-5 w-5" /> Home</Link>
+                    <Link to="/ai-counselor" className="flex items-center gap-2 text-lg font-medium text-yellow-600 dark:text-yellow-400" onClick={() => setActiveTab('ai-counselor')}><Sparkles className="h-5 w-5" /> AI Counselor</Link>
                     <Link to="/predictor" className="flex items-center gap-2 text-lg font-medium" onClick={() => setActiveTab('predictor')}><GraduationCap className="h-5 w-5" /> Predictor</Link>
                     <Link to="/colleges" className="flex items-center gap-2 text-lg font-medium" onClick={() => setActiveTab('colleges')}><BookOpen className="h-5 w-5" /> Colleges</Link>
                     <Link to="/insights" className="flex items-center gap-2 text-lg font-medium" onClick={() => setActiveTab('insights')}><BarChart className="h-5 w-5" /> Insights</Link>
@@ -291,6 +294,14 @@ const Header = () => {
                     <NavigationMenuLink className={`${navigationMenuTriggerStyle()} text-lg px-5 py-2 ${activeTab === 'home' ? 'bg-accent/50' : ''}`}>
                       <Home className="mr-2 h-6 w-6" />
                       <span>Home</span>
+                    </NavigationMenuLink>
+                  </Link>
+                </NavigationMenuItem>
+                <NavigationMenuItem>
+                  <Link to="/ai-counselor" onClick={() => setActiveTab('ai-counselor')}>
+                    <NavigationMenuLink className={`${navigationMenuTriggerStyle()} text-lg px-5 py-2 ${activeTab === 'ai-counselor' ? 'bg-accent/50' : ''}`}>
+                      <Sparkles className="mr-2 h-6 w-6 text-yellow-600 dark:text-yellow-400" />
+                      <span>AI Counselor</span>
                     </NavigationMenuLink>
                   </Link>
                 </NavigationMenuItem>
@@ -380,7 +391,37 @@ const Header = () => {
             <DialogTitle className="text-lg sm:text-xl">Login to your account</DialogTitle>
             <DialogDescription className="text-sm sm:text-base">Access personalized features and save your progress.</DialogDescription>
           </DialogHeader>
-          <form onSubmit={handleLogin} className="flex flex-col gap-3 sm:gap-4 mt-3 sm:mt-4">
+          <div className="flex flex-col gap-3 sm:gap-4 mt-3 sm:mt-4">
+            <Button variant="outline" className="w-full flex gap-2" onClick={async () => {
+              try {
+                const result = await signInWithPopup(auth, googleProvider);
+                const user = result.user;
+                localStorage.setItem('token', await user.getIdToken());
+                localStorage.setItem('userName', user.displayName || '');
+                localStorage.setItem('userEmail', user.email || '');
+                setIsLoggedIn(true);
+                setUserName(user.displayName || '');
+                setUserEmail(user.email || '');
+                setIsLoginOpen(false);
+                toast({ title: "Success", description: "Logged in with Google!" });
+              } catch (error) {
+                console.error("Google Sign-In Error", error);
+                toast({ title: "Error", description: "Failed to sign in with Google", variant: "destructive" });
+              }
+            }}>
+              <svg className="h-5 w-5" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="google" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488 512"><path fill="currentColor" d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z"></path></svg>
+              Sign in with Google
+            </Button>
+            <div className="relative">
+              <div className="absolute inset-0 flex items-center">
+                <span className="w-full border-t" />
+              </div>
+              <div className="relative flex justify-center text-xs uppercase">
+                <span className="bg-background px-2 text-muted-foreground">Or continue with</span>
+              </div>
+            </div>
+          </div>
+          <form onSubmit={handleLogin} className="flex flex-col gap-3 sm:gap-4">
             <Label htmlFor="email" className="text-sm">Email</Label>
             <Input id="email" type="email" value={loginData.email} onChange={handleLoginChange} required autoFocus />
             <Label htmlFor="password" className="text-sm">Password</Label>
@@ -406,19 +447,49 @@ const Header = () => {
             <DialogTitle className="text-lg sm:text-xl">Create your account</DialogTitle>
             <DialogDescription className="text-sm sm:text-base">Sign up to unlock all features and save your preferences.</DialogDescription>
           </DialogHeader>
-          <form onSubmit={handleSignup} className="flex flex-col gap-3 sm:gap-4 mt-3 sm:mt-4">
+          <div className="flex flex-col gap-3 sm:gap-4 mt-3 sm:mt-4">
+            <Button variant="outline" className="w-full flex gap-2" onClick={async () => {
+              try {
+                const result = await signInWithPopup(auth, googleProvider);
+                const user = result.user;
+                localStorage.setItem('token', await user.getIdToken());
+                localStorage.setItem('userName', user.displayName || '');
+                localStorage.setItem('userEmail', user.email || '');
+                setIsLoggedIn(true);
+                setUserName(user.displayName || '');
+                setUserEmail(user.email || '');
+                setIsSignupOpen(false);
+                toast({ title: "Success", description: "Signed up with Google!" });
+              } catch (error) {
+                console.error("Google Sign-In Error", error);
+                toast({ title: "Error", description: "Failed to sign in with Google", variant: "destructive" });
+              }
+            }}>
+              <svg className="h-5 w-5" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="google" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488 512"><path fill="currentColor" d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z"></path></svg>
+              Sign up with Google
+            </Button>
+            <div className="relative">
+              <div className="absolute inset-0 flex items-center">
+                <span className="w-full border-t" />
+              </div>
+              <div className="relative flex justify-center text-xs uppercase">
+                <span className="bg-background px-2 text-muted-foreground">Or continue with</span>
+              </div>
+            </div>
+          </div>
+          <form onSubmit={handleSignup} className="flex flex-col gap-3 sm:gap-4">
             <Label htmlFor="name" className="text-sm">Name</Label>
             <Input id="name" type="text" value={signupData.name} onChange={handleSignupChange} required autoFocus />
             <Label htmlFor="email" className="text-sm">Email</Label>
             <Input id="email" type="email" value={signupData.email} onChange={handleSignupChange} required />
             <Label htmlFor="mobile" className="text-sm">Mobile Number</Label>
-            <Input 
-              id="mobile" 
-              type="tel" 
-              placeholder="9876543210" 
-              value={signupData.mobile} 
-              onChange={handleSignupChange} 
-              required 
+            <Input
+              id="mobile"
+              type="tel"
+              placeholder="9876543210"
+              value={signupData.mobile}
+              onChange={handleSignupChange}
+              required
               maxLength={10}
             />
             <Label htmlFor="password" className="text-sm">Password</Label>

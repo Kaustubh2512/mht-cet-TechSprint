@@ -22,6 +22,7 @@ import Faq from "./pages/Faq";
 import CapSimulator from "./pages/cap-simulator";
 import RoundPlanner from "./pages/round-planner";
 import AdmissionGameplan from "./pages/AdmissionGameplan";
+import AICounselor from "./pages/AICounselor";
 import React from "react";
 
 const queryClient = new QueryClient();
@@ -54,6 +55,7 @@ const AppContent = () => {
             <Route path="/cap-simulator" element={<CapSimulator />} />
             <Route path="/round-planner" element={<RoundPlanner />} />
             <Route path="/admission-gameplan" element={<AdmissionGameplan />} />
+            <Route path="/ai-counselor" element={<AICounselor />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

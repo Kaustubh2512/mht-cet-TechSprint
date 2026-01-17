@@ -9,6 +9,7 @@ import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } f
 import { Download, FileText } from 'lucide-react';
 import { API_ENDPOINTS } from '../lib/api';
 import jsPDF from 'jspdf';
+import ReCAPTCHA from 'react-google-recaptcha';
 
 interface CollegePrediction {
   collegeName: string;
@@ -178,6 +179,7 @@ const PredictorForm = () => {
     return parseInt(localStorage.getItem('predictionCount') || '0', 10);
   });
   const [showDisclaimer, setShowDisclaimer] = useState(false);
+  const [captchaToken, setCaptchaToken] = useState<string | null>(null);
 
   useEffect(() => {
     // Fetch standardized branch groups from backend
@@ -226,6 +228,7 @@ const PredictorForm = () => {
       if (!formData.gender) return 'Gender is required';
       if (!formData.district) return 'District is required';
     }
+    if (!captchaToken) return 'Please complete the reCAPTCHA verification';
     return '';
   };
 
@@ -292,7 +295,7 @@ const PredictorForm = () => {
 
       if (response.data.success && response.data.data) {
         setPredictionResults(response.data.data);
-        
+
         if (response.data.data.length === 0) {
           toast({
             title: 'No Results Found',
@@ -306,7 +309,7 @@ const PredictorForm = () => {
           });
           setShowDisclaimer(true);
         }
-        
+
         // Increment prediction count for guests
         if (!token) {
           const newCount = predictionCount + 1;
@@ -355,16 +358,16 @@ const PredictorForm = () => {
 
   function downloadPDF(results: CollegePrediction[]) {
     if (!results.length) return;
-    
+
     // Create new PDF document
     const doc = new jsPDF();
-    
+
     // Set initial position
     let yPos = 20;
     const pageWidth = doc.internal.pageSize.getWidth();
     const margin = 20;
     const contentWidth = pageWidth - (2 * margin);
-    
+
     // Add XLR8 logo
     try {
       // Load and add the XLR8 logo
@@ -375,28 +378,28 @@ const PredictorForm = () => {
       console.log('Logo not loaded, continuing without it');
       yPos += 10;
     }
-    
+
     // Add header with website colors
     doc.setFontSize(24);
     doc.setTextColor(228, 61, 18); // Primary color #E43D12
     doc.text('AI College Buddy', pageWidth / 2, yPos, { align: 'center' });
-    
+
     yPos += 10;
     doc.setFontSize(14);
     doc.setTextColor(214, 83, 109); // Secondary color #D6536D
     doc.text('MHT-CET Navigator - College Prediction Results', pageWidth / 2, yPos, { align: 'center' });
-    
+
     yPos += 20;
-    
+
     // Add summary section with accent color
     doc.setFontSize(16);
     doc.setTextColor(228, 61, 18); // Primary color
     doc.text('Prediction Summary', margin, yPos);
-    
+
     yPos += 10;
     doc.setFontSize(10);
     doc.setTextColor(26, 26, 26); // Dark text #1A1A1A
-    
+
     const summaryData = [
       `Total Colleges Found: ${results.length}`,
       `Exam Type: ${examType}`,
@@ -404,7 +407,7 @@ const PredictorForm = () => {
       `Selected Branches: ${selectedBranches.join(', ')}`,
       `Generated on: ${new Date().toLocaleDateString('en-IN')}`
     ];
-    
+
     summaryData.forEach(line => {
       if (yPos > 250) {
         doc.addPage();
@@ -413,36 +416,36 @@ const PredictorForm = () => {
       doc.text(line, margin, yPos);
       yPos += 6;
     });
-    
+
     yPos += 10;
-    
+
     // Add college results
     doc.setFontSize(16);
     doc.setTextColor(228, 61, 18); // Primary color
     doc.text('College Predictions', margin, yPos);
-    
+
     yPos += 10;
-    
+
     results.forEach((result, index) => {
       // Check if we need a new page
       if (yPos > 250) {
         doc.addPage();
         yPos = 20;
       }
-      
+
       // College name with primary color
       doc.setFontSize(12);
       doc.setTextColor(228, 61, 18); // Primary color
       doc.setFont(undefined, 'bold');
       doc.text(`${index + 1}. ${result.collegeName}`, margin, yPos);
-      
+
       yPos += 8;
-      
+
       // College details with dark text
       doc.setFontSize(10);
       doc.setTextColor(26, 26, 26); // Dark text
       doc.setFont(undefined, 'normal');
-      
+
       const details = [
         `Branch: ${result.branch}`,
         examType === 'CET' ? `Category: ${result.category}` : null,
@@ -450,7 +453,7 @@ const PredictorForm = () => {
         result.rank !== undefined ? `Rank: ${result.rank}` : null,
         result.seatType ? `Seat Type: ${result.seatType}` : null
       ].filter(Boolean);
-      
+
       details.forEach(detail => {
         if (yPos > 250) {
           doc.addPage();
@@ -459,9 +462,9 @@ const PredictorForm = () => {
         doc.text(detail, margin + 5, yPos);
         yPos += 5;
       });
-      
+
       yPos += 8;
-      
+
       // Add separator line with accent color
       if (index < results.length - 1) {
         doc.setDrawColor(255, 162, 182); // Accent color #FFA2B6
@@ -469,13 +472,13 @@ const PredictorForm = () => {
         yPos += 5;
       }
     });
-    
+
     // Add footer with tertiary color
     if (yPos > 250) {
       doc.addPage();
       yPos = 20;
     }
-    
+
     yPos += 10;
     doc.setFontSize(8);
     doc.setTextColor(239, 177, 29); // Tertiary color #EFB11D
@@ -484,10 +487,10 @@ const PredictorForm = () => {
     doc.text('For more information, visit: https://aicollegebuddy.vercel.app', pageWidth / 2, yPos, { align: 'center' });
     yPos += 5;
     doc.text('This results are based on previous year data, check the latest information on the official website', pageWidth / 2, yPos, { align: 'center' });
-    
+
     // Save the PDF
     doc.save('college_prediction_results.pdf');
-    
+
     // Show success message
     toast({
       title: 'PDF Downloaded',
@@ -704,6 +707,13 @@ const PredictorForm = () => {
                 </div>
               </>
             )}
+
+            <div className="flex justify-center mb-4">
+              <ReCAPTCHA
+                sitekey={import.meta.env.VITE_RECAPTCHA_SITE_KEY || "6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"}
+                onChange={(token) => setCaptchaToken(token)}
+              />
+            </div>
 
             <div className="flex justify-center">
               <Button type="submit" disabled={loading}>

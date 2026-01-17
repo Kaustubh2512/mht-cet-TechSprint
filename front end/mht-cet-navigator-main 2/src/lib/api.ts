@@ -8,18 +8,21 @@ export const API_ENDPOINTS = {
   LOGIN: `${API_BASE_URL}/api/users/login`,
   REGISTER: `${API_BASE_URL}/api/users/register`,
   PROFILE: `${API_BASE_URL}/api/users/profile`,
-  
+
   // Prediction endpoints
   PREDICT: `${API_BASE_URL}/api/prediction/predict`,
   PREDICT_JEE: `${API_BASE_URL}/api/prediction/predict-jee`,
-  
+
   // Branch endpoints
   BRANCHES: `${API_BASE_URL}/api/branches/standardized`,
-  
+
   // College endpoints
   COLLEGES: `${API_BASE_URL}/api/colleges`,
   COLLEGES_BY_DISTRICT: `${API_BASE_URL}/api/colleges/district`,
   DISTRICTS: `${API_BASE_URL}/api/colleges/districts`,
+
+  // AI endpoints
+  AI_CHAT: `${API_BASE_URL}/api/ai/chat`,
 };
 
 const api = axios.create({

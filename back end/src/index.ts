@@ -6,6 +6,7 @@ import userRoutes from './routes/userRoutes';
 import predictionRoutes from './routes/predictionRoutes';
 import branchesRoutes from './routes/branches';
 import collegeInfoRoutes from './routes/collegeInfo';
+import aiRoutes from './routes/aiRoutes';
 import { loadBranchMapping } from './utils/branchMapping';
 
 // Load environment variables
@@ -19,7 +20,7 @@ const app = express();
 app.use(cors({
   origin: [
     'http://localhost:3000',
-    'http://localhost:5173', 
+    'http://localhost:5173',
     'http://localhost:4173',
     'https://mht-cet-navigator.onrender.com',
     'https://aicollegebuddy.vercel.app',
@@ -44,6 +45,7 @@ loadBranchMapping().then(() => {
   app.use('/api/prediction', predictionRoutes);
   app.use('/api/branches', branchesRoutes);
   app.use('/api/colleges', collegeInfoRoutes);
+  app.use('/api/ai', aiRoutes);
 
   // Basic route
   app.get('/', (req, res) => {
